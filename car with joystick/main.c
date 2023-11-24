@@ -77,10 +77,10 @@ int main() {
 
        
         if (xValue==513 && yValue==514) { 
-            gpio_put(MOTOR1_PIN, 1);
-            gpio_put(MOTOR2_PIN, 1);
-            gpio_put(MOTOR3_PIN, 1);
-            gpio_put(MOTOR4_PIN, 1);
+            gpio_put(MOTOR1_PIN, 0);
+            gpio_put(MOTOR2_PIN, 0);
+            gpio_put(MOTOR3_PIN, 0);
+            gpio_put(MOTOR4_PIN, 0);
         } else if(xValue<10){ //forward
             gpio_put(MOTOR1_PIN, 1);
             gpio_put(MOTOR2_PIN, 0);
