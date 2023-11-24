@@ -1,0 +1,3 @@
+D:/embedded project/car only/build/pioasm/CMakeFiles/pioasm.dir
+D:/embedded project/car only/build/pioasm/CMakeFiles/edit_cache.dir
+D:/embedded project/car only/build/pioasm/CMakeFiles/rebuild_cache.dir
