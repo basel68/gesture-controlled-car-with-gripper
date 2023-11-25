@@ -4,19 +4,19 @@
 cmake_minimum_required(VERSION 3.5)
 
 file(MAKE_DIRECTORY
-  "D:/VSARM/sdk/pico/pico-sdk/tools/elf2uf2"
-  "D:/embedded project/mpu with led and buzzer/build/elf2uf2"
-  "D:/embedded project/mpu with led and buzzer/build/elf2uf2"
-  "D:/embedded project/mpu with led and buzzer/build/elf2uf2/tmp"
-  "D:/embedded project/mpu with led and buzzer/build/elf2uf2/src/ELF2UF2Build-stamp"
-  "D:/embedded project/mpu with led and buzzer/build/elf2uf2/src"
-  "D:/embedded project/mpu with led and buzzer/build/elf2uf2/src/ELF2UF2Build-stamp"
+  "/Users/omarahmed/Desktop/pico/pico-sdk/tools/elf2uf2"
+  "/Users/omarahmed/Desktop/Embedded Systems/gesture-controlled-car-with-gripper/mpu with led and buzzer/build/elf2uf2"
+  "/Users/omarahmed/Desktop/Embedded Systems/gesture-controlled-car-with-gripper/mpu with led and buzzer/build/elf2uf2"
+  "/Users/omarahmed/Desktop/Embedded Systems/gesture-controlled-car-with-gripper/mpu with led and buzzer/build/elf2uf2/tmp"
+  "/Users/omarahmed/Desktop/Embedded Systems/gesture-controlled-car-with-gripper/mpu with led and buzzer/build/elf2uf2/src/ELF2UF2Build-stamp"
+  "/Users/omarahmed/Desktop/Embedded Systems/gesture-controlled-car-with-gripper/mpu with led and buzzer/build/elf2uf2/src"
+  "/Users/omarahmed/Desktop/Embedded Systems/gesture-controlled-car-with-gripper/mpu with led and buzzer/build/elf2uf2/src/ELF2UF2Build-stamp"
 )
 
 set(configSubDirs )
 foreach(subDir IN LISTS configSubDirs)
-    file(MAKE_DIRECTORY "D:/embedded project/mpu with led and buzzer/build/elf2uf2/src/ELF2UF2Build-stamp/${subDir}")
+    file(MAKE_DIRECTORY "/Users/omarahmed/Desktop/Embedded Systems/gesture-controlled-car-with-gripper/mpu with led and buzzer/build/elf2uf2/src/ELF2UF2Build-stamp/${subDir}")
 endforeach()
 if(cfgdir)
-  file(MAKE_DIRECTORY "D:/embedded project/mpu with led and buzzer/build/elf2uf2/src/ELF2UF2Build-stamp${cfgdir}") # cfgdir has leading slash
+  file(MAKE_DIRECTORY "/Users/omarahmed/Desktop/Embedded Systems/gesture-controlled-car-with-gripper/mpu with led and buzzer/build/elf2uf2/src/ELF2UF2Build-stamp${cfgdir}") # cfgdir has leading slash
 endif()

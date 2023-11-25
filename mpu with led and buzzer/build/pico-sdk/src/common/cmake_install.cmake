@@ -1,8 +1,8 @@
-# Install script for directory: D:/VSARM/sdk/pico/pico-sdk/src/common
+# Install script for directory: /Users/omarahmed/Desktop/pico/pico-sdk/src/common
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/blink")
+  set(CMAKE_INSTALL_PREFIX "/usr/local")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -34,22 +34,22 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "D:/program files2/GNU TOOL CHAIN/12.3 rel1/bin/arm-none-eabi-objdump.exe")
+  set(CMAKE_OBJDUMP "/opt/homebrew/bin/arm-none-eabi-objdump")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("D:/embedded project/mpu with led and buzzer/build/pico-sdk/src/common/boot_picoboot/cmake_install.cmake")
-  include("D:/embedded project/mpu with led and buzzer/build/pico-sdk/src/common/boot_uf2/cmake_install.cmake")
-  include("D:/embedded project/mpu with led and buzzer/build/pico-sdk/src/common/pico_base/cmake_install.cmake")
-  include("D:/embedded project/mpu with led and buzzer/build/pico-sdk/src/common/pico_usb_reset_interface/cmake_install.cmake")
-  include("D:/embedded project/mpu with led and buzzer/build/pico-sdk/src/common/pico_bit_ops/cmake_install.cmake")
-  include("D:/embedded project/mpu with led and buzzer/build/pico-sdk/src/common/pico_binary_info/cmake_install.cmake")
-  include("D:/embedded project/mpu with led and buzzer/build/pico-sdk/src/common/pico_divider/cmake_install.cmake")
-  include("D:/embedded project/mpu with led and buzzer/build/pico-sdk/src/common/pico_sync/cmake_install.cmake")
-  include("D:/embedded project/mpu with led and buzzer/build/pico-sdk/src/common/pico_time/cmake_install.cmake")
-  include("D:/embedded project/mpu with led and buzzer/build/pico-sdk/src/common/pico_util/cmake_install.cmake")
-  include("D:/embedded project/mpu with led and buzzer/build/pico-sdk/src/common/pico_stdlib/cmake_install.cmake")
+  include("/Users/omarahmed/Desktop/Embedded Systems/gesture-controlled-car-with-gripper/mpu with led and buzzer/build/pico-sdk/src/common/boot_picoboot/cmake_install.cmake")
+  include("/Users/omarahmed/Desktop/Embedded Systems/gesture-controlled-car-with-gripper/mpu with led and buzzer/build/pico-sdk/src/common/boot_uf2/cmake_install.cmake")
+  include("/Users/omarahmed/Desktop/Embedded Systems/gesture-controlled-car-with-gripper/mpu with led and buzzer/build/pico-sdk/src/common/pico_base/cmake_install.cmake")
+  include("/Users/omarahmed/Desktop/Embedded Systems/gesture-controlled-car-with-gripper/mpu with led and buzzer/build/pico-sdk/src/common/pico_usb_reset_interface/cmake_install.cmake")
+  include("/Users/omarahmed/Desktop/Embedded Systems/gesture-controlled-car-with-gripper/mpu with led and buzzer/build/pico-sdk/src/common/pico_bit_ops/cmake_install.cmake")
+  include("/Users/omarahmed/Desktop/Embedded Systems/gesture-controlled-car-with-gripper/mpu with led and buzzer/build/pico-sdk/src/common/pico_binary_info/cmake_install.cmake")
+  include("/Users/omarahmed/Desktop/Embedded Systems/gesture-controlled-car-with-gripper/mpu with led and buzzer/build/pico-sdk/src/common/pico_divider/cmake_install.cmake")
+  include("/Users/omarahmed/Desktop/Embedded Systems/gesture-controlled-car-with-gripper/mpu with led and buzzer/build/pico-sdk/src/common/pico_sync/cmake_install.cmake")
+  include("/Users/omarahmed/Desktop/Embedded Systems/gesture-controlled-car-with-gripper/mpu with led and buzzer/build/pico-sdk/src/common/pico_time/cmake_install.cmake")
+  include("/Users/omarahmed/Desktop/Embedded Systems/gesture-controlled-car-with-gripper/mpu with led and buzzer/build/pico-sdk/src/common/pico_util/cmake_install.cmake")
+  include("/Users/omarahmed/Desktop/Embedded Systems/gesture-controlled-car-with-gripper/mpu with led and buzzer/build/pico-sdk/src/common/pico_stdlib/cmake_install.cmake")
 
 endif()
 

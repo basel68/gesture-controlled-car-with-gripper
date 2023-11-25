@@ -1,1 +1,1 @@
-cmd='D:/CMake/bin/cmake.exe;-DCMAKE_MAKE_PROGRAM:FILEPATH=D:/CTOOLS/mingw32/bin/mingw32-make.exe;-GMinGW Makefiles;<SOURCE_DIR><SOURCE_SUBDIR>'
+cmd='/opt/homebrew/Cellar/cmake/3.27.7/bin/cmake;-DCMAKE_MAKE_PROGRAM:FILEPATH=/usr/bin/make;-GUnix Makefiles;-S;<SOURCE_DIR><SOURCE_SUBDIR>;-B;<BINARY_DIR>'

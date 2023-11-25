@@ -2,34 +2,34 @@
 	"sources" : 
 	[
 		{
-			"file" : "D:/embedded project/servo/build/CMakeFiles/ELF2UF2Build"
+			"file" : "/Users/omarahmed/Desktop/Embedded Systems/gesture-controlled-car-with-gripper/servo/build/CMakeFiles/ELF2UF2Build"
 		},
 		{
-			"file" : "D:/embedded project/servo/build/CMakeFiles/ELF2UF2Build.rule"
+			"file" : "/Users/omarahmed/Desktop/Embedded Systems/gesture-controlled-car-with-gripper/servo/build/CMakeFiles/ELF2UF2Build.rule"
 		},
 		{
-			"file" : "D:/embedded project/servo/build/CMakeFiles/ELF2UF2Build-complete.rule"
+			"file" : "/Users/omarahmed/Desktop/Embedded Systems/gesture-controlled-car-with-gripper/servo/build/CMakeFiles/ELF2UF2Build-complete.rule"
 		},
 		{
-			"file" : "D:/embedded project/servo/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-build.rule"
+			"file" : "/Users/omarahmed/Desktop/Embedded Systems/gesture-controlled-car-with-gripper/servo/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-build.rule"
 		},
 		{
-			"file" : "D:/embedded project/servo/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-configure.rule"
+			"file" : "/Users/omarahmed/Desktop/Embedded Systems/gesture-controlled-car-with-gripper/servo/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-configure.rule"
 		},
 		{
-			"file" : "D:/embedded project/servo/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-download.rule"
+			"file" : "/Users/omarahmed/Desktop/Embedded Systems/gesture-controlled-car-with-gripper/servo/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-download.rule"
 		},
 		{
-			"file" : "D:/embedded project/servo/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-install.rule"
+			"file" : "/Users/omarahmed/Desktop/Embedded Systems/gesture-controlled-car-with-gripper/servo/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-install.rule"
 		},
 		{
-			"file" : "D:/embedded project/servo/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-mkdir.rule"
+			"file" : "/Users/omarahmed/Desktop/Embedded Systems/gesture-controlled-car-with-gripper/servo/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-mkdir.rule"
 		},
 		{
-			"file" : "D:/embedded project/servo/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-patch.rule"
+			"file" : "/Users/omarahmed/Desktop/Embedded Systems/gesture-controlled-car-with-gripper/servo/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-patch.rule"
 		},
 		{
-			"file" : "D:/embedded project/servo/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-update.rule"
+			"file" : "/Users/omarahmed/Desktop/Embedded Systems/gesture-controlled-car-with-gripper/servo/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-update.rule"
 		}
 	],
 	"target" : 

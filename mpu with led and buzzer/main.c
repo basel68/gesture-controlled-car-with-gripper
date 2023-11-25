@@ -67,7 +67,7 @@ int main() {
             gpio_put(LED_PIN, 0);  // Turn off LED
         }
          // Control buzzer based on going back alert
-        if (ax > 10000) {
+        if (ax > 300) {
             gpio_put(BUZZER_PIN, 1);  // Turn on buzzer
         } else {
             gpio_put(BUZZER_PIN, 0);  // Turn off buzzer
