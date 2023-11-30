@@ -1,6 +1,5 @@
 #include "Nrf.h"
-#include "hardware/gpio.h"
-#include "hardware/spi.h"
+
 
 
 

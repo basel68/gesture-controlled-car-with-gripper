@@ -1,7 +1,8 @@
 #ifndef NRF_H_
 #define NRF_H_
 #include <stdint.h>
-
+#include "hardware/gpio.h"
+#include "hardware/spi.h"
 #define nrf_start_address 0x00
 typedef struct{
 uint8_t MISO;
