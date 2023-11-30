@@ -49,10 +49,10 @@ void nrf_init(const nrf_pin_t *nrf_pins) {
 
 
 void nrf_spi_init(spi_inst_t *spi_port, const nrf_pin_t *nrf_pins) {
-    // Configure the SPI hardware
-    spi_init(*spi_port, 1000000); // Set your desired SPI clock speed
+   
+    spi_init(*spi_port, 1000000); //clock speed
     
-    // Configure SPI pins
+    //SPI pins
     spi_set_format(*spi_port, 8, SPI_CPOL_0, SPI_CPHA_0, SPI_MSB_FIRST);
     spi_set_slave(*spi_port, false); // We are the master
     gpio_set_function(nrf_pins->SCK, GPIO_FUNC_SPI);
