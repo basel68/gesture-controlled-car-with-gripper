@@ -13,8 +13,8 @@
 #define PWM_TOP 255
 
 //joystick pins
-#define JOY_X_PIN 26 // ADC capable pin for X-axis
-#define JOY_Y_PIN 27 // ADC capable pin for Y-axis
+#define JOY_X_PIN 27 // ADC capable pin for X-axis
+#define JOY_Y_PIN 26 // ADC capable pin for Y-axis
 
 
 uint get_pwm_slice_number(uint gpio) {

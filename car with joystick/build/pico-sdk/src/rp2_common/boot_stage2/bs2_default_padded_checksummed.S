@@ -1,4 +1,4 @@
-// Padded and checksummed version of: /Users/omarahmed/Desktop/Embedded Systems/gesture-controlled-car-with-gripper/car with joystick/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default.bin
+// Padded and checksummed version of: D:/gesture-controlled-car-with-gripper/car with joystick/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default.bin
 
 .cpu cortex-m0plus
 .thumb
