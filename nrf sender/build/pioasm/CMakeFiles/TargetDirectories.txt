@@ -1,0 +1,3 @@
+D:/gesture-controlled-car-with-gripper/nrf driver/build/pioasm/CMakeFiles/pioasm.dir
+D:/gesture-controlled-car-with-gripper/nrf driver/build/pioasm/CMakeFiles/edit_cache.dir
+D:/gesture-controlled-car-with-gripper/nrf driver/build/pioasm/CMakeFiles/rebuild_cache.dir
