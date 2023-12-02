@@ -5,18 +5,18 @@ cmake_minimum_required(VERSION 3.5)
 
 file(MAKE_DIRECTORY
   "D:/VSARM/sdk/pico/pico-sdk/tools/elf2uf2"
-  "D:/gesture-controlled-car-with-gripper/nrf driver/build/elf2uf2"
-  "D:/gesture-controlled-car-with-gripper/nrf driver/build/elf2uf2"
-  "D:/gesture-controlled-car-with-gripper/nrf driver/build/elf2uf2/tmp"
-  "D:/gesture-controlled-car-with-gripper/nrf driver/build/elf2uf2/src/ELF2UF2Build-stamp"
-  "D:/gesture-controlled-car-with-gripper/nrf driver/build/elf2uf2/src"
-  "D:/gesture-controlled-car-with-gripper/nrf driver/build/elf2uf2/src/ELF2UF2Build-stamp"
+  "D:/gesture-controlled-car-with-gripper/nrf sender/build/elf2uf2"
+  "D:/gesture-controlled-car-with-gripper/nrf sender/build/elf2uf2"
+  "D:/gesture-controlled-car-with-gripper/nrf sender/build/elf2uf2/tmp"
+  "D:/gesture-controlled-car-with-gripper/nrf sender/build/elf2uf2/src/ELF2UF2Build-stamp"
+  "D:/gesture-controlled-car-with-gripper/nrf sender/build/elf2uf2/src"
+  "D:/gesture-controlled-car-with-gripper/nrf sender/build/elf2uf2/src/ELF2UF2Build-stamp"
 )
 
 set(configSubDirs )
 foreach(subDir IN LISTS configSubDirs)
-    file(MAKE_DIRECTORY "D:/gesture-controlled-car-with-gripper/nrf driver/build/elf2uf2/src/ELF2UF2Build-stamp/${subDir}")
+    file(MAKE_DIRECTORY "D:/gesture-controlled-car-with-gripper/nrf sender/build/elf2uf2/src/ELF2UF2Build-stamp/${subDir}")
 endforeach()
 if(cfgdir)
-  file(MAKE_DIRECTORY "D:/gesture-controlled-car-with-gripper/nrf driver/build/elf2uf2/src/ELF2UF2Build-stamp${cfgdir}") # cfgdir has leading slash
+  file(MAKE_DIRECTORY "D:/gesture-controlled-car-with-gripper/nrf sender/build/elf2uf2/src/ELF2UF2Build-stamp${cfgdir}") # cfgdir has leading slash
 endif()

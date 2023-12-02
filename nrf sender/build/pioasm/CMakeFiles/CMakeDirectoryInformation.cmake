@@ -3,7 +3,7 @@
 
 # Relative path conversion top directories.
 set(CMAKE_RELATIVE_PATH_TOP_SOURCE "D:/VSARM/sdk/pico/pico-sdk/tools/pioasm")
-set(CMAKE_RELATIVE_PATH_TOP_BINARY "D:/gesture-controlled-car-with-gripper/nrf driver/build/pioasm")
+set(CMAKE_RELATIVE_PATH_TOP_BINARY "D:/gesture-controlled-car-with-gripper/nrf sender/build/pioasm")
 
 # Force unix paths in dependencies.
 set(CMAKE_FORCE_UNIX_PATHS 1)

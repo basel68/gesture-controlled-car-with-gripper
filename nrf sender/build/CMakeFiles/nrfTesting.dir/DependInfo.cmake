@@ -8,17 +8,17 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_ASM
-  "D:/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S" "D:/gesture-controlled-car-with-gripper/nrf driver/build/CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj"
-  "D:/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S" "D:/gesture-controlled-car-with-gripper/nrf driver/build/CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj"
-  "D:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S" "D:/gesture-controlled-car-with-gripper/nrf driver/build/CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj"
-  "D:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_divider/divider.S" "D:/gesture-controlled-car-with-gripper/nrf driver/build/CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj"
-  "D:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S" "D:/gesture-controlled-car-with-gripper/nrf driver/build/CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj"
-  "D:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S" "D:/gesture-controlled-car-with-gripper/nrf driver/build/CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj"
-  "D:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S" "D:/gesture-controlled-car-with-gripper/nrf driver/build/CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj"
-  "D:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S" "D:/gesture-controlled-car-with-gripper/nrf driver/build/CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj"
-  "D:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S" "D:/gesture-controlled-car-with-gripper/nrf driver/build/CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj"
-  "D:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S" "D:/gesture-controlled-car-with-gripper/nrf driver/build/CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj"
-  "D:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S" "D:/gesture-controlled-car-with-gripper/nrf driver/build/CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj"
+  "D:/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S" "D:/gesture-controlled-car-with-gripper/nrf sender/build/CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj"
+  "D:/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S" "D:/gesture-controlled-car-with-gripper/nrf sender/build/CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj"
+  "D:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S" "D:/gesture-controlled-car-with-gripper/nrf sender/build/CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj"
+  "D:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_divider/divider.S" "D:/gesture-controlled-car-with-gripper/nrf sender/build/CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj"
+  "D:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S" "D:/gesture-controlled-car-with-gripper/nrf sender/build/CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj"
+  "D:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S" "D:/gesture-controlled-car-with-gripper/nrf sender/build/CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj"
+  "D:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S" "D:/gesture-controlled-car-with-gripper/nrf sender/build/CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj"
+  "D:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S" "D:/gesture-controlled-car-with-gripper/nrf sender/build/CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj"
+  "D:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S" "D:/gesture-controlled-car-with-gripper/nrf sender/build/CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj"
+  "D:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S" "D:/gesture-controlled-car-with-gripper/nrf sender/build/CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj"
+  "D:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S" "D:/gesture-controlled-car-with-gripper/nrf sender/build/CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj"
   )
 set(CMAKE_ASM_COMPILER_ID "GNU")
 
@@ -116,6 +116,8 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
   "D:/VSARM/sdk/pico/pico-sdk/lib/tinyusb/hw"
   "D:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/include"
   "D:/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_spi/include"
+  "D:/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_i2c/include"
+  "D:/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_adc/include"
   )
 
 # The set of dependency files which are needed:
@@ -147,10 +149,12 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "D:/VSARM/sdk/pico/pico-sdk/src/common/pico_util/datetime.c" "CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/datetime.c.obj" "gcc" "CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/datetime.c.obj.d"
   "D:/VSARM/sdk/pico/pico-sdk/src/common/pico_util/pheap.c" "CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/pheap.c.obj" "gcc" "CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/pheap.c.obj.d"
   "D:/VSARM/sdk/pico/pico-sdk/src/common/pico_util/queue.c" "CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/queue.c.obj" "gcc" "CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/queue.c.obj.d"
+  "D:/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c" "CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj" "gcc" "CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj.d"
   "D:/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c" "CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj" "gcc" "CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj.d"
   "D:/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c" "CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj" "gcc" "CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj.d"
   "D:/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c" "CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj" "gcc" "CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj.d"
   "D:/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c" "CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj" "gcc" "CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj.d"
+  "D:/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c" "CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj" "gcc" "CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj.d"
   "D:/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c" "CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj" "gcc" "CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj.d"
   "D:/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c" "CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj" "gcc" "CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj.d"
   "D:/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c" "CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj" "gcc" "CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj.d"
@@ -177,8 +181,8 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "D:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c" "CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj" "gcc" "CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj.d"
   "D:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c" "CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj" "gcc" "CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj.d"
   "D:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c" "CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj" "gcc" "CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj.d"
-  "D:/gesture-controlled-car-with-gripper/nrf driver/Nrf.c" "CMakeFiles/nrfTesting.dir/Nrf.c.obj" "gcc" "CMakeFiles/nrfTesting.dir/Nrf.c.obj.d"
-  "D:/gesture-controlled-car-with-gripper/nrf driver/main.c" "CMakeFiles/nrfTesting.dir/main.c.obj" "gcc" "CMakeFiles/nrfTesting.dir/main.c.obj.d"
+  "D:/gesture-controlled-car-with-gripper/nrf sender/Nrf.c" "CMakeFiles/nrfTesting.dir/Nrf.c.obj" "gcc" "CMakeFiles/nrfTesting.dir/Nrf.c.obj.d"
+  "D:/gesture-controlled-car-with-gripper/nrf sender/main.c" "CMakeFiles/nrfTesting.dir/main.c.obj" "gcc" "CMakeFiles/nrfTesting.dir/main.c.obj.d"
   "D:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp" "CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj" "gcc" "CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj.d"
   )
 

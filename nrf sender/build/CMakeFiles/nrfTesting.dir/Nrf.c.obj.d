@@ -1,6 +1,6 @@
 CMakeFiles/nrfTesting.dir/Nrf.c.obj: \
- D:\gesture-controlled-car-with-gripper\nrf\ driver\Nrf.c \
- D:\gesture-controlled-car-with-gripper\nrf\ driver\Nrf.h \
+ D:\gesture-controlled-car-with-gripper\nrf\ sender\Nrf.c \
+ D:\gesture-controlled-car-with-gripper\nrf\ sender\Nrf.h \
  d:\program\ files2\gnu\ tool\ chain\12.3\ rel1\lib\gcc\arm-none-eabi\12.3.1\include\stdint.h \
  d:\program\ files2\gnu\ tool\ chain\12.3\ rel1\arm-none-eabi\include\stdint.h \
  d:\program\ files2\gnu\ tool\ chain\12.3\ rel1\arm-none-eabi\include\machine\_default_types.h \
@@ -19,9 +19,9 @@ CMakeFiles/nrfTesting.dir/Nrf.c.obj: \
  d:\program\ files2\gnu\ tool\ chain\12.3\ rel1\arm-none-eabi\include\sys\config.h \
  d:\program\ files2\gnu\ tool\ chain\12.3\ rel1\arm-none-eabi\include\machine\ieeefp.h \
  d:\program\ files2\gnu\ tool\ chain\12.3\ rel1\lib\gcc\arm-none-eabi\12.3.1\include\stddef.h \
- D:\gesture-controlled-car-with-gripper\nrf\ driver\build\generated\pico_base/pico/version.h \
+ D:\gesture-controlled-car-with-gripper\nrf\ sender\build\generated\pico_base/pico/version.h \
  D:\VSARM\sdk\pico\pico-sdk\src\common\pico_base\include/pico/config.h \
- D:\gesture-controlled-car-with-gripper\nrf\ driver\build\generated\pico_base/pico/config_autogen.h \
+ D:\gesture-controlled-car-with-gripper\nrf\ sender\build\generated\pico_base/pico/config_autogen.h \
  D:/VSARM/sdk/pico/pico-sdk/src/boards/include/boards/pico.h \
  D:/VSARM/sdk/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
  D:\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_platform\include/pico/platform.h \

@@ -1487,6 +1487,53 @@ CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_gpi
   D:/VSARM/sdk/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h \
   D:/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h
 
+CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj: D:/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c \
+  D:/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_i2c/include/hardware/i2c.h \
+  D:/VSARM/sdk/pico/pico-sdk/src/common/pico_base/include/pico.h \
+  D:/VSARM/sdk/pico/pico-sdk/src/common/pico_base/include/pico/types.h \
+  D:/VSARM/sdk/pico/pico-sdk/src/common/pico_base/include/pico/assert.h \
+  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/lib/gcc/arm-none-eabi/12.3.1/include/stdbool.h \
+  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/arm-none-eabi/include/assert.h \
+  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/arm-none-eabi/include/_ansi.h \
+  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/arm-none-eabi/include/newlib.h \
+  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/arm-none-eabi/include/_newlib_version.h \
+  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/arm-none-eabi/include/sys/config.h \
+  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/arm-none-eabi/include/machine/ieeefp.h \
+  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/arm-none-eabi/include/sys/features.h \
+  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/lib/gcc/arm-none-eabi/12.3.1/include/stdint.h \
+  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/arm-none-eabi/include/stdint.h \
+  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/arm-none-eabi/include/machine/_default_types.h \
+  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/arm-none-eabi/include/sys/_intsup.h \
+  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/arm-none-eabi/include/sys/_stdint.h \
+  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/lib/gcc/arm-none-eabi/12.3.1/include/stddef.h \
+  generated/pico_base/pico/version.h \
+  D:/VSARM/sdk/pico/pico-sdk/src/common/pico_base/include/pico/config.h \
+  generated/pico_base/pico/config_autogen.h \
+  D:/VSARM/sdk/pico/pico-sdk/src/boards/include/boards/pico.h \
+  D:/VSARM/sdk/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  D:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h \
+  D:/VSARM/sdk/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  D:/VSARM/sdk/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  D:/VSARM/sdk/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/arm-none-eabi/include/sys/cdefs.h \
+  D:/VSARM/sdk/pico/pico-sdk/src/common/pico_base/include/pico/types.h \
+  D:/VSARM/sdk/pico/pico-sdk/src/common/pico_base/include/pico/error.h \
+  D:/VSARM/sdk/pico/pico-sdk/src/common/pico_time/include/pico/time.h \
+  D:/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
+  D:/VSARM/sdk/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
+  D:/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  D:/VSARM/sdk/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
+  D:/VSARM/sdk/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/i2c.h \
+  D:/VSARM/sdk/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/i2c.h \
+  D:/VSARM/sdk/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h \
+  D:/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_resets/include/hardware/resets.h \
+  D:/VSARM/sdk/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/resets.h \
+  D:/VSARM/sdk/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/resets.h \
+  D:/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_clocks/include/hardware/clocks.h \
+  D:/VSARM/sdk/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/clocks.h \
+  D:/VSARM/sdk/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/clocks.h \
+  D:/VSARM/sdk/pico/pico-sdk/src/common/pico_time/include/pico/timeout_helper.h
+
 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: D:/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c \
   D:/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
   D:/VSARM/sdk/pico/pico-sdk/src/common/pico_base/include/pico.h \
@@ -2785,8 +2832,8 @@ CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_unique_
   D:/VSARM/sdk/pico/pico-sdk/src/common/pico_base/include/pico/error.h \
   D:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_unique_id/include/pico/unique_id.h
 
-CMakeFiles/nrfTesting.dir/Nrf.c.obj: D:/gesture-controlled-car-with-gripper/nrf\ driver/Nrf.c \
-  D:/gesture-controlled-car-with-gripper/nrf\ driver/Nrf.h \
+CMakeFiles/nrfTesting.dir/Nrf.c.obj: D:/gesture-controlled-car-with-gripper/nrf\ sender/Nrf.c \
+  D:/gesture-controlled-car-with-gripper/nrf\ sender/Nrf.h \
   D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/lib/gcc/arm-none-eabi/12.3.1/include/stdint.h \
   D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/arm-none-eabi/include/stdint.h \
   D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/arm-none-eabi/include/machine/_default_types.h \
@@ -2842,7 +2889,7 @@ CMakeFiles/nrfTesting.dir/Nrf.c.obj: D:/gesture-controlled-car-with-gripper/nrf\
   D:/VSARM/sdk/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/spi.h \
   D:/VSARM/sdk/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/spi.h
 
-CMakeFiles/nrfTesting.dir/main.c.obj: D:/gesture-controlled-car-with-gripper/nrf\ driver/main.c \
+CMakeFiles/nrfTesting.dir/main.c.obj: D:/gesture-controlled-car-with-gripper/nrf\ sender/main.c \
   D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/arm-none-eabi/include/stdio.h \
   D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/arm-none-eabi/include/_ansi.h \
   D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/arm-none-eabi/include/newlib.h \
@@ -2905,7 +2952,10 @@ CMakeFiles/nrfTesting.dir/main.c.obj: D:/gesture-controlled-car-with-gripper/nrf
   D:/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h \
   D:/VSARM/sdk/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/spi.h \
   D:/VSARM/sdk/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/spi.h \
-  D:/gesture-controlled-car-with-gripper/nrf\ driver/Nrf.h
+  D:/gesture-controlled-car-with-gripper/nrf\ sender/Nrf.h \
+  D:/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_i2c/include/hardware/i2c.h \
+  D:/VSARM/sdk/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/i2c.h \
+  D:/VSARM/sdk/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/i2c.h
 
 
 D:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h:
@@ -2938,8 +2988,6 @@ D:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h:
 
 D:/VSARM/sdk/pico/pico-sdk/src/common/pico_base/include/pico/error.h:
 
-D:/gesture-controlled-car-with-gripper/nrf\ driver/main.c:
-
 D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/arm-none-eabi/include/sys/_intsup.h:
 
 D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/arm-none-eabi/include/sys/types.h:
@@ -2949,6 +2997,8 @@ D:/VSARM/sdk/pico/pico-sdk/src/common/pico_sync/include/pico/sem.h:
 D:/VSARM/sdk/pico/pico-sdk/src/common/pico_base/include/pico/types.h:
 
 D:/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd_pvt.h:
+
+D:/gesture-controlled-car-with-gripper/nrf\ sender/Nrf.c:
 
 D:/VSARM/sdk/pico/pico-sdk/src/common/pico_base/include/pico/assert.h:
 
@@ -3116,6 +3166,8 @@ D:/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c:
 
 D:/VSARM/sdk/pico/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/structure.h:
 
+D:/VSARM/sdk/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/i2c.h:
+
 D:/VSARM/sdk/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/usb.h:
 
 D:/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h:
@@ -3125,8 +3177,6 @@ D:/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c:
 D:/VSARM/sdk/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h:
 
 D:/VSARM/sdk/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h:
-
-D:/gesture-controlled-car-with-gripper/nrf\ driver/Nrf.h:
 
 D:/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_resets/include/hardware/resets.h:
 
@@ -3232,6 +3282,18 @@ D:/VSARM/sdk/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/
 
 D:/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c:
 
+D:/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c:
+
+D:/VSARM/sdk/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/vreg_and_chip_reset.h:
+
+D:/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_i2c/include/hardware/i2c.h:
+
+D:/VSARM/sdk/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/i2c.h:
+
+D:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_math.c:
+
+D:/VSARM/sdk/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h:
+
 D:/VSARM/sdk/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/scb.h:
 
 D:/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c:
@@ -3241,10 +3303,6 @@ D:/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c:
 D:/VSARM/sdk/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/spi.h:
 
 D:/VSARM/sdk/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/spi.h:
-
-D:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_math.c:
-
-D:/VSARM/sdk/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h:
 
 D:/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c:
 
@@ -3261,8 +3319,6 @@ D:/VSARM/sdk/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/uart.h
 D:/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_vreg/include/hardware/vreg.h:
 
 D:/VSARM/sdk/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/vreg_and_chip_reset.h:
-
-D:/VSARM/sdk/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/vreg_and_chip_reset.h:
 
 D:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c:
 
@@ -3380,4 +3436,6 @@ D:/VSARM/sdk/pico/pico-sdk/src/common/pico_stdlib/include/pico/stdlib.h:
 
 D:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c:
 
-D:/gesture-controlled-car-with-gripper/nrf\ driver/Nrf.c:
+D:/gesture-controlled-car-with-gripper/nrf\ sender/Nrf.h:
+
+D:/gesture-controlled-car-with-gripper/nrf\ sender/main.c:

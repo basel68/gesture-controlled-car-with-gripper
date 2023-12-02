@@ -15,9 +15,15 @@ nrf_pin_t nrf_pins = {
     .MOSI = MOSI_PIN_NUMBER,
     .MISO = MISO_PIN_NUMBER
 };
+typedef struct{
+uint8_t xjoy;
+uint8_t yjoy;
+uint16_t ax;
+uint16_t ay;
+uint16_t az;
+}data_t;
 
-
-uint8_t buffer[32]; 
+ 
 
 int main() {
     stdio_init_all();
@@ -31,23 +37,19 @@ int main() {
     // Implement a loop to keep checking for received data
     while (true) {
         
-        // check_auto_ack(&nrf_pins);
-        // Print RX_ADDR_P0 address
-    // print_5byte_address("RX_ADDR_P0", NRF_RX_ADDR_P0, &nrf_pins);
-
-    // // Print TX_ADDR address
-    // print_5byte_address("TX_ADDR", NRF_TX_ADDR, &nrf_pins);
+        
         if (nrf_data_ready(&nrf_pins)) {
-            // print_all_registers(&nrf_pins);
-            nrf_receive_data(buffer, sizeof(buffer),&nrf_pins);
-            // print_all_registers(&nrf_pins);
-            sleep_ms(1000);
-            printf("Received data: %s\n", buffer);
-             
-        }
-        else{
-            printf("fifo empty\n" );
-            
+            data_t receivedData;
+            nrf_receive_data(&receivedData, sizeof(receivedData), &nrf_pins);
+
+            printf("Received data:\n");
+            printf("X Joy: %d\n", receivedData.xjoy);
+            printf("Y Joy: %d\n", receivedData.yjoy);
+            printf("AX: %d\n", receivedData.ax);
+            printf("AY: %d\n", receivedData.ay);
+            printf("AZ: %d\n", receivedData.az);
+        } else {
+            printf("No data available\n");
         }
         sleep_ms(1000);
     }

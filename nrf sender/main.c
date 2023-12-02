@@ -2,11 +2,26 @@
 #include "pico/stdlib.h"
 #include "hardware/spi.h"
 #include "Nrf.h"
+#include "hardware/i2c.h"
+#include "hardware/adc.h"
 #define MISO_PIN_NUMBER 16
 #define MOSI_PIN_NUMBER 19
 #define SCK_PIN_NUMBER 18
 #define CE_PIN_NUMBER 20
 #define CSN_PIN_NUMBER 17
+//joystick pins
+#define JOY_X_PIN 27 // ADC capable pin for X-axis
+#define JOY_Y_PIN 26 // ADC capable pin for Y-axis
+// MPU6050 I2C address
+#define MPU6050_ADDR 0x68
+
+#define ACCEL_XOUT_H 0x3B
+#define ACCEL_YOUT_H 0x3D
+#define ACCEL_ZOUT_H 0x3F
+#define PWR_MGMT_1 0x6B
+
+// I2C Port
+#define I2C_PORT i2c0
 // Your NRF pins configuration based on your actual wiring
 nrf_pin_t nrf_pins = {
     .CSN = CSN_PIN_NUMBER,
@@ -15,31 +30,73 @@ nrf_pin_t nrf_pins = {
     .MOSI = MOSI_PIN_NUMBER,
     .MISO = MISO_PIN_NUMBER
 };
+int read_joystick_axis(uint gpio) {
+    adc_select_input(gpio == JOY_X_PIN ? 0 : 1); 
+    return adc_read(); 
+}
+void mpu6050_init() {
+    uint8_t buf[2];
+    buf[0] = PWR_MGMT_1;
+    buf[1] = 0;
+    i2c_write_blocking(I2C_PORT, MPU6050_ADDR, buf, 2, false);
+}
 
-// A test payload to send
-uint8_t payload[] = "Hello, NRF!";
-
-int main() {
+int16_t read_mpu6050_register(uint8_t reg) {
+    uint8_t buf[2];
+    i2c_write_blocking(I2C_PORT, MPU6050_ADDR, &reg, 1, true);
+    i2c_read_blocking(I2C_PORT, MPU6050_ADDR, buf, 2, false);
+    return (int16_t) (buf[0] << 8 | buf[1]);
+}
+void setup() {
     stdio_init_all();
+// Initialize ADC for joystick
+    adc_init();
+    adc_gpio_init(JOY_X_PIN);
+    adc_gpio_init(JOY_Y_PIN);
+
     // Initialize the NRF device
     nrf_init(&nrf_pins);
+// Initialize I2C
+    i2c_init(I2C_PORT, 100 * 1000);
+    gpio_set_function(4, GPIO_FUNC_I2C);
+    gpio_set_function(5, GPIO_FUNC_I2C);
+    gpio_pull_up(4);
+    gpio_pull_up(5);
 
+    // Initialize MPU6050
+    mpu6050_init();
    
     nrf_configure_as_transmitter(&nrf_pins);
-while (1)
-{
-    // Print RX_ADDR_P0 address
-    // print_5byte_address("RX_ADDR_P0", NRF_RX_ADDR_P0, &nrf_pins);
 
-    // // Print TX_ADDR address
-    // print_5byte_address("TX_ADDR", NRF_TX_ADDR, &nrf_pins);
-    // print_all_registers(&nrf_pins);
-    // check_auto_ack(&nrf_pins);
-    // send the payload
-   
-    
+}
+// A test payload to send
+typedef struct{
+uint8_t xjoy;
+uint8_t yjoy;
+uint16_t ax;
+uint16_t ay;
+uint16_t az;
+}data_t;
+
+int main() {
+    data_t payload;
+    setup();
+
+    while (1)
+{
+    int xValue = read_joystick_axis(JOY_X_PIN);
+    int yValue = read_joystick_axis(JOY_Y_PIN);
+    int16_t ax = read_mpu6050_register(ACCEL_XOUT_H);
+    int16_t ay = read_mpu6050_register(ACCEL_YOUT_H);
+    int16_t az = read_mpu6050_register(ACCEL_ZOUT_H);
+    payload.xjoy=xValue;
+    payload.yjoy=yValue;
+    payload.ax=ax;
+    payload.ay=ay;
+    payload.az=az;
+
     // Check for transmission complete status
-    if  (nrf_send_data(payload, sizeof(payload),&nrf_pins)) {
+    if  (nrf_send_data(&payload, sizeof(payload),&nrf_pins)) {
     //  print_all_registers(&nrf_pins);
 
      printf("sent successfully\n");

@@ -11,7 +11,7 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
 
-The C compiler identification is GNU, found in "D:/gesture-controlled-car-with-gripper/nrf driver/build/CMakeFiles/3.25.0/CompilerIdC/CMakeCCompilerId.o"
+The C compiler identification is GNU, found in "D:/gesture-controlled-car-with-gripper/nrf sender/build/CMakeFiles/3.25.0/CompilerIdC/CMakeCCompilerId.o"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: D:/program files2/GNU TOOL CHAIN/12.3 rel1/bin/arm-none-eabi-g++.exe 
@@ -24,7 +24,7 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
 
-The CXX compiler identification is GNU, found in "D:/gesture-controlled-car-with-gripper/nrf driver/build/CMakeFiles/3.25.0/CompilerIdCXX/CMakeCXXCompilerId.o"
+The CXX compiler identification is GNU, found in "D:/gesture-controlled-car-with-gripper/nrf sender/build/CMakeFiles/3.25.0/CompilerIdCXX/CMakeCXXCompilerId.o"
 
 Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
 arm-none-eabi-gcc.exe (Arm GNU Toolchain 12.3.Rel1 (Build arm-12.35)) 12.3.1 20230626
@@ -33,12 +33,12 @@ This is free software; see the source for copying conditions.  There is NO
 warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: D:/gesture-controlled-car-with-gripper/nrf driver/build/CMakeFiles/CMakeScratch/TryCompile-kemyx5
+Change Dir: D:/gesture-controlled-car-with-gripper/nrf sender/build/CMakeFiles/CMakeScratch/TryCompile-dhg1gh
 
-Run Build Command(s):D:/CTOOLS/mingw32/bin/mingw32-make.exe -f Makefile cmTC_cc9b2/fast && D:/CTOOLS/mingw32/bin/mingw32-make.exe  -f CMakeFiles\cmTC_cc9b2.dir\build.make CMakeFiles/cmTC_cc9b2.dir/build
-mingw32-make.exe[1]: Entering directory 'D:/gesture-controlled-car-with-gripper/nrf driver/build/CMakeFiles/CMakeScratch/TryCompile-kemyx5'
-Building C object CMakeFiles/cmTC_cc9b2.dir/CMakeCCompilerABI.c.obj
-"D:\program files2\GNU TOOL CHAIN\12.3 rel1\bin\arm-none-eabi-gcc.exe"   -mcpu=cortex-m0plus -mthumb    -v -o CMakeFiles\cmTC_cc9b2.dir\CMakeCCompilerABI.c.obj -c D:\CMake\share\cmake-3.25\Modules\CMakeCCompilerABI.c
+Run Build Command(s):D:/CTOOLS/mingw32/bin/mingw32-make.exe -f Makefile cmTC_6b729/fast && D:/CTOOLS/mingw32/bin/mingw32-make.exe  -f CMakeFiles\cmTC_6b729.dir\build.make CMakeFiles/cmTC_6b729.dir/build
+mingw32-make.exe[1]: Entering directory 'D:/gesture-controlled-car-with-gripper/nrf sender/build/CMakeFiles/CMakeScratch/TryCompile-dhg1gh'
+Building C object CMakeFiles/cmTC_6b729.dir/CMakeCCompilerABI.c.obj
+"D:\program files2\GNU TOOL CHAIN\12.3 rel1\bin\arm-none-eabi-gcc.exe"   -mcpu=cortex-m0plus -mthumb    -v -o CMakeFiles\cmTC_6b729.dir\CMakeCCompilerABI.c.obj -c D:\CMake\share\cmake-3.25\Modules\CMakeCCompilerABI.c
 Using built-in specs.
 COLLECT_GCC=D:\program files2\GNU TOOL CHAIN\12.3 rel1\bin\arm-none-eabi-gcc.exe
 Target: arm-none-eabi
@@ -46,8 +46,8 @@ Configured with: /data/jenkins/workspace/GNU-toolchain/arm-12/src/gcc/configure 
 Thread model: single
 Supported LTO compression algorithms: zlib
 gcc version 12.3.1 20230626 (Arm GNU Toolchain 12.3.Rel1 (Build arm-12.35)) 
-COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles\cmTC_cc9b2.dir\CMakeCCompilerABI.c.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles\cmTC_cc9b2.dir\'
- d:/program files2/gnu tool chain/12.3 rel1/bin/../libexec/gcc/arm-none-eabi/12.3.1/cc1.exe -quiet -v -imultilib thumb/v6-m/nofp -iprefix d:\program files2\gnu tool chain\12.3 rel1\bin\../lib/gcc/arm-none-eabi/12.3.1/ -isysroot d:\program files2\gnu tool chain\12.3 rel1\bin\../arm-none-eabi -D__USES_INITFINI__ D:\CMake\share\cmake-3.25\Modules\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\cmTC_cc9b2.dir\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -mlibarch=armv6s-m -march=armv6s-m -version -o C:\Users\Lenovo\AppData\Local\Temp\ccyeYyFp.s
+COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles\cmTC_6b729.dir\CMakeCCompilerABI.c.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles\cmTC_6b729.dir\'
+ d:/program files2/gnu tool chain/12.3 rel1/bin/../libexec/gcc/arm-none-eabi/12.3.1/cc1.exe -quiet -v -imultilib thumb/v6-m/nofp -iprefix d:\program files2\gnu tool chain\12.3 rel1\bin\../lib/gcc/arm-none-eabi/12.3.1/ -isysroot d:\program files2\gnu tool chain\12.3 rel1\bin\../arm-none-eabi -D__USES_INITFINI__ D:\CMake\share\cmake-3.25\Modules\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\cmTC_6b729.dir\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -mlibarch=armv6s-m -march=armv6s-m -version -o C:\Users\Lenovo\AppData\Local\Temp\ccHvHnaU.s
 GNU C17 (Arm GNU Toolchain 12.3.Rel1 (Build arm-12.35)) version 12.3.1 20230626 (arm-none-eabi)
 	compiled by GNU C version 9.3-win32 20200320, GMP version 6.2.1, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.15-1-g835ea3a-GMP
 
@@ -68,15 +68,15 @@ GNU C17 (Arm GNU Toolchain 12.3.Rel1 (Build arm-12.35)) version 12.3.1 20230626 
 
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
 Compiler executable checksum: fb91a105811bc5825517df4b6b01bd08
-COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles\cmTC_cc9b2.dir\CMakeCCompilerABI.c.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles\cmTC_cc9b2.dir\'
- d:/program files2/gnu tool chain/12.3 rel1/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv6s-m -mfloat-abi=soft -meabi=5 -o CMakeFiles\cmTC_cc9b2.dir\CMakeCCompilerABI.c.obj C:\Users\Lenovo\AppData\Local\Temp\ccyeYyFp.s
+COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles\cmTC_6b729.dir\CMakeCCompilerABI.c.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles\cmTC_6b729.dir\'
+ d:/program files2/gnu tool chain/12.3 rel1/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv6s-m -mfloat-abi=soft -meabi=5 -o CMakeFiles\cmTC_6b729.dir\CMakeCCompilerABI.c.obj C:\Users\Lenovo\AppData\Local\Temp\ccHvHnaU.s
 GNU assembler version 2.40.0 (arm-none-eabi) using BFD version (Arm GNU Toolchain 12.3.Rel1 (Build arm-12.35)) 2.40.0.20230627
 COMPILER_PATH=d:/program files2/gnu tool chain/12.3 rel1/bin/../libexec/gcc/arm-none-eabi/12.3.1/;d:/program files2/gnu tool chain/12.3 rel1/bin/../libexec/gcc/;d:/program files2/gnu tool chain/12.3 rel1/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/
 LIBRARY_PATH=d:/program files2/gnu tool chain/12.3 rel1/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v6-m/nofp/;d:/program files2/gnu tool chain/12.3 rel1/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/;d:/program files2/gnu tool chain/12.3 rel1/bin/../arm-none-eabi/lib/thumb/v6-m/nofp/;d:/program files2/gnu tool chain/12.3 rel1/bin/../lib/gcc/arm-none-eabi/12.3.1/;d:/program files2/gnu tool chain/12.3 rel1/bin/../lib/gcc/;d:/program files2/gnu tool chain/12.3 rel1/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/;d:/program files2/gnu tool chain/12.3 rel1/bin/../arm-none-eabi/lib/
-COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles\cmTC_cc9b2.dir\CMakeCCompilerABI.c.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles\cmTC_cc9b2.dir\CMakeCCompilerABI.c.'
-Linking C executable cmTC_cc9b2.elf
-D:\CMake\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_cc9b2.dir\link.txt --verbose=1
-"D:\program files2\GNU TOOL CHAIN\12.3 rel1\bin\arm-none-eabi-gcc.exe" -mcpu=cortex-m0plus -mthumb  -Wl,--build-id=none -nostdlib  -v CMakeFiles/cmTC_cc9b2.dir/CMakeCCompilerABI.c.obj -o cmTC_cc9b2.elf 
+COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles\cmTC_6b729.dir\CMakeCCompilerABI.c.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles\cmTC_6b729.dir\CMakeCCompilerABI.c.'
+Linking C executable cmTC_6b729.elf
+D:\CMake\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_6b729.dir\link.txt --verbose=1
+"D:\program files2\GNU TOOL CHAIN\12.3 rel1\bin\arm-none-eabi-gcc.exe" -mcpu=cortex-m0plus -mthumb  -Wl,--build-id=none -nostdlib  -v CMakeFiles/cmTC_6b729.dir/CMakeCCompilerABI.c.obj -o cmTC_6b729.elf 
 Using built-in specs.
 COLLECT_GCC=D:\program files2\GNU TOOL CHAIN\12.3 rel1\bin\arm-none-eabi-gcc.exe
 COLLECT_LTO_WRAPPER=d:/program\ files2/gnu\ tool\ chain/12.3\ rel1/bin/../libexec/gcc/arm-none-eabi/12.3.1/lto-wrapper.exe
@@ -87,11 +87,11 @@ Supported LTO compression algorithms: zlib
 gcc version 12.3.1 20230626 (Arm GNU Toolchain 12.3.Rel1 (Build arm-12.35)) 
 COMPILER_PATH=d:/program files2/gnu tool chain/12.3 rel1/bin/../libexec/gcc/arm-none-eabi/12.3.1/;d:/program files2/gnu tool chain/12.3 rel1/bin/../libexec/gcc/;d:/program files2/gnu tool chain/12.3 rel1/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/
 LIBRARY_PATH=d:/program files2/gnu tool chain/12.3 rel1/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v6-m/nofp/;d:/program files2/gnu tool chain/12.3 rel1/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/;d:/program files2/gnu tool chain/12.3 rel1/bin/../arm-none-eabi/lib/thumb/v6-m/nofp/;d:/program files2/gnu tool chain/12.3 rel1/bin/../lib/gcc/arm-none-eabi/12.3.1/;d:/program files2/gnu tool chain/12.3 rel1/bin/../lib/gcc/;d:/program files2/gnu tool chain/12.3 rel1/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/;d:/program files2/gnu tool chain/12.3 rel1/bin/../arm-none-eabi/lib/
-COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_cc9b2.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_cc9b2.elf.'
- d:/program files2/gnu tool chain/12.3 rel1/bin/../libexec/gcc/arm-none-eabi/12.3.1/collect2.exe -plugin d:/program files2/gnu tool chain/12.3 rel1/bin/../libexec/gcc/arm-none-eabi/12.3.1/liblto_plugin.dll -plugin-opt=d:/program files2/gnu tool chain/12.3 rel1/bin/../libexec/gcc/arm-none-eabi/12.3.1/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\Lenovo\AppData\Local\Temp\cc46GlOL.res --sysroot=d:\program files2\gnu tool chain\12.3 rel1\bin\../arm-none-eabi -X -o cmTC_cc9b2.elf -Ld:/program files2/gnu tool chain/12.3 rel1/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v6-m/nofp -Ld:/program files2/gnu tool chain/12.3 rel1/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp -Ld:/program files2/gnu tool chain/12.3 rel1/bin/../arm-none-eabi/lib/thumb/v6-m/nofp -Ld:/program files2/gnu tool chain/12.3 rel1/bin/../lib/gcc/arm-none-eabi/12.3.1 -Ld:/program files2/gnu tool chain/12.3 rel1/bin/../lib/gcc -Ld:/program files2/gnu tool chain/12.3 rel1/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib -Ld:/program files2/gnu tool chain/12.3 rel1/bin/../arm-none-eabi/lib --build-id=none CMakeFiles/cmTC_cc9b2.dir/CMakeCCompilerABI.c.obj
+COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_6b729.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_6b729.elf.'
+ d:/program files2/gnu tool chain/12.3 rel1/bin/../libexec/gcc/arm-none-eabi/12.3.1/collect2.exe -plugin d:/program files2/gnu tool chain/12.3 rel1/bin/../libexec/gcc/arm-none-eabi/12.3.1/liblto_plugin.dll -plugin-opt=d:/program files2/gnu tool chain/12.3 rel1/bin/../libexec/gcc/arm-none-eabi/12.3.1/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\Lenovo\AppData\Local\Temp\ccQDRwPP.res --sysroot=d:\program files2\gnu tool chain\12.3 rel1\bin\../arm-none-eabi -X -o cmTC_6b729.elf -Ld:/program files2/gnu tool chain/12.3 rel1/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v6-m/nofp -Ld:/program files2/gnu tool chain/12.3 rel1/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp -Ld:/program files2/gnu tool chain/12.3 rel1/bin/../arm-none-eabi/lib/thumb/v6-m/nofp -Ld:/program files2/gnu tool chain/12.3 rel1/bin/../lib/gcc/arm-none-eabi/12.3.1 -Ld:/program files2/gnu tool chain/12.3 rel1/bin/../lib/gcc -Ld:/program files2/gnu tool chain/12.3 rel1/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib -Ld:/program files2/gnu tool chain/12.3 rel1/bin/../arm-none-eabi/lib --build-id=none CMakeFiles/cmTC_6b729.dir/CMakeCCompilerABI.c.obj
 d:/program files2/gnu tool chain/12.3 rel1/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 00008000
-COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_cc9b2.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_cc9b2.elf.'
-mingw32-make.exe[1]: Leaving directory 'D:/gesture-controlled-car-with-gripper/nrf driver/build/CMakeFiles/CMakeScratch/TryCompile-kemyx5'
+COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_6b729.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_6b729.elf.'
+mingw32-make.exe[1]: Leaving directory 'D:/gesture-controlled-car-with-gripper/nrf sender/build/CMakeFiles/CMakeScratch/TryCompile-dhg1gh'
 
 
 
@@ -110,12 +110,12 @@ Parsed C implicit include dir info from above output: rv=done
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(arm-none-eabi-ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: D:/gesture-controlled-car-with-gripper/nrf driver/build/CMakeFiles/CMakeScratch/TryCompile-kemyx5]
+  ignore line: [Change Dir: D:/gesture-controlled-car-with-gripper/nrf sender/build/CMakeFiles/CMakeScratch/TryCompile-dhg1gh]
   ignore line: []
-  ignore line: [Run Build Command(s):D:/CTOOLS/mingw32/bin/mingw32-make.exe -f Makefile cmTC_cc9b2/fast && D:/CTOOLS/mingw32/bin/mingw32-make.exe  -f CMakeFiles\cmTC_cc9b2.dir\build.make CMakeFiles/cmTC_cc9b2.dir/build]
-  ignore line: [mingw32-make.exe[1]: Entering directory 'D:/gesture-controlled-car-with-gripper/nrf driver/build/CMakeFiles/CMakeScratch/TryCompile-kemyx5']
-  ignore line: [Building C object CMakeFiles/cmTC_cc9b2.dir/CMakeCCompilerABI.c.obj]
-  ignore line: ["D:\program files2\GNU TOOL CHAIN\12.3 rel1\bin\arm-none-eabi-gcc.exe"   -mcpu=cortex-m0plus -mthumb    -v -o CMakeFiles\cmTC_cc9b2.dir\CMakeCCompilerABI.c.obj -c D:\CMake\share\cmake-3.25\Modules\CMakeCCompilerABI.c]
+  ignore line: [Run Build Command(s):D:/CTOOLS/mingw32/bin/mingw32-make.exe -f Makefile cmTC_6b729/fast && D:/CTOOLS/mingw32/bin/mingw32-make.exe  -f CMakeFiles\cmTC_6b729.dir\build.make CMakeFiles/cmTC_6b729.dir/build]
+  ignore line: [mingw32-make.exe[1]: Entering directory 'D:/gesture-controlled-car-with-gripper/nrf sender/build/CMakeFiles/CMakeScratch/TryCompile-dhg1gh']
+  ignore line: [Building C object CMakeFiles/cmTC_6b729.dir/CMakeCCompilerABI.c.obj]
+  ignore line: ["D:\program files2\GNU TOOL CHAIN\12.3 rel1\bin\arm-none-eabi-gcc.exe"   -mcpu=cortex-m0plus -mthumb    -v -o CMakeFiles\cmTC_6b729.dir\CMakeCCompilerABI.c.obj -c D:\CMake\share\cmake-3.25\Modules\CMakeCCompilerABI.c]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=D:\program files2\GNU TOOL CHAIN\12.3 rel1\bin\arm-none-eabi-gcc.exe]
   ignore line: [Target: arm-none-eabi]
@@ -123,8 +123,8 @@ Parsed C implicit link information from above output:
   ignore line: [Thread model: single]
   ignore line: [Supported LTO compression algorithms: zlib]
   ignore line: [gcc version 12.3.1 20230626 (Arm GNU Toolchain 12.3.Rel1 (Build arm-12.35)) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles\cmTC_cc9b2.dir\CMakeCCompilerABI.c.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles\cmTC_cc9b2.dir\']
-  ignore line: [ d:/program files2/gnu tool chain/12.3 rel1/bin/../libexec/gcc/arm-none-eabi/12.3.1/cc1.exe -quiet -v -imultilib thumb/v6-m/nofp -iprefix d:\program files2\gnu tool chain\12.3 rel1\bin\../lib/gcc/arm-none-eabi/12.3.1/ -isysroot d:\program files2\gnu tool chain\12.3 rel1\bin\../arm-none-eabi -D__USES_INITFINI__ D:\CMake\share\cmake-3.25\Modules\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\cmTC_cc9b2.dir\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -mlibarch=armv6s-m -march=armv6s-m -version -o C:\Users\Lenovo\AppData\Local\Temp\ccyeYyFp.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles\cmTC_6b729.dir\CMakeCCompilerABI.c.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles\cmTC_6b729.dir\']
+  ignore line: [ d:/program files2/gnu tool chain/12.3 rel1/bin/../libexec/gcc/arm-none-eabi/12.3.1/cc1.exe -quiet -v -imultilib thumb/v6-m/nofp -iprefix d:\program files2\gnu tool chain\12.3 rel1\bin\../lib/gcc/arm-none-eabi/12.3.1/ -isysroot d:\program files2\gnu tool chain\12.3 rel1\bin\../arm-none-eabi -D__USES_INITFINI__ D:\CMake\share\cmake-3.25\Modules\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\cmTC_6b729.dir\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -mlibarch=armv6s-m -march=armv6s-m -version -o C:\Users\Lenovo\AppData\Local\Temp\ccHvHnaU.s]
   ignore line: [GNU C17 (Arm GNU Toolchain 12.3.Rel1 (Build arm-12.35)) version 12.3.1 20230626 (arm-none-eabi)]
   ignore line: [	compiled by GNU C version 9.3-win32 20200320  GMP version 6.2.1  MPFR version 3.1.6  MPC version 1.0.3  isl version isl-0.15-1-g835ea3a-GMP]
   ignore line: []
@@ -145,8 +145,8 @@ Parsed C implicit link information from above output:
   ignore line: []
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
   ignore line: [Compiler executable checksum: fb91a105811bc5825517df4b6b01bd08]
-  ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles\cmTC_cc9b2.dir\CMakeCCompilerABI.c.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles\cmTC_cc9b2.dir\']
-  ignore line: [ d:/program files2/gnu tool chain/12.3 rel1/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv6s-m -mfloat-abi=soft -meabi=5 -o CMakeFiles\cmTC_cc9b2.dir\CMakeCCompilerABI.c.obj C:\Users\Lenovo\AppData\Local\Temp\ccyeYyFp.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles\cmTC_6b729.dir\CMakeCCompilerABI.c.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles\cmTC_6b729.dir\']
+  ignore line: [ d:/program files2/gnu tool chain/12.3 rel1/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv6s-m -mfloat-abi=soft -meabi=5 -o CMakeFiles\cmTC_6b729.dir\CMakeCCompilerABI.c.obj C:\Users\Lenovo\AppData\Local\Temp\ccHvHnaU.s]
   ignore line: [GNU assembler version 2.40.0 (arm-none-eabi) using BFD version (Arm GNU Toolchain 12.3.Rel1 (Build arm-12.35)) 2.40.0.20230627]
   ignore line: [COMPILER_PATH=d:/program files2/gnu tool chain/12.3 rel1/bin/../libexec/gcc/arm-none-eabi/12.3.1/]
   ignore line: [d:/program files2/gnu tool chain/12.3 rel1/bin/../libexec/gcc/]
@@ -158,10 +158,10 @@ Parsed C implicit link information from above output:
   ignore line: [d:/program files2/gnu tool chain/12.3 rel1/bin/../lib/gcc/]
   ignore line: [d:/program files2/gnu tool chain/12.3 rel1/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/]
   ignore line: [d:/program files2/gnu tool chain/12.3 rel1/bin/../arm-none-eabi/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles\cmTC_cc9b2.dir\CMakeCCompilerABI.c.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles\cmTC_cc9b2.dir\CMakeCCompilerABI.c.']
-  ignore line: [Linking C executable cmTC_cc9b2.elf]
-  ignore line: [D:\CMake\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_cc9b2.dir\link.txt --verbose=1]
-  ignore line: ["D:\program files2\GNU TOOL CHAIN\12.3 rel1\bin\arm-none-eabi-gcc.exe" -mcpu=cortex-m0plus -mthumb  -Wl --build-id=none -nostdlib  -v CMakeFiles/cmTC_cc9b2.dir/CMakeCCompilerABI.c.obj -o cmTC_cc9b2.elf ]
+  ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles\cmTC_6b729.dir\CMakeCCompilerABI.c.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles\cmTC_6b729.dir\CMakeCCompilerABI.c.']
+  ignore line: [Linking C executable cmTC_6b729.elf]
+  ignore line: [D:\CMake\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_6b729.dir\link.txt --verbose=1]
+  ignore line: ["D:\program files2\GNU TOOL CHAIN\12.3 rel1\bin\arm-none-eabi-gcc.exe" -mcpu=cortex-m0plus -mthumb  -Wl --build-id=none -nostdlib  -v CMakeFiles/cmTC_6b729.dir/CMakeCCompilerABI.c.obj -o cmTC_6b729.elf ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=D:\program files2\GNU TOOL CHAIN\12.3 rel1\bin\arm-none-eabi-gcc.exe]
   ignore line: [COLLECT_LTO_WRAPPER=d:/program\ files2/gnu\ tool\ chain/12.3\ rel1/bin/../libexec/gcc/arm-none-eabi/12.3.1/lto-wrapper.exe]
@@ -180,12 +180,12 @@ Parsed C implicit link information from above output:
   ignore line: [d:/program files2/gnu tool chain/12.3 rel1/bin/../lib/gcc/]
   ignore line: [d:/program files2/gnu tool chain/12.3 rel1/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/]
   ignore line: [d:/program files2/gnu tool chain/12.3 rel1/bin/../arm-none-eabi/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_cc9b2.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_cc9b2.elf.']
-  ignore line: [ d:/program files2/gnu tool chain/12.3 rel1/bin/../libexec/gcc/arm-none-eabi/12.3.1/collect2.exe -plugin d:/program files2/gnu tool chain/12.3 rel1/bin/../libexec/gcc/arm-none-eabi/12.3.1/liblto_plugin.dll -plugin-opt=d:/program files2/gnu tool chain/12.3 rel1/bin/../libexec/gcc/arm-none-eabi/12.3.1/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\Lenovo\AppData\Local\Temp\cc46GlOL.res --sysroot=d:\program files2\gnu tool chain\12.3 rel1\bin\../arm-none-eabi -X -o cmTC_cc9b2.elf -Ld:/program files2/gnu tool chain/12.3 rel1/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v6-m/nofp -Ld:/program files2/gnu tool chain/12.3 rel1/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp -Ld:/program files2/gnu tool chain/12.3 rel1/bin/../arm-none-eabi/lib/thumb/v6-m/nofp -Ld:/program files2/gnu tool chain/12.3 rel1/bin/../lib/gcc/arm-none-eabi/12.3.1 -Ld:/program files2/gnu tool chain/12.3 rel1/bin/../lib/gcc -Ld:/program files2/gnu tool chain/12.3 rel1/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib -Ld:/program files2/gnu tool chain/12.3 rel1/bin/../arm-none-eabi/lib --build-id=none CMakeFiles/cmTC_cc9b2.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_6b729.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_6b729.elf.']
+  ignore line: [ d:/program files2/gnu tool chain/12.3 rel1/bin/../libexec/gcc/arm-none-eabi/12.3.1/collect2.exe -plugin d:/program files2/gnu tool chain/12.3 rel1/bin/../libexec/gcc/arm-none-eabi/12.3.1/liblto_plugin.dll -plugin-opt=d:/program files2/gnu tool chain/12.3 rel1/bin/../libexec/gcc/arm-none-eabi/12.3.1/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\Lenovo\AppData\Local\Temp\ccQDRwPP.res --sysroot=d:\program files2\gnu tool chain\12.3 rel1\bin\../arm-none-eabi -X -o cmTC_6b729.elf -Ld:/program files2/gnu tool chain/12.3 rel1/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v6-m/nofp -Ld:/program files2/gnu tool chain/12.3 rel1/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp -Ld:/program files2/gnu tool chain/12.3 rel1/bin/../arm-none-eabi/lib/thumb/v6-m/nofp -Ld:/program files2/gnu tool chain/12.3 rel1/bin/../lib/gcc/arm-none-eabi/12.3.1 -Ld:/program files2/gnu tool chain/12.3 rel1/bin/../lib/gcc -Ld:/program files2/gnu tool chain/12.3 rel1/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib -Ld:/program files2/gnu tool chain/12.3 rel1/bin/../arm-none-eabi/lib --build-id=none CMakeFiles/cmTC_6b729.dir/CMakeCCompilerABI.c.obj]
   ignore line: [d:/program files2/gnu tool chain/12.3 rel1/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld.exe: warning: cannot find entry symbol _start]
   ignore line: [ defaulting to 00008000]
-  ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_cc9b2.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_cc9b2.elf.']
-  ignore line: [mingw32-make.exe[1]: Leaving directory 'D:/gesture-controlled-car-with-gripper/nrf driver/build/CMakeFiles/CMakeScratch/TryCompile-kemyx5']
+  ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_6b729.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_6b729.elf.']
+  ignore line: [mingw32-make.exe[1]: Leaving directory 'D:/gesture-controlled-car-with-gripper/nrf sender/build/CMakeFiles/CMakeScratch/TryCompile-dhg1gh']
   ignore line: []
   ignore line: []
   implicit libs: []
@@ -195,12 +195,12 @@ Parsed C implicit link information from above output:
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: D:/gesture-controlled-car-with-gripper/nrf driver/build/CMakeFiles/CMakeScratch/TryCompile-5slg3a
+Change Dir: D:/gesture-controlled-car-with-gripper/nrf sender/build/CMakeFiles/CMakeScratch/TryCompile-sowbwr
 
-Run Build Command(s):D:/CTOOLS/mingw32/bin/mingw32-make.exe -f Makefile cmTC_9d9ca/fast && D:/CTOOLS/mingw32/bin/mingw32-make.exe  -f CMakeFiles\cmTC_9d9ca.dir\build.make CMakeFiles/cmTC_9d9ca.dir/build
-mingw32-make.exe[1]: Entering directory 'D:/gesture-controlled-car-with-gripper/nrf driver/build/CMakeFiles/CMakeScratch/TryCompile-5slg3a'
-Building CXX object CMakeFiles/cmTC_9d9ca.dir/CMakeCXXCompilerABI.cpp.obj
-"D:\program files2\GNU TOOL CHAIN\12.3 rel1\bin\arm-none-eabi-g++.exe"   -mcpu=cortex-m0plus -mthumb    -v -o CMakeFiles\cmTC_9d9ca.dir\CMakeCXXCompilerABI.cpp.obj -c D:\CMake\share\cmake-3.25\Modules\CMakeCXXCompilerABI.cpp
+Run Build Command(s):D:/CTOOLS/mingw32/bin/mingw32-make.exe -f Makefile cmTC_6b580/fast && D:/CTOOLS/mingw32/bin/mingw32-make.exe  -f CMakeFiles\cmTC_6b580.dir\build.make CMakeFiles/cmTC_6b580.dir/build
+mingw32-make.exe[1]: Entering directory 'D:/gesture-controlled-car-with-gripper/nrf sender/build/CMakeFiles/CMakeScratch/TryCompile-sowbwr'
+Building CXX object CMakeFiles/cmTC_6b580.dir/CMakeCXXCompilerABI.cpp.obj
+"D:\program files2\GNU TOOL CHAIN\12.3 rel1\bin\arm-none-eabi-g++.exe"   -mcpu=cortex-m0plus -mthumb    -v -o CMakeFiles\cmTC_6b580.dir\CMakeCXXCompilerABI.cpp.obj -c D:\CMake\share\cmake-3.25\Modules\CMakeCXXCompilerABI.cpp
 Using built-in specs.
 COLLECT_GCC=D:\program files2\GNU TOOL CHAIN\12.3 rel1\bin\arm-none-eabi-g++.exe
 Target: arm-none-eabi
@@ -208,8 +208,8 @@ Configured with: /data/jenkins/workspace/GNU-toolchain/arm-12/src/gcc/configure 
 Thread model: single
 Supported LTO compression algorithms: zlib
 gcc version 12.3.1 20230626 (Arm GNU Toolchain 12.3.Rel1 (Build arm-12.35)) 
-COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles\cmTC_9d9ca.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles\cmTC_9d9ca.dir\'
- d:/program files2/gnu tool chain/12.3 rel1/bin/../libexec/gcc/arm-none-eabi/12.3.1/cc1plus.exe -quiet -v -imultilib thumb/v6-m/nofp -iprefix d:\program files2\gnu tool chain\12.3 rel1\bin\../lib/gcc/arm-none-eabi/12.3.1/ -isysroot d:\program files2\gnu tool chain\12.3 rel1\bin\../arm-none-eabi -D__USES_INITFINI__ D:\CMake\share\cmake-3.25\Modules\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\cmTC_9d9ca.dir\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -mlibarch=armv6s-m -march=armv6s-m -version -o C:\Users\Lenovo\AppData\Local\Temp\ccmWegFh.s
+COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles\cmTC_6b580.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles\cmTC_6b580.dir\'
+ d:/program files2/gnu tool chain/12.3 rel1/bin/../libexec/gcc/arm-none-eabi/12.3.1/cc1plus.exe -quiet -v -imultilib thumb/v6-m/nofp -iprefix d:\program files2\gnu tool chain\12.3 rel1\bin\../lib/gcc/arm-none-eabi/12.3.1/ -isysroot d:\program files2\gnu tool chain\12.3 rel1\bin\../arm-none-eabi -D__USES_INITFINI__ D:\CMake\share\cmake-3.25\Modules\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\cmTC_6b580.dir\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -mlibarch=armv6s-m -march=armv6s-m -version -o C:\Users\Lenovo\AppData\Local\Temp\ccFTFGdR.s
 GNU C++17 (Arm GNU Toolchain 12.3.Rel1 (Build arm-12.35)) version 12.3.1 20230626 (arm-none-eabi)
 	compiled by GNU C version 9.3-win32 20200320, GMP version 6.2.1, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.15-1-g835ea3a-GMP
 
@@ -236,15 +236,15 @@ GNU C++17 (Arm GNU Toolchain 12.3.Rel1 (Build arm-12.35)) version 12.3.1 2023062
 
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
 Compiler executable checksum: e7b3f66350dc9cf5c9189807aa34626d
-COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles\cmTC_9d9ca.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles\cmTC_9d9ca.dir\'
- d:/program files2/gnu tool chain/12.3 rel1/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv6s-m -mfloat-abi=soft -meabi=5 -o CMakeFiles\cmTC_9d9ca.dir\CMakeCXXCompilerABI.cpp.obj C:\Users\Lenovo\AppData\Local\Temp\ccmWegFh.s
+COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles\cmTC_6b580.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles\cmTC_6b580.dir\'
+ d:/program files2/gnu tool chain/12.3 rel1/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv6s-m -mfloat-abi=soft -meabi=5 -o CMakeFiles\cmTC_6b580.dir\CMakeCXXCompilerABI.cpp.obj C:\Users\Lenovo\AppData\Local\Temp\ccFTFGdR.s
 GNU assembler version 2.40.0 (arm-none-eabi) using BFD version (Arm GNU Toolchain 12.3.Rel1 (Build arm-12.35)) 2.40.0.20230627
 COMPILER_PATH=d:/program files2/gnu tool chain/12.3 rel1/bin/../libexec/gcc/arm-none-eabi/12.3.1/;d:/program files2/gnu tool chain/12.3 rel1/bin/../libexec/gcc/;d:/program files2/gnu tool chain/12.3 rel1/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/
 LIBRARY_PATH=d:/program files2/gnu tool chain/12.3 rel1/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v6-m/nofp/;d:/program files2/gnu tool chain/12.3 rel1/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/;d:/program files2/gnu tool chain/12.3 rel1/bin/../arm-none-eabi/lib/thumb/v6-m/nofp/;d:/program files2/gnu tool chain/12.3 rel1/bin/../lib/gcc/arm-none-eabi/12.3.1/;d:/program files2/gnu tool chain/12.3 rel1/bin/../lib/gcc/;d:/program files2/gnu tool chain/12.3 rel1/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/;d:/program files2/gnu tool chain/12.3 rel1/bin/../arm-none-eabi/lib/
-COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles\cmTC_9d9ca.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles\cmTC_9d9ca.dir\CMakeCXXCompilerABI.cpp.'
-Linking CXX executable cmTC_9d9ca.elf
-D:\CMake\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_9d9ca.dir\link.txt --verbose=1
-"D:\program files2\GNU TOOL CHAIN\12.3 rel1\bin\arm-none-eabi-g++.exe" -mcpu=cortex-m0plus -mthumb  -Wl,--build-id=none -nostdlib  -v CMakeFiles/cmTC_9d9ca.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_9d9ca.elf 
+COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles\cmTC_6b580.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles\cmTC_6b580.dir\CMakeCXXCompilerABI.cpp.'
+Linking CXX executable cmTC_6b580.elf
+D:\CMake\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_6b580.dir\link.txt --verbose=1
+"D:\program files2\GNU TOOL CHAIN\12.3 rel1\bin\arm-none-eabi-g++.exe" -mcpu=cortex-m0plus -mthumb  -Wl,--build-id=none -nostdlib  -v CMakeFiles/cmTC_6b580.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_6b580.elf 
 Using built-in specs.
 COLLECT_GCC=D:\program files2\GNU TOOL CHAIN\12.3 rel1\bin\arm-none-eabi-g++.exe
 COLLECT_LTO_WRAPPER=d:/program\ files2/gnu\ tool\ chain/12.3\ rel1/bin/../libexec/gcc/arm-none-eabi/12.3.1/lto-wrapper.exe
@@ -255,11 +255,11 @@ Supported LTO compression algorithms: zlib
 gcc version 12.3.1 20230626 (Arm GNU Toolchain 12.3.Rel1 (Build arm-12.35)) 
 COMPILER_PATH=d:/program files2/gnu tool chain/12.3 rel1/bin/../libexec/gcc/arm-none-eabi/12.3.1/;d:/program files2/gnu tool chain/12.3 rel1/bin/../libexec/gcc/;d:/program files2/gnu tool chain/12.3 rel1/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/
 LIBRARY_PATH=d:/program files2/gnu tool chain/12.3 rel1/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v6-m/nofp/;d:/program files2/gnu tool chain/12.3 rel1/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/;d:/program files2/gnu tool chain/12.3 rel1/bin/../arm-none-eabi/lib/thumb/v6-m/nofp/;d:/program files2/gnu tool chain/12.3 rel1/bin/../lib/gcc/arm-none-eabi/12.3.1/;d:/program files2/gnu tool chain/12.3 rel1/bin/../lib/gcc/;d:/program files2/gnu tool chain/12.3 rel1/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/;d:/program files2/gnu tool chain/12.3 rel1/bin/../arm-none-eabi/lib/
-COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_9d9ca.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_9d9ca.elf.'
- d:/program files2/gnu tool chain/12.3 rel1/bin/../libexec/gcc/arm-none-eabi/12.3.1/collect2.exe -plugin d:/program files2/gnu tool chain/12.3 rel1/bin/../libexec/gcc/arm-none-eabi/12.3.1/liblto_plugin.dll -plugin-opt=d:/program files2/gnu tool chain/12.3 rel1/bin/../libexec/gcc/arm-none-eabi/12.3.1/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\Lenovo\AppData\Local\Temp\ccnOgbRw.res --sysroot=d:\program files2\gnu tool chain\12.3 rel1\bin\../arm-none-eabi -X -o cmTC_9d9ca.elf -Ld:/program files2/gnu tool chain/12.3 rel1/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v6-m/nofp -Ld:/program files2/gnu tool chain/12.3 rel1/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp -Ld:/program files2/gnu tool chain/12.3 rel1/bin/../arm-none-eabi/lib/thumb/v6-m/nofp -Ld:/program files2/gnu tool chain/12.3 rel1/bin/../lib/gcc/arm-none-eabi/12.3.1 -Ld:/program files2/gnu tool chain/12.3 rel1/bin/../lib/gcc -Ld:/program files2/gnu tool chain/12.3 rel1/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib -Ld:/program files2/gnu tool chain/12.3 rel1/bin/../arm-none-eabi/lib --build-id=none CMakeFiles/cmTC_9d9ca.dir/CMakeCXXCompilerABI.cpp.obj
+COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_6b580.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_6b580.elf.'
+ d:/program files2/gnu tool chain/12.3 rel1/bin/../libexec/gcc/arm-none-eabi/12.3.1/collect2.exe -plugin d:/program files2/gnu tool chain/12.3 rel1/bin/../libexec/gcc/arm-none-eabi/12.3.1/liblto_plugin.dll -plugin-opt=d:/program files2/gnu tool chain/12.3 rel1/bin/../libexec/gcc/arm-none-eabi/12.3.1/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\Lenovo\AppData\Local\Temp\ccOvBkDR.res --sysroot=d:\program files2\gnu tool chain\12.3 rel1\bin\../arm-none-eabi -X -o cmTC_6b580.elf -Ld:/program files2/gnu tool chain/12.3 rel1/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v6-m/nofp -Ld:/program files2/gnu tool chain/12.3 rel1/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp -Ld:/program files2/gnu tool chain/12.3 rel1/bin/../arm-none-eabi/lib/thumb/v6-m/nofp -Ld:/program files2/gnu tool chain/12.3 rel1/bin/../lib/gcc/arm-none-eabi/12.3.1 -Ld:/program files2/gnu tool chain/12.3 rel1/bin/../lib/gcc -Ld:/program files2/gnu tool chain/12.3 rel1/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib -Ld:/program files2/gnu tool chain/12.3 rel1/bin/../arm-none-eabi/lib --build-id=none CMakeFiles/cmTC_6b580.dir/CMakeCXXCompilerABI.cpp.obj
 d:/program files2/gnu tool chain/12.3 rel1/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 00008000
-COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_9d9ca.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_9d9ca.elf.'
-mingw32-make.exe[1]: Leaving directory 'D:/gesture-controlled-car-with-gripper/nrf driver/build/CMakeFiles/CMakeScratch/TryCompile-5slg3a'
+COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_6b580.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_6b580.elf.'
+mingw32-make.exe[1]: Leaving directory 'D:/gesture-controlled-car-with-gripper/nrf sender/build/CMakeFiles/CMakeScratch/TryCompile-sowbwr'
 
 
 
@@ -284,12 +284,12 @@ Parsed CXX implicit include dir info from above output: rv=done
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(arm-none-eabi-ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: D:/gesture-controlled-car-with-gripper/nrf driver/build/CMakeFiles/CMakeScratch/TryCompile-5slg3a]
+  ignore line: [Change Dir: D:/gesture-controlled-car-with-gripper/nrf sender/build/CMakeFiles/CMakeScratch/TryCompile-sowbwr]
   ignore line: []
-  ignore line: [Run Build Command(s):D:/CTOOLS/mingw32/bin/mingw32-make.exe -f Makefile cmTC_9d9ca/fast && D:/CTOOLS/mingw32/bin/mingw32-make.exe  -f CMakeFiles\cmTC_9d9ca.dir\build.make CMakeFiles/cmTC_9d9ca.dir/build]
-  ignore line: [mingw32-make.exe[1]: Entering directory 'D:/gesture-controlled-car-with-gripper/nrf driver/build/CMakeFiles/CMakeScratch/TryCompile-5slg3a']
-  ignore line: [Building CXX object CMakeFiles/cmTC_9d9ca.dir/CMakeCXXCompilerABI.cpp.obj]
-  ignore line: ["D:\program files2\GNU TOOL CHAIN\12.3 rel1\bin\arm-none-eabi-g++.exe"   -mcpu=cortex-m0plus -mthumb    -v -o CMakeFiles\cmTC_9d9ca.dir\CMakeCXXCompilerABI.cpp.obj -c D:\CMake\share\cmake-3.25\Modules\CMakeCXXCompilerABI.cpp]
+  ignore line: [Run Build Command(s):D:/CTOOLS/mingw32/bin/mingw32-make.exe -f Makefile cmTC_6b580/fast && D:/CTOOLS/mingw32/bin/mingw32-make.exe  -f CMakeFiles\cmTC_6b580.dir\build.make CMakeFiles/cmTC_6b580.dir/build]
+  ignore line: [mingw32-make.exe[1]: Entering directory 'D:/gesture-controlled-car-with-gripper/nrf sender/build/CMakeFiles/CMakeScratch/TryCompile-sowbwr']
+  ignore line: [Building CXX object CMakeFiles/cmTC_6b580.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: ["D:\program files2\GNU TOOL CHAIN\12.3 rel1\bin\arm-none-eabi-g++.exe"   -mcpu=cortex-m0plus -mthumb    -v -o CMakeFiles\cmTC_6b580.dir\CMakeCXXCompilerABI.cpp.obj -c D:\CMake\share\cmake-3.25\Modules\CMakeCXXCompilerABI.cpp]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=D:\program files2\GNU TOOL CHAIN\12.3 rel1\bin\arm-none-eabi-g++.exe]
   ignore line: [Target: arm-none-eabi]
@@ -297,8 +297,8 @@ Parsed CXX implicit link information from above output:
   ignore line: [Thread model: single]
   ignore line: [Supported LTO compression algorithms: zlib]
   ignore line: [gcc version 12.3.1 20230626 (Arm GNU Toolchain 12.3.Rel1 (Build arm-12.35)) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles\cmTC_9d9ca.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles\cmTC_9d9ca.dir\']
-  ignore line: [ d:/program files2/gnu tool chain/12.3 rel1/bin/../libexec/gcc/arm-none-eabi/12.3.1/cc1plus.exe -quiet -v -imultilib thumb/v6-m/nofp -iprefix d:\program files2\gnu tool chain\12.3 rel1\bin\../lib/gcc/arm-none-eabi/12.3.1/ -isysroot d:\program files2\gnu tool chain\12.3 rel1\bin\../arm-none-eabi -D__USES_INITFINI__ D:\CMake\share\cmake-3.25\Modules\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\cmTC_9d9ca.dir\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -mlibarch=armv6s-m -march=armv6s-m -version -o C:\Users\Lenovo\AppData\Local\Temp\ccmWegFh.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles\cmTC_6b580.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles\cmTC_6b580.dir\']
+  ignore line: [ d:/program files2/gnu tool chain/12.3 rel1/bin/../libexec/gcc/arm-none-eabi/12.3.1/cc1plus.exe -quiet -v -imultilib thumb/v6-m/nofp -iprefix d:\program files2\gnu tool chain\12.3 rel1\bin\../lib/gcc/arm-none-eabi/12.3.1/ -isysroot d:\program files2\gnu tool chain\12.3 rel1\bin\../arm-none-eabi -D__USES_INITFINI__ D:\CMake\share\cmake-3.25\Modules\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\cmTC_6b580.dir\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -mlibarch=armv6s-m -march=armv6s-m -version -o C:\Users\Lenovo\AppData\Local\Temp\ccFTFGdR.s]
   ignore line: [GNU C++17 (Arm GNU Toolchain 12.3.Rel1 (Build arm-12.35)) version 12.3.1 20230626 (arm-none-eabi)]
   ignore line: [	compiled by GNU C version 9.3-win32 20200320  GMP version 6.2.1  MPFR version 3.1.6  MPC version 1.0.3  isl version isl-0.15-1-g835ea3a-GMP]
   ignore line: []
@@ -325,8 +325,8 @@ Parsed CXX implicit link information from above output:
   ignore line: []
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
   ignore line: [Compiler executable checksum: e7b3f66350dc9cf5c9189807aa34626d]
-  ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles\cmTC_9d9ca.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles\cmTC_9d9ca.dir\']
-  ignore line: [ d:/program files2/gnu tool chain/12.3 rel1/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv6s-m -mfloat-abi=soft -meabi=5 -o CMakeFiles\cmTC_9d9ca.dir\CMakeCXXCompilerABI.cpp.obj C:\Users\Lenovo\AppData\Local\Temp\ccmWegFh.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles\cmTC_6b580.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles\cmTC_6b580.dir\']
+  ignore line: [ d:/program files2/gnu tool chain/12.3 rel1/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv6s-m -mfloat-abi=soft -meabi=5 -o CMakeFiles\cmTC_6b580.dir\CMakeCXXCompilerABI.cpp.obj C:\Users\Lenovo\AppData\Local\Temp\ccFTFGdR.s]
   ignore line: [GNU assembler version 2.40.0 (arm-none-eabi) using BFD version (Arm GNU Toolchain 12.3.Rel1 (Build arm-12.35)) 2.40.0.20230627]
   ignore line: [COMPILER_PATH=d:/program files2/gnu tool chain/12.3 rel1/bin/../libexec/gcc/arm-none-eabi/12.3.1/]
   ignore line: [d:/program files2/gnu tool chain/12.3 rel1/bin/../libexec/gcc/]
@@ -338,10 +338,10 @@ Parsed CXX implicit link information from above output:
   ignore line: [d:/program files2/gnu tool chain/12.3 rel1/bin/../lib/gcc/]
   ignore line: [d:/program files2/gnu tool chain/12.3 rel1/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/]
   ignore line: [d:/program files2/gnu tool chain/12.3 rel1/bin/../arm-none-eabi/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles\cmTC_9d9ca.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles\cmTC_9d9ca.dir\CMakeCXXCompilerABI.cpp.']
-  ignore line: [Linking CXX executable cmTC_9d9ca.elf]
-  ignore line: [D:\CMake\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_9d9ca.dir\link.txt --verbose=1]
-  ignore line: ["D:\program files2\GNU TOOL CHAIN\12.3 rel1\bin\arm-none-eabi-g++.exe" -mcpu=cortex-m0plus -mthumb  -Wl --build-id=none -nostdlib  -v CMakeFiles/cmTC_9d9ca.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_9d9ca.elf ]
+  ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles\cmTC_6b580.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles\cmTC_6b580.dir\CMakeCXXCompilerABI.cpp.']
+  ignore line: [Linking CXX executable cmTC_6b580.elf]
+  ignore line: [D:\CMake\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_6b580.dir\link.txt --verbose=1]
+  ignore line: ["D:\program files2\GNU TOOL CHAIN\12.3 rel1\bin\arm-none-eabi-g++.exe" -mcpu=cortex-m0plus -mthumb  -Wl --build-id=none -nostdlib  -v CMakeFiles/cmTC_6b580.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_6b580.elf ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=D:\program files2\GNU TOOL CHAIN\12.3 rel1\bin\arm-none-eabi-g++.exe]
   ignore line: [COLLECT_LTO_WRAPPER=d:/program\ files2/gnu\ tool\ chain/12.3\ rel1/bin/../libexec/gcc/arm-none-eabi/12.3.1/lto-wrapper.exe]
@@ -360,12 +360,12 @@ Parsed CXX implicit link information from above output:
   ignore line: [d:/program files2/gnu tool chain/12.3 rel1/bin/../lib/gcc/]
   ignore line: [d:/program files2/gnu tool chain/12.3 rel1/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/]
   ignore line: [d:/program files2/gnu tool chain/12.3 rel1/bin/../arm-none-eabi/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_9d9ca.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_9d9ca.elf.']
-  ignore line: [ d:/program files2/gnu tool chain/12.3 rel1/bin/../libexec/gcc/arm-none-eabi/12.3.1/collect2.exe -plugin d:/program files2/gnu tool chain/12.3 rel1/bin/../libexec/gcc/arm-none-eabi/12.3.1/liblto_plugin.dll -plugin-opt=d:/program files2/gnu tool chain/12.3 rel1/bin/../libexec/gcc/arm-none-eabi/12.3.1/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\Lenovo\AppData\Local\Temp\ccnOgbRw.res --sysroot=d:\program files2\gnu tool chain\12.3 rel1\bin\../arm-none-eabi -X -o cmTC_9d9ca.elf -Ld:/program files2/gnu tool chain/12.3 rel1/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v6-m/nofp -Ld:/program files2/gnu tool chain/12.3 rel1/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp -Ld:/program files2/gnu tool chain/12.3 rel1/bin/../arm-none-eabi/lib/thumb/v6-m/nofp -Ld:/program files2/gnu tool chain/12.3 rel1/bin/../lib/gcc/arm-none-eabi/12.3.1 -Ld:/program files2/gnu tool chain/12.3 rel1/bin/../lib/gcc -Ld:/program files2/gnu tool chain/12.3 rel1/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib -Ld:/program files2/gnu tool chain/12.3 rel1/bin/../arm-none-eabi/lib --build-id=none CMakeFiles/cmTC_9d9ca.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_6b580.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_6b580.elf.']
+  ignore line: [ d:/program files2/gnu tool chain/12.3 rel1/bin/../libexec/gcc/arm-none-eabi/12.3.1/collect2.exe -plugin d:/program files2/gnu tool chain/12.3 rel1/bin/../libexec/gcc/arm-none-eabi/12.3.1/liblto_plugin.dll -plugin-opt=d:/program files2/gnu tool chain/12.3 rel1/bin/../libexec/gcc/arm-none-eabi/12.3.1/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\Lenovo\AppData\Local\Temp\ccOvBkDR.res --sysroot=d:\program files2\gnu tool chain\12.3 rel1\bin\../arm-none-eabi -X -o cmTC_6b580.elf -Ld:/program files2/gnu tool chain/12.3 rel1/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v6-m/nofp -Ld:/program files2/gnu tool chain/12.3 rel1/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp -Ld:/program files2/gnu tool chain/12.3 rel1/bin/../arm-none-eabi/lib/thumb/v6-m/nofp -Ld:/program files2/gnu tool chain/12.3 rel1/bin/../lib/gcc/arm-none-eabi/12.3.1 -Ld:/program files2/gnu tool chain/12.3 rel1/bin/../lib/gcc -Ld:/program files2/gnu tool chain/12.3 rel1/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib -Ld:/program files2/gnu tool chain/12.3 rel1/bin/../arm-none-eabi/lib --build-id=none CMakeFiles/cmTC_6b580.dir/CMakeCXXCompilerABI.cpp.obj]
   ignore line: [d:/program files2/gnu tool chain/12.3 rel1/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld.exe: warning: cannot find entry symbol _start]
   ignore line: [ defaulting to 00008000]
-  ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_9d9ca.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_9d9ca.elf.']
-  ignore line: [mingw32-make.exe[1]: Leaving directory 'D:/gesture-controlled-car-with-gripper/nrf driver/build/CMakeFiles/CMakeScratch/TryCompile-5slg3a']
+  ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_6b580.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_6b580.elf.']
+  ignore line: [mingw32-make.exe[1]: Leaving directory 'D:/gesture-controlled-car-with-gripper/nrf sender/build/CMakeFiles/CMakeScratch/TryCompile-sowbwr']
   ignore line: []
   ignore line: []
   implicit libs: []

@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "D:/gesture-controlled-car-with-gripper/nrf driver/build/pioasm/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "D:/gesture-controlled-car-with-gripper/nrf sender/build/pioasm/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

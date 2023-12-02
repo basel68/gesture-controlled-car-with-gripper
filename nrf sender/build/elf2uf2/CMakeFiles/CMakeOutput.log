@@ -10,7 +10,7 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
 
-The C compiler identification is GNU, found in "D:/gesture-controlled-car-with-gripper/nrf driver/build/elf2uf2/CMakeFiles/3.25.0/CompilerIdC/a.exe"
+The C compiler identification is GNU, found in "D:/gesture-controlled-car-with-gripper/nrf sender/build/elf2uf2/CMakeFiles/3.25.0/CompilerIdC/a.exe"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: D:/CTOOLS/mingw32/bin/c++.exe 
@@ -23,24 +23,24 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
 
-The CXX compiler identification is GNU, found in "D:/gesture-controlled-car-with-gripper/nrf driver/build/elf2uf2/CMakeFiles/3.25.0/CompilerIdCXX/a.exe"
+The CXX compiler identification is GNU, found in "D:/gesture-controlled-car-with-gripper/nrf sender/build/elf2uf2/CMakeFiles/3.25.0/CompilerIdCXX/a.exe"
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: D:/gesture-controlled-car-with-gripper/nrf driver/build/elf2uf2/CMakeFiles/CMakeScratch/TryCompile-yui0qd
+Change Dir: D:/gesture-controlled-car-with-gripper/nrf sender/build/elf2uf2/CMakeFiles/CMakeScratch/TryCompile-jko4nc
 
-Run Build Command(s):D:/CTOOLS/mingw32/bin/mingw32-make.exe -f Makefile cmTC_20405/fast && mingw32-make.exe[3]: Entering directory 'D:/gesture-controlled-car-with-gripper/nrf driver/build/elf2uf2/CMakeFiles/CMakeScratch/TryCompile-yui0qd'
-D:/CTOOLS/mingw32/bin/mingw32-make.exe  -f CMakeFiles\cmTC_20405.dir\build.make CMakeFiles/cmTC_20405.dir/build
-mingw32-make.exe[4]: Entering directory 'D:/gesture-controlled-car-with-gripper/nrf driver/build/elf2uf2/CMakeFiles/CMakeScratch/TryCompile-yui0qd'
-Building C object CMakeFiles/cmTC_20405.dir/CMakeCCompilerABI.c.obj
-D:\CTOOLS\mingw32\bin\cc.exe   -v -o CMakeFiles\cmTC_20405.dir\CMakeCCompilerABI.c.obj -c D:\CMake\share\cmake-3.25\Modules\CMakeCCompilerABI.c
+Run Build Command(s):D:/CTOOLS/mingw32/bin/mingw32-make.exe -f Makefile cmTC_18be9/fast && mingw32-make.exe[3]: Entering directory 'D:/gesture-controlled-car-with-gripper/nrf sender/build/elf2uf2/CMakeFiles/CMakeScratch/TryCompile-jko4nc'
+D:/CTOOLS/mingw32/bin/mingw32-make.exe  -f CMakeFiles\cmTC_18be9.dir\build.make CMakeFiles/cmTC_18be9.dir/build
+mingw32-make.exe[4]: Entering directory 'D:/gesture-controlled-car-with-gripper/nrf sender/build/elf2uf2/CMakeFiles/CMakeScratch/TryCompile-jko4nc'
+Building C object CMakeFiles/cmTC_18be9.dir/CMakeCCompilerABI.c.obj
+D:\CTOOLS\mingw32\bin\cc.exe   -v -o CMakeFiles\cmTC_18be9.dir\CMakeCCompilerABI.c.obj -c D:\CMake\share\cmake-3.25\Modules\CMakeCCompilerABI.c
 Using built-in specs.
 COLLECT_GCC=D:\CTOOLS\mingw32\bin\cc.exe
 Target: i686-w64-mingw32
 Configured with: ../gcc-9.2.0/configure --prefix=/mingw32 --with-local-prefix=/mingw32/local --build=i686-w64-mingw32 --host=i686-w64-mingw32 --target=i686-w64-mingw32 --with-native-system-header-dir=/mingw32/i686-w64-mingw32/include --libexecdir=/mingw32/lib --enable-bootstrap --with-arch=i686 --with-tune=generic --enable-languages=c,lto,c++,fortran,ada,objc,obj-c++ --enable-shared --enable-static --enable-libatomic --enable-threads=posix --enable-graphite --enable-fully-dynamic-string --enable-libstdcxx-filesystem-ts=yes --enable-libstdcxx-time=yes --disable-libstdcxx-pch --disable-libstdcxx-debug --disable-isl-version-check --enable-lto --enable-libgomp --disable-multilib --enable-checking=release --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --enable-plugin --with-libiconv --with-system-zlib --with-gmp=/mingw32 --with-mpfr=/mingw32 --with-mpc=/mingw32 --with-isl=/mingw32 --with-pkgversion='Rev2, Built by MSYS2 project' --with-bugurl=https://sourceforge.net/projects/msys2 --with-gnu-as --with-gnu-ld --disable-sjlj-exceptions --with-dwarf2
 Thread model: posix
 gcc version 9.2.0 (Rev2, Built by MSYS2 project) 
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_20405.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=i686'
- D:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0/cc1.exe -quiet -v -iprefix D:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0/ -D_REENTRANT D:\CMake\share\cmake-3.25\Modules\CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=i686 -auxbase-strip CMakeFiles\cmTC_20405.dir\CMakeCCompilerABI.c.obj -version -o C:\Users\Lenovo\AppData\Local\Temp\ccus9WMc.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_18be9.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=i686'
+ D:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0/cc1.exe -quiet -v -iprefix D:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0/ -D_REENTRANT D:\CMake\share\cmake-3.25\Modules\CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=i686 -auxbase-strip CMakeFiles\cmTC_18be9.dir\CMakeCCompilerABI.c.obj -version -o C:\Users\Lenovo\AppData\Local\Temp\ccsdcwPF.s
 GNU C17 (Rev2, Built by MSYS2 project) version 9.2.0 (i686-w64-mingw32)
 	compiled by GNU C version 9.2.0, GMP version 6.1.2, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.21-GMP
 
@@ -63,17 +63,17 @@ GNU C17 (Rev2, Built by MSYS2 project) version 9.2.0 (i686-w64-mingw32)
 
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
 Compiler executable checksum: aa073c0598ceb470a39983cd0e0fcc14
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_20405.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=i686'
- as -v -o CMakeFiles\cmTC_20405.dir\CMakeCCompilerABI.c.obj C:\Users\Lenovo\AppData\Local\Temp\ccus9WMc.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_18be9.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=i686'
+ as -v -o CMakeFiles\cmTC_18be9.dir\CMakeCCompilerABI.c.obj C:\Users\Lenovo\AppData\Local\Temp\ccsdcwPF.s
 GNU assembler version 2.33.1 (i686-w64-mingw32) using BFD version (GNU Binutils) 2.33.1
 COMPILER_PATH=D:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0/;D:/CTOOLS/mingw32/bin/../lib/gcc/;D:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0/../../../../i686-w64-mingw32/bin/
 LIBRARY_PATH=D:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0/;D:/CTOOLS/mingw32/bin/../lib/gcc/;D:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0/../../../../i686-w64-mingw32/lib/../lib/;D:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0/../../../../lib/;D:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0/../../../../i686-w64-mingw32/lib/;D:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0/../../../
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_20405.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=i686'
-Linking C executable cmTC_20405.exe
-D:\CMake\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_20405.dir\link.txt --verbose=1
-D:\CMake\bin\cmake.exe -E rm -f CMakeFiles\cmTC_20405.dir/objects.a
-D:\CTOOLS\mingw32\bin\ar.exe qc CMakeFiles\cmTC_20405.dir/objects.a @CMakeFiles\cmTC_20405.dir\objects1
-D:\CTOOLS\mingw32\bin\cc.exe  -v -Wl,--whole-archive CMakeFiles\cmTC_20405.dir/objects.a -Wl,--no-whole-archive -o cmTC_20405.exe -Wl,--out-implib,libcmTC_20405.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_18be9.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=i686'
+Linking C executable cmTC_18be9.exe
+D:\CMake\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_18be9.dir\link.txt --verbose=1
+D:\CMake\bin\cmake.exe -E rm -f CMakeFiles\cmTC_18be9.dir/objects.a
+D:\CTOOLS\mingw32\bin\ar.exe qc CMakeFiles\cmTC_18be9.dir/objects.a @CMakeFiles\cmTC_18be9.dir\objects1
+D:\CTOOLS\mingw32\bin\cc.exe  -v -Wl,--whole-archive CMakeFiles\cmTC_18be9.dir/objects.a -Wl,--no-whole-archive -o cmTC_18be9.exe -Wl,--out-implib,libcmTC_18be9.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
 Using built-in specs.
 COLLECT_GCC=D:\CTOOLS\mingw32\bin\cc.exe
 COLLECT_LTO_WRAPPER=D:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0/lto-wrapper.exe
@@ -83,11 +83,11 @@ Thread model: posix
 gcc version 9.2.0 (Rev2, Built by MSYS2 project) 
 COMPILER_PATH=D:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0/;D:/CTOOLS/mingw32/bin/../lib/gcc/;D:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0/../../../../i686-w64-mingw32/bin/
 LIBRARY_PATH=D:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0/;D:/CTOOLS/mingw32/bin/../lib/gcc/;D:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0/../../../../i686-w64-mingw32/lib/../lib/;D:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0/../../../../lib/;D:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0/../../../../i686-w64-mingw32/lib/;D:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0/../../../
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_20405.exe' '-mtune=generic' '-march=i686'
- D:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0/collect2.exe -plugin D:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0/liblto_plugin-0.dll -plugin-opt=D:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\Lenovo\AppData\Local\Temp\ccDaoxRE.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -m i386pe -Bdynamic -o cmTC_20405.exe D:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0/../../../../i686-w64-mingw32/lib/../lib/crt2.o D:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0/crtbegin.o -LD:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0 -LD:/CTOOLS/mingw32/bin/../lib/gcc -LD:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0/../../../../i686-w64-mingw32/lib/../lib -LD:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0/../../../../lib -LD:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0/../../../../i686-w64-mingw32/lib -LD:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0/../../.. --whole-archive CMakeFiles\cmTC_20405.dir/objects.a --no-whole-archive --out-implib libcmTC_20405.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt D:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0/../../../../i686-w64-mingw32/lib/../lib/default-manifest.o D:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0/crtend.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_20405.exe' '-mtune=generic' '-march=i686'
-mingw32-make.exe[4]: Leaving directory 'D:/gesture-controlled-car-with-gripper/nrf driver/build/elf2uf2/CMakeFiles/CMakeScratch/TryCompile-yui0qd'
-mingw32-make.exe[3]: Leaving directory 'D:/gesture-controlled-car-with-gripper/nrf driver/build/elf2uf2/CMakeFiles/CMakeScratch/TryCompile-yui0qd'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_18be9.exe' '-mtune=generic' '-march=i686'
+ D:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0/collect2.exe -plugin D:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0/liblto_plugin-0.dll -plugin-opt=D:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\Lenovo\AppData\Local\Temp\ccyxKLaD.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -m i386pe -Bdynamic -o cmTC_18be9.exe D:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0/../../../../i686-w64-mingw32/lib/../lib/crt2.o D:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0/crtbegin.o -LD:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0 -LD:/CTOOLS/mingw32/bin/../lib/gcc -LD:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0/../../../../i686-w64-mingw32/lib/../lib -LD:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0/../../../../lib -LD:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0/../../../../i686-w64-mingw32/lib -LD:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0/../../.. --whole-archive CMakeFiles\cmTC_18be9.dir/objects.a --no-whole-archive --out-implib libcmTC_18be9.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt D:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0/../../../../i686-w64-mingw32/lib/../lib/default-manifest.o D:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0/crtend.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_18be9.exe' '-mtune=generic' '-march=i686'
+mingw32-make.exe[4]: Leaving directory 'D:/gesture-controlled-car-with-gripper/nrf sender/build/elf2uf2/CMakeFiles/CMakeScratch/TryCompile-jko4nc'
+mingw32-make.exe[3]: Leaving directory 'D:/gesture-controlled-car-with-gripper/nrf sender/build/elf2uf2/CMakeFiles/CMakeScratch/TryCompile-jko4nc'
 
 
 
@@ -108,21 +108,21 @@ Parsed C implicit include dir info from above output: rv=done
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: D:/gesture-controlled-car-with-gripper/nrf driver/build/elf2uf2/CMakeFiles/CMakeScratch/TryCompile-yui0qd]
+  ignore line: [Change Dir: D:/gesture-controlled-car-with-gripper/nrf sender/build/elf2uf2/CMakeFiles/CMakeScratch/TryCompile-jko4nc]
   ignore line: []
-  ignore line: [Run Build Command(s):D:/CTOOLS/mingw32/bin/mingw32-make.exe -f Makefile cmTC_20405/fast && mingw32-make.exe[3]: Entering directory 'D:/gesture-controlled-car-with-gripper/nrf driver/build/elf2uf2/CMakeFiles/CMakeScratch/TryCompile-yui0qd']
-  ignore line: [D:/CTOOLS/mingw32/bin/mingw32-make.exe  -f CMakeFiles\cmTC_20405.dir\build.make CMakeFiles/cmTC_20405.dir/build]
-  ignore line: [mingw32-make.exe[4]: Entering directory 'D:/gesture-controlled-car-with-gripper/nrf driver/build/elf2uf2/CMakeFiles/CMakeScratch/TryCompile-yui0qd']
-  ignore line: [Building C object CMakeFiles/cmTC_20405.dir/CMakeCCompilerABI.c.obj]
-  ignore line: [D:\CTOOLS\mingw32\bin\cc.exe   -v -o CMakeFiles\cmTC_20405.dir\CMakeCCompilerABI.c.obj -c D:\CMake\share\cmake-3.25\Modules\CMakeCCompilerABI.c]
+  ignore line: [Run Build Command(s):D:/CTOOLS/mingw32/bin/mingw32-make.exe -f Makefile cmTC_18be9/fast && mingw32-make.exe[3]: Entering directory 'D:/gesture-controlled-car-with-gripper/nrf sender/build/elf2uf2/CMakeFiles/CMakeScratch/TryCompile-jko4nc']
+  ignore line: [D:/CTOOLS/mingw32/bin/mingw32-make.exe  -f CMakeFiles\cmTC_18be9.dir\build.make CMakeFiles/cmTC_18be9.dir/build]
+  ignore line: [mingw32-make.exe[4]: Entering directory 'D:/gesture-controlled-car-with-gripper/nrf sender/build/elf2uf2/CMakeFiles/CMakeScratch/TryCompile-jko4nc']
+  ignore line: [Building C object CMakeFiles/cmTC_18be9.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [D:\CTOOLS\mingw32\bin\cc.exe   -v -o CMakeFiles\cmTC_18be9.dir\CMakeCCompilerABI.c.obj -c D:\CMake\share\cmake-3.25\Modules\CMakeCCompilerABI.c]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=D:\CTOOLS\mingw32\bin\cc.exe]
   ignore line: [Target: i686-w64-mingw32]
   ignore line: [Configured with: ../gcc-9.2.0/configure --prefix=/mingw32 --with-local-prefix=/mingw32/local --build=i686-w64-mingw32 --host=i686-w64-mingw32 --target=i686-w64-mingw32 --with-native-system-header-dir=/mingw32/i686-w64-mingw32/include --libexecdir=/mingw32/lib --enable-bootstrap --with-arch=i686 --with-tune=generic --enable-languages=c,lto,c++,fortran,ada,objc,obj-c++ --enable-shared --enable-static --enable-libatomic --enable-threads=posix --enable-graphite --enable-fully-dynamic-string --enable-libstdcxx-filesystem-ts=yes --enable-libstdcxx-time=yes --disable-libstdcxx-pch --disable-libstdcxx-debug --disable-isl-version-check --enable-lto --enable-libgomp --disable-multilib --enable-checking=release --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --enable-plugin --with-libiconv --with-system-zlib --with-gmp=/mingw32 --with-mpfr=/mingw32 --with-mpc=/mingw32 --with-isl=/mingw32 --with-pkgversion='Rev2, Built by MSYS2 project' --with-bugurl=https://sourceforge.net/projects/msys2 --with-gnu-as --with-gnu-ld --disable-sjlj-exceptions --with-dwarf2]
   ignore line: [Thread model: posix]
   ignore line: [gcc version 9.2.0 (Rev2  Built by MSYS2 project) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_20405.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=i686']
-  ignore line: [ D:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0/cc1.exe -quiet -v -iprefix D:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0/ -D_REENTRANT D:\CMake\share\cmake-3.25\Modules\CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=i686 -auxbase-strip CMakeFiles\cmTC_20405.dir\CMakeCCompilerABI.c.obj -version -o C:\Users\Lenovo\AppData\Local\Temp\ccus9WMc.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_18be9.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=i686']
+  ignore line: [ D:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0/cc1.exe -quiet -v -iprefix D:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0/ -D_REENTRANT D:\CMake\share\cmake-3.25\Modules\CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=i686 -auxbase-strip CMakeFiles\cmTC_18be9.dir\CMakeCCompilerABI.c.obj -version -o C:\Users\Lenovo\AppData\Local\Temp\ccsdcwPF.s]
   ignore line: [GNU C17 (Rev2  Built by MSYS2 project) version 9.2.0 (i686-w64-mingw32)]
   ignore line: [	compiled by GNU C version 9.2.0  GMP version 6.1.2  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.21-GMP]
   ignore line: []
@@ -145,8 +145,8 @@ Parsed C implicit link information from above output:
   ignore line: []
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
   ignore line: [Compiler executable checksum: aa073c0598ceb470a39983cd0e0fcc14]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_20405.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=i686']
-  ignore line: [ as -v -o CMakeFiles\cmTC_20405.dir\CMakeCCompilerABI.c.obj C:\Users\Lenovo\AppData\Local\Temp\ccus9WMc.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_18be9.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=i686']
+  ignore line: [ as -v -o CMakeFiles\cmTC_18be9.dir\CMakeCCompilerABI.c.obj C:\Users\Lenovo\AppData\Local\Temp\ccsdcwPF.s]
   ignore line: [GNU assembler version 2.33.1 (i686-w64-mingw32) using BFD version (GNU Binutils) 2.33.1]
   ignore line: [COMPILER_PATH=D:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0/]
   ignore line: [D:/CTOOLS/mingw32/bin/../lib/gcc/]
@@ -157,12 +157,12 @@ Parsed C implicit link information from above output:
   ignore line: [D:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0/../../../../lib/]
   ignore line: [D:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0/../../../../i686-w64-mingw32/lib/]
   ignore line: [D:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0/../../../]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_20405.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=i686']
-  ignore line: [Linking C executable cmTC_20405.exe]
-  ignore line: [D:\CMake\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_20405.dir\link.txt --verbose=1]
-  ignore line: [D:\CMake\bin\cmake.exe -E rm -f CMakeFiles\cmTC_20405.dir/objects.a]
-  ignore line: [D:\CTOOLS\mingw32\bin\ar.exe qc CMakeFiles\cmTC_20405.dir/objects.a @CMakeFiles\cmTC_20405.dir\objects1]
-  ignore line: [D:\CTOOLS\mingw32\bin\cc.exe  -v -Wl --whole-archive CMakeFiles\cmTC_20405.dir/objects.a -Wl --no-whole-archive -o cmTC_20405.exe -Wl --out-implib libcmTC_20405.dll.a -Wl --major-image-version 0 --minor-image-version 0 ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_18be9.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=i686']
+  ignore line: [Linking C executable cmTC_18be9.exe]
+  ignore line: [D:\CMake\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_18be9.dir\link.txt --verbose=1]
+  ignore line: [D:\CMake\bin\cmake.exe -E rm -f CMakeFiles\cmTC_18be9.dir/objects.a]
+  ignore line: [D:\CTOOLS\mingw32\bin\ar.exe qc CMakeFiles\cmTC_18be9.dir/objects.a @CMakeFiles\cmTC_18be9.dir\objects1]
+  ignore line: [D:\CTOOLS\mingw32\bin\cc.exe  -v -Wl --whole-archive CMakeFiles\cmTC_18be9.dir/objects.a -Wl --no-whole-archive -o cmTC_18be9.exe -Wl --out-implib libcmTC_18be9.dll.a -Wl --major-image-version 0 --minor-image-version 0 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=D:\CTOOLS\mingw32\bin\cc.exe]
   ignore line: [COLLECT_LTO_WRAPPER=D:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0/lto-wrapper.exe]
@@ -179,13 +179,13 @@ Parsed C implicit link information from above output:
   ignore line: [D:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0/../../../../lib/]
   ignore line: [D:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0/../../../../i686-w64-mingw32/lib/]
   ignore line: [D:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0/../../../]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_20405.exe' '-mtune=generic' '-march=i686']
-  link line: [ D:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0/collect2.exe -plugin D:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0/liblto_plugin-0.dll -plugin-opt=D:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\Lenovo\AppData\Local\Temp\ccDaoxRE.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -m i386pe -Bdynamic -o cmTC_20405.exe D:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0/../../../../i686-w64-mingw32/lib/../lib/crt2.o D:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0/crtbegin.o -LD:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0 -LD:/CTOOLS/mingw32/bin/../lib/gcc -LD:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0/../../../../i686-w64-mingw32/lib/../lib -LD:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0/../../../../lib -LD:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0/../../../../i686-w64-mingw32/lib -LD:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0/../../.. --whole-archive CMakeFiles\cmTC_20405.dir/objects.a --no-whole-archive --out-implib libcmTC_20405.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt D:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0/../../../../i686-w64-mingw32/lib/../lib/default-manifest.o D:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0/crtend.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_18be9.exe' '-mtune=generic' '-march=i686']
+  link line: [ D:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0/collect2.exe -plugin D:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0/liblto_plugin-0.dll -plugin-opt=D:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\Lenovo\AppData\Local\Temp\ccyxKLaD.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -m i386pe -Bdynamic -o cmTC_18be9.exe D:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0/../../../../i686-w64-mingw32/lib/../lib/crt2.o D:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0/crtbegin.o -LD:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0 -LD:/CTOOLS/mingw32/bin/../lib/gcc -LD:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0/../../../../i686-w64-mingw32/lib/../lib -LD:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0/../../../../lib -LD:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0/../../../../i686-w64-mingw32/lib -LD:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0/../../.. --whole-archive CMakeFiles\cmTC_18be9.dir/objects.a --no-whole-archive --out-implib libcmTC_18be9.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt D:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0/../../../../i686-w64-mingw32/lib/../lib/default-manifest.o D:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0/crtend.o]
     arg [D:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0/collect2.exe] ==> ignore
     arg [-plugin] ==> ignore
     arg [D:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0/liblto_plugin-0.dll] ==> ignore
     arg [-plugin-opt=D:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0/lto-wrapper.exe] ==> ignore
-    arg [-plugin-opt=-fresolution=C:\Users\Lenovo\AppData\Local\Temp\ccDaoxRE.res] ==> ignore
+    arg [-plugin-opt=-fresolution=C:\Users\Lenovo\AppData\Local\Temp\ccyxKLaD.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_eh] ==> ignore
@@ -207,7 +207,7 @@ Parsed C implicit link information from above output:
     arg [i386pe] ==> ignore
     arg [-Bdynamic] ==> search dynamic
     arg [-o] ==> ignore
-    arg [cmTC_20405.exe] ==> ignore
+    arg [cmTC_18be9.exe] ==> ignore
     arg [D:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0/../../../../i686-w64-mingw32/lib/../lib/crt2.o] ==> obj [D:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0/../../../../i686-w64-mingw32/lib/../lib/crt2.o]
     arg [D:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0/crtbegin.o] ==> obj [D:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0/crtbegin.o]
     arg [-LD:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0] ==> dir [D:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0]
@@ -217,10 +217,10 @@ Parsed C implicit link information from above output:
     arg [-LD:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0/../../../../i686-w64-mingw32/lib] ==> dir [D:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0/../../../../i686-w64-mingw32/lib]
     arg [-LD:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0/../../..] ==> dir [D:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0/../../..]
     arg [--whole-archive] ==> ignore
-    arg [CMakeFiles\cmTC_20405.dir/objects.a] ==> ignore
+    arg [CMakeFiles\cmTC_18be9.dir/objects.a] ==> ignore
     arg [--no-whole-archive] ==> ignore
     arg [--out-implib] ==> ignore
-    arg [libcmTC_20405.dll.a] ==> ignore
+    arg [libcmTC_18be9.dll.a] ==> ignore
     arg [--major-image-version] ==> ignore
     arg [0] ==> ignore
     arg [--minor-image-version] ==> ignore
@@ -265,21 +265,21 @@ Parsed C implicit link information from above output:
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: D:/gesture-controlled-car-with-gripper/nrf driver/build/elf2uf2/CMakeFiles/CMakeScratch/TryCompile-4o12nn
+Change Dir: D:/gesture-controlled-car-with-gripper/nrf sender/build/elf2uf2/CMakeFiles/CMakeScratch/TryCompile-hh989h
 
-Run Build Command(s):D:/CTOOLS/mingw32/bin/mingw32-make.exe -f Makefile cmTC_5484a/fast && mingw32-make.exe[3]: Entering directory 'D:/gesture-controlled-car-with-gripper/nrf driver/build/elf2uf2/CMakeFiles/CMakeScratch/TryCompile-4o12nn'
-D:/CTOOLS/mingw32/bin/mingw32-make.exe  -f CMakeFiles\cmTC_5484a.dir\build.make CMakeFiles/cmTC_5484a.dir/build
-mingw32-make.exe[4]: Entering directory 'D:/gesture-controlled-car-with-gripper/nrf driver/build/elf2uf2/CMakeFiles/CMakeScratch/TryCompile-4o12nn'
-Building CXX object CMakeFiles/cmTC_5484a.dir/CMakeCXXCompilerABI.cpp.obj
-D:\CTOOLS\mingw32\bin\c++.exe   -v -o CMakeFiles\cmTC_5484a.dir\CMakeCXXCompilerABI.cpp.obj -c D:\CMake\share\cmake-3.25\Modules\CMakeCXXCompilerABI.cpp
+Run Build Command(s):D:/CTOOLS/mingw32/bin/mingw32-make.exe -f Makefile cmTC_b7b2b/fast && mingw32-make.exe[3]: Entering directory 'D:/gesture-controlled-car-with-gripper/nrf sender/build/elf2uf2/CMakeFiles/CMakeScratch/TryCompile-hh989h'
+D:/CTOOLS/mingw32/bin/mingw32-make.exe  -f CMakeFiles\cmTC_b7b2b.dir\build.make CMakeFiles/cmTC_b7b2b.dir/build
+mingw32-make.exe[4]: Entering directory 'D:/gesture-controlled-car-with-gripper/nrf sender/build/elf2uf2/CMakeFiles/CMakeScratch/TryCompile-hh989h'
+Building CXX object CMakeFiles/cmTC_b7b2b.dir/CMakeCXXCompilerABI.cpp.obj
+D:\CTOOLS\mingw32\bin\c++.exe   -v -o CMakeFiles\cmTC_b7b2b.dir\CMakeCXXCompilerABI.cpp.obj -c D:\CMake\share\cmake-3.25\Modules\CMakeCXXCompilerABI.cpp
 Using built-in specs.
 COLLECT_GCC=D:\CTOOLS\mingw32\bin\c++.exe
 Target: i686-w64-mingw32
 Configured with: ../gcc-9.2.0/configure --prefix=/mingw32 --with-local-prefix=/mingw32/local --build=i686-w64-mingw32 --host=i686-w64-mingw32 --target=i686-w64-mingw32 --with-native-system-header-dir=/mingw32/i686-w64-mingw32/include --libexecdir=/mingw32/lib --enable-bootstrap --with-arch=i686 --with-tune=generic --enable-languages=c,lto,c++,fortran,ada,objc,obj-c++ --enable-shared --enable-static --enable-libatomic --enable-threads=posix --enable-graphite --enable-fully-dynamic-string --enable-libstdcxx-filesystem-ts=yes --enable-libstdcxx-time=yes --disable-libstdcxx-pch --disable-libstdcxx-debug --disable-isl-version-check --enable-lto --enable-libgomp --disable-multilib --enable-checking=release --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --enable-plugin --with-libiconv --with-system-zlib --with-gmp=/mingw32 --with-mpfr=/mingw32 --with-mpc=/mingw32 --with-isl=/mingw32 --with-pkgversion='Rev2, Built by MSYS2 project' --with-bugurl=https://sourceforge.net/projects/msys2 --with-gnu-as --with-gnu-ld --disable-sjlj-exceptions --with-dwarf2
 Thread model: posix
 gcc version 9.2.0 (Rev2, Built by MSYS2 project) 
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_5484a.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=i686'
- D:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0/cc1plus.exe -quiet -v -iprefix D:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0/ -D_REENTRANT D:\CMake\share\cmake-3.25\Modules\CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=i686 -auxbase-strip CMakeFiles\cmTC_5484a.dir\CMakeCXXCompilerABI.cpp.obj -version -o C:\Users\Lenovo\AppData\Local\Temp\ccyjgs2s.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_b7b2b.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=i686'
+ D:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0/cc1plus.exe -quiet -v -iprefix D:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0/ -D_REENTRANT D:\CMake\share\cmake-3.25\Modules\CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=i686 -auxbase-strip CMakeFiles\cmTC_b7b2b.dir\CMakeCXXCompilerABI.cpp.obj -version -o C:\Users\Lenovo\AppData\Local\Temp\cc2P8rXR.s
 GNU C++14 (Rev2, Built by MSYS2 project) version 9.2.0 (i686-w64-mingw32)
 	compiled by GNU C version 9.2.0, GMP version 6.1.2, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.21-GMP
 
@@ -308,17 +308,17 @@ GNU C++14 (Rev2, Built by MSYS2 project) version 9.2.0 (i686-w64-mingw32)
 
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
 Compiler executable checksum: 334144a4f6835f688d1a3e23c4095b2b
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_5484a.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=i686'
- as -v -o CMakeFiles\cmTC_5484a.dir\CMakeCXXCompilerABI.cpp.obj C:\Users\Lenovo\AppData\Local\Temp\ccyjgs2s.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_b7b2b.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=i686'
+ as -v -o CMakeFiles\cmTC_b7b2b.dir\CMakeCXXCompilerABI.cpp.obj C:\Users\Lenovo\AppData\Local\Temp\cc2P8rXR.s
 GNU assembler version 2.33.1 (i686-w64-mingw32) using BFD version (GNU Binutils) 2.33.1
 COMPILER_PATH=D:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0/;D:/CTOOLS/mingw32/bin/../lib/gcc/;D:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0/../../../../i686-w64-mingw32/bin/
 LIBRARY_PATH=D:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0/;D:/CTOOLS/mingw32/bin/../lib/gcc/;D:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0/../../../../i686-w64-mingw32/lib/../lib/;D:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0/../../../../lib/;D:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0/../../../../i686-w64-mingw32/lib/;D:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0/../../../
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_5484a.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=i686'
-Linking CXX executable cmTC_5484a.exe
-D:\CMake\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_5484a.dir\link.txt --verbose=1
-D:\CMake\bin\cmake.exe -E rm -f CMakeFiles\cmTC_5484a.dir/objects.a
-D:\CTOOLS\mingw32\bin\ar.exe qc CMakeFiles\cmTC_5484a.dir/objects.a @CMakeFiles\cmTC_5484a.dir\objects1
-D:\CTOOLS\mingw32\bin\c++.exe  -v -Wl,--whole-archive CMakeFiles\cmTC_5484a.dir/objects.a -Wl,--no-whole-archive -o cmTC_5484a.exe -Wl,--out-implib,libcmTC_5484a.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_b7b2b.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=i686'
+Linking CXX executable cmTC_b7b2b.exe
+D:\CMake\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_b7b2b.dir\link.txt --verbose=1
+D:\CMake\bin\cmake.exe -E rm -f CMakeFiles\cmTC_b7b2b.dir/objects.a
+D:\CTOOLS\mingw32\bin\ar.exe qc CMakeFiles\cmTC_b7b2b.dir/objects.a @CMakeFiles\cmTC_b7b2b.dir\objects1
+D:\CTOOLS\mingw32\bin\c++.exe  -v -Wl,--whole-archive CMakeFiles\cmTC_b7b2b.dir/objects.a -Wl,--no-whole-archive -o cmTC_b7b2b.exe -Wl,--out-implib,libcmTC_b7b2b.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
 Using built-in specs.
 COLLECT_GCC=D:\CTOOLS\mingw32\bin\c++.exe
 COLLECT_LTO_WRAPPER=D:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0/lto-wrapper.exe
@@ -328,11 +328,11 @@ Thread model: posix
 gcc version 9.2.0 (Rev2, Built by MSYS2 project) 
 COMPILER_PATH=D:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0/;D:/CTOOLS/mingw32/bin/../lib/gcc/;D:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0/../../../../i686-w64-mingw32/bin/
 LIBRARY_PATH=D:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0/;D:/CTOOLS/mingw32/bin/../lib/gcc/;D:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0/../../../../i686-w64-mingw32/lib/../lib/;D:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0/../../../../lib/;D:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0/../../../../i686-w64-mingw32/lib/;D:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0/../../../
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_5484a.exe' '-shared-libgcc' '-mtune=generic' '-march=i686'
- D:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0/collect2.exe -plugin D:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0/liblto_plugin-0.dll -plugin-opt=D:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\Lenovo\AppData\Local\Temp\ccGn5uB2.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -m i386pe -Bdynamic -u ___register_frame_info -u ___deregister_frame_info -o cmTC_5484a.exe D:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0/../../../../i686-w64-mingw32/lib/../lib/crt2.o D:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0/crtbegin.o -LD:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0 -LD:/CTOOLS/mingw32/bin/../lib/gcc -LD:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0/../../../../i686-w64-mingw32/lib/../lib -LD:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0/../../../../lib -LD:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0/../../../../i686-w64-mingw32/lib -LD:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0/../../.. --whole-archive CMakeFiles\cmTC_5484a.dir/objects.a --no-whole-archive --out-implib libcmTC_5484a.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt D:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0/../../../../i686-w64-mingw32/lib/../lib/default-manifest.o D:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0/crtend.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_5484a.exe' '-shared-libgcc' '-mtune=generic' '-march=i686'
-mingw32-make.exe[4]: Leaving directory 'D:/gesture-controlled-car-with-gripper/nrf driver/build/elf2uf2/CMakeFiles/CMakeScratch/TryCompile-4o12nn'
-mingw32-make.exe[3]: Leaving directory 'D:/gesture-controlled-car-with-gripper/nrf driver/build/elf2uf2/CMakeFiles/CMakeScratch/TryCompile-4o12nn'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b7b2b.exe' '-shared-libgcc' '-mtune=generic' '-march=i686'
+ D:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0/collect2.exe -plugin D:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0/liblto_plugin-0.dll -plugin-opt=D:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\Lenovo\AppData\Local\Temp\cc3plFjc.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -m i386pe -Bdynamic -u ___register_frame_info -u ___deregister_frame_info -o cmTC_b7b2b.exe D:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0/../../../../i686-w64-mingw32/lib/../lib/crt2.o D:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0/crtbegin.o -LD:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0 -LD:/CTOOLS/mingw32/bin/../lib/gcc -LD:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0/../../../../i686-w64-mingw32/lib/../lib -LD:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0/../../../../lib -LD:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0/../../../../i686-w64-mingw32/lib -LD:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0/../../.. --whole-archive CMakeFiles\cmTC_b7b2b.dir/objects.a --no-whole-archive --out-implib libcmTC_b7b2b.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt D:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0/../../../../i686-w64-mingw32/lib/../lib/default-manifest.o D:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0/crtend.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b7b2b.exe' '-shared-libgcc' '-mtune=generic' '-march=i686'
+mingw32-make.exe[4]: Leaving directory 'D:/gesture-controlled-car-with-gripper/nrf sender/build/elf2uf2/CMakeFiles/CMakeScratch/TryCompile-hh989h'
+mingw32-make.exe[3]: Leaving directory 'D:/gesture-controlled-car-with-gripper/nrf sender/build/elf2uf2/CMakeFiles/CMakeScratch/TryCompile-hh989h'
 
 
 
@@ -359,21 +359,21 @@ Parsed CXX implicit include dir info from above output: rv=done
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: D:/gesture-controlled-car-with-gripper/nrf driver/build/elf2uf2/CMakeFiles/CMakeScratch/TryCompile-4o12nn]
+  ignore line: [Change Dir: D:/gesture-controlled-car-with-gripper/nrf sender/build/elf2uf2/CMakeFiles/CMakeScratch/TryCompile-hh989h]
   ignore line: []
-  ignore line: [Run Build Command(s):D:/CTOOLS/mingw32/bin/mingw32-make.exe -f Makefile cmTC_5484a/fast && mingw32-make.exe[3]: Entering directory 'D:/gesture-controlled-car-with-gripper/nrf driver/build/elf2uf2/CMakeFiles/CMakeScratch/TryCompile-4o12nn']
-  ignore line: [D:/CTOOLS/mingw32/bin/mingw32-make.exe  -f CMakeFiles\cmTC_5484a.dir\build.make CMakeFiles/cmTC_5484a.dir/build]
-  ignore line: [mingw32-make.exe[4]: Entering directory 'D:/gesture-controlled-car-with-gripper/nrf driver/build/elf2uf2/CMakeFiles/CMakeScratch/TryCompile-4o12nn']
-  ignore line: [Building CXX object CMakeFiles/cmTC_5484a.dir/CMakeCXXCompilerABI.cpp.obj]
-  ignore line: [D:\CTOOLS\mingw32\bin\c++.exe   -v -o CMakeFiles\cmTC_5484a.dir\CMakeCXXCompilerABI.cpp.obj -c D:\CMake\share\cmake-3.25\Modules\CMakeCXXCompilerABI.cpp]
+  ignore line: [Run Build Command(s):D:/CTOOLS/mingw32/bin/mingw32-make.exe -f Makefile cmTC_b7b2b/fast && mingw32-make.exe[3]: Entering directory 'D:/gesture-controlled-car-with-gripper/nrf sender/build/elf2uf2/CMakeFiles/CMakeScratch/TryCompile-hh989h']
+  ignore line: [D:/CTOOLS/mingw32/bin/mingw32-make.exe  -f CMakeFiles\cmTC_b7b2b.dir\build.make CMakeFiles/cmTC_b7b2b.dir/build]
+  ignore line: [mingw32-make.exe[4]: Entering directory 'D:/gesture-controlled-car-with-gripper/nrf sender/build/elf2uf2/CMakeFiles/CMakeScratch/TryCompile-hh989h']
+  ignore line: [Building CXX object CMakeFiles/cmTC_b7b2b.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: [D:\CTOOLS\mingw32\bin\c++.exe   -v -o CMakeFiles\cmTC_b7b2b.dir\CMakeCXXCompilerABI.cpp.obj -c D:\CMake\share\cmake-3.25\Modules\CMakeCXXCompilerABI.cpp]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=D:\CTOOLS\mingw32\bin\c++.exe]
   ignore line: [Target: i686-w64-mingw32]
   ignore line: [Configured with: ../gcc-9.2.0/configure --prefix=/mingw32 --with-local-prefix=/mingw32/local --build=i686-w64-mingw32 --host=i686-w64-mingw32 --target=i686-w64-mingw32 --with-native-system-header-dir=/mingw32/i686-w64-mingw32/include --libexecdir=/mingw32/lib --enable-bootstrap --with-arch=i686 --with-tune=generic --enable-languages=c,lto,c++,fortran,ada,objc,obj-c++ --enable-shared --enable-static --enable-libatomic --enable-threads=posix --enable-graphite --enable-fully-dynamic-string --enable-libstdcxx-filesystem-ts=yes --enable-libstdcxx-time=yes --disable-libstdcxx-pch --disable-libstdcxx-debug --disable-isl-version-check --enable-lto --enable-libgomp --disable-multilib --enable-checking=release --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --enable-plugin --with-libiconv --with-system-zlib --with-gmp=/mingw32 --with-mpfr=/mingw32 --with-mpc=/mingw32 --with-isl=/mingw32 --with-pkgversion='Rev2, Built by MSYS2 project' --with-bugurl=https://sourceforge.net/projects/msys2 --with-gnu-as --with-gnu-ld --disable-sjlj-exceptions --with-dwarf2]
   ignore line: [Thread model: posix]
   ignore line: [gcc version 9.2.0 (Rev2  Built by MSYS2 project) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_5484a.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=i686']
-  ignore line: [ D:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0/cc1plus.exe -quiet -v -iprefix D:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0/ -D_REENTRANT D:\CMake\share\cmake-3.25\Modules\CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=i686 -auxbase-strip CMakeFiles\cmTC_5484a.dir\CMakeCXXCompilerABI.cpp.obj -version -o C:\Users\Lenovo\AppData\Local\Temp\ccyjgs2s.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_b7b2b.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=i686']
+  ignore line: [ D:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0/cc1plus.exe -quiet -v -iprefix D:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0/ -D_REENTRANT D:\CMake\share\cmake-3.25\Modules\CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=i686 -auxbase-strip CMakeFiles\cmTC_b7b2b.dir\CMakeCXXCompilerABI.cpp.obj -version -o C:\Users\Lenovo\AppData\Local\Temp\cc2P8rXR.s]
   ignore line: [GNU C++14 (Rev2  Built by MSYS2 project) version 9.2.0 (i686-w64-mingw32)]
   ignore line: [	compiled by GNU C version 9.2.0  GMP version 6.1.2  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.21-GMP]
   ignore line: []
@@ -402,8 +402,8 @@ Parsed CXX implicit link information from above output:
   ignore line: []
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
   ignore line: [Compiler executable checksum: 334144a4f6835f688d1a3e23c4095b2b]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_5484a.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=i686']
-  ignore line: [ as -v -o CMakeFiles\cmTC_5484a.dir\CMakeCXXCompilerABI.cpp.obj C:\Users\Lenovo\AppData\Local\Temp\ccyjgs2s.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_b7b2b.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=i686']
+  ignore line: [ as -v -o CMakeFiles\cmTC_b7b2b.dir\CMakeCXXCompilerABI.cpp.obj C:\Users\Lenovo\AppData\Local\Temp\cc2P8rXR.s]
   ignore line: [GNU assembler version 2.33.1 (i686-w64-mingw32) using BFD version (GNU Binutils) 2.33.1]
   ignore line: [COMPILER_PATH=D:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0/]
   ignore line: [D:/CTOOLS/mingw32/bin/../lib/gcc/]
@@ -414,12 +414,12 @@ Parsed CXX implicit link information from above output:
   ignore line: [D:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0/../../../../lib/]
   ignore line: [D:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0/../../../../i686-w64-mingw32/lib/]
   ignore line: [D:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0/../../../]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_5484a.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=i686']
-  ignore line: [Linking CXX executable cmTC_5484a.exe]
-  ignore line: [D:\CMake\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_5484a.dir\link.txt --verbose=1]
-  ignore line: [D:\CMake\bin\cmake.exe -E rm -f CMakeFiles\cmTC_5484a.dir/objects.a]
-  ignore line: [D:\CTOOLS\mingw32\bin\ar.exe qc CMakeFiles\cmTC_5484a.dir/objects.a @CMakeFiles\cmTC_5484a.dir\objects1]
-  ignore line: [D:\CTOOLS\mingw32\bin\c++.exe  -v -Wl --whole-archive CMakeFiles\cmTC_5484a.dir/objects.a -Wl --no-whole-archive -o cmTC_5484a.exe -Wl --out-implib libcmTC_5484a.dll.a -Wl --major-image-version 0 --minor-image-version 0 ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_b7b2b.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=i686']
+  ignore line: [Linking CXX executable cmTC_b7b2b.exe]
+  ignore line: [D:\CMake\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_b7b2b.dir\link.txt --verbose=1]
+  ignore line: [D:\CMake\bin\cmake.exe -E rm -f CMakeFiles\cmTC_b7b2b.dir/objects.a]
+  ignore line: [D:\CTOOLS\mingw32\bin\ar.exe qc CMakeFiles\cmTC_b7b2b.dir/objects.a @CMakeFiles\cmTC_b7b2b.dir\objects1]
+  ignore line: [D:\CTOOLS\mingw32\bin\c++.exe  -v -Wl --whole-archive CMakeFiles\cmTC_b7b2b.dir/objects.a -Wl --no-whole-archive -o cmTC_b7b2b.exe -Wl --out-implib libcmTC_b7b2b.dll.a -Wl --major-image-version 0 --minor-image-version 0 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=D:\CTOOLS\mingw32\bin\c++.exe]
   ignore line: [COLLECT_LTO_WRAPPER=D:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0/lto-wrapper.exe]
@@ -436,13 +436,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [D:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0/../../../../lib/]
   ignore line: [D:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0/../../../../i686-w64-mingw32/lib/]
   ignore line: [D:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0/../../../]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_5484a.exe' '-shared-libgcc' '-mtune=generic' '-march=i686']
-  link line: [ D:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0/collect2.exe -plugin D:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0/liblto_plugin-0.dll -plugin-opt=D:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\Lenovo\AppData\Local\Temp\ccGn5uB2.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -m i386pe -Bdynamic -u ___register_frame_info -u ___deregister_frame_info -o cmTC_5484a.exe D:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0/../../../../i686-w64-mingw32/lib/../lib/crt2.o D:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0/crtbegin.o -LD:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0 -LD:/CTOOLS/mingw32/bin/../lib/gcc -LD:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0/../../../../i686-w64-mingw32/lib/../lib -LD:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0/../../../../lib -LD:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0/../../../../i686-w64-mingw32/lib -LD:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0/../../.. --whole-archive CMakeFiles\cmTC_5484a.dir/objects.a --no-whole-archive --out-implib libcmTC_5484a.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt D:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0/../../../../i686-w64-mingw32/lib/../lib/default-manifest.o D:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0/crtend.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b7b2b.exe' '-shared-libgcc' '-mtune=generic' '-march=i686']
+  link line: [ D:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0/collect2.exe -plugin D:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0/liblto_plugin-0.dll -plugin-opt=D:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\Lenovo\AppData\Local\Temp\cc3plFjc.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -m i386pe -Bdynamic -u ___register_frame_info -u ___deregister_frame_info -o cmTC_b7b2b.exe D:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0/../../../../i686-w64-mingw32/lib/../lib/crt2.o D:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0/crtbegin.o -LD:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0 -LD:/CTOOLS/mingw32/bin/../lib/gcc -LD:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0/../../../../i686-w64-mingw32/lib/../lib -LD:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0/../../../../lib -LD:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0/../../../../i686-w64-mingw32/lib -LD:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0/../../.. --whole-archive CMakeFiles\cmTC_b7b2b.dir/objects.a --no-whole-archive --out-implib libcmTC_b7b2b.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt D:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0/../../../../i686-w64-mingw32/lib/../lib/default-manifest.o D:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0/crtend.o]
     arg [D:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0/collect2.exe] ==> ignore
     arg [-plugin] ==> ignore
     arg [D:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0/liblto_plugin-0.dll] ==> ignore
     arg [-plugin-opt=D:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0/lto-wrapper.exe] ==> ignore
-    arg [-plugin-opt=-fresolution=C:\Users\Lenovo\AppData\Local\Temp\ccGn5uB2.res] ==> ignore
+    arg [-plugin-opt=-fresolution=C:\Users\Lenovo\AppData\Local\Temp\cc3plFjc.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
@@ -468,7 +468,7 @@ Parsed CXX implicit link information from above output:
     arg [-u] ==> ignore
     arg [___deregister_frame_info] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_5484a.exe] ==> ignore
+    arg [cmTC_b7b2b.exe] ==> ignore
     arg [D:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0/../../../../i686-w64-mingw32/lib/../lib/crt2.o] ==> obj [D:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0/../../../../i686-w64-mingw32/lib/../lib/crt2.o]
     arg [D:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0/crtbegin.o] ==> obj [D:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0/crtbegin.o]
     arg [-LD:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0] ==> dir [D:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0]
@@ -478,10 +478,10 @@ Parsed CXX implicit link information from above output:
     arg [-LD:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0/../../../../i686-w64-mingw32/lib] ==> dir [D:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0/../../../../i686-w64-mingw32/lib]
     arg [-LD:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0/../../..] ==> dir [D:/CTOOLS/mingw32/bin/../lib/gcc/i686-w64-mingw32/9.2.0/../../..]
     arg [--whole-archive] ==> ignore
-    arg [CMakeFiles\cmTC_5484a.dir/objects.a] ==> ignore
+    arg [CMakeFiles\cmTC_b7b2b.dir/objects.a] ==> ignore
     arg [--no-whole-archive] ==> ignore
     arg [--out-implib] ==> ignore
-    arg [libcmTC_5484a.dll.a] ==> ignore
+    arg [libcmTC_b7b2b.dll.a] ==> ignore
     arg [--major-image-version] ==> ignore
     arg [0] ==> ignore
     arg [--minor-image-version] ==> ignore
