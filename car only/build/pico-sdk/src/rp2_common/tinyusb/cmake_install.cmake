@@ -1,8 +1,8 @@
-# Install script for directory: /Users/omarahmed/Desktop/pico/pico-sdk/src/rp2_common/tinyusb
+# Install script for directory: D:/VSARM/sdk/pico/pico-sdk/src/rp2_common/tinyusb
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/usr/local")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/car")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -34,6 +34,6 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "/opt/homebrew/bin/arm-none-eabi-objdump")
+  set(CMAKE_OBJDUMP "D:/program files2/GNU TOOL CHAIN/12.3 rel1/bin/arm-none-eabi-objdump.exe")
 endif()
 

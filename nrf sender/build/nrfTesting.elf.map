@@ -1242,9 +1242,9 @@ Discarded input sections
  .text          0x00000000        0x0 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
  .data          0x00000000        0x0 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
  .bss           0x00000000        0x0 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
- .text          0x00000000        0x0 C:\Users\Lenovo\AppData\Local\Temp\cc31Rp1e.o
- .data          0x00000000        0x0 C:\Users\Lenovo\AppData\Local\Temp\cc31Rp1e.o
- .bss           0x00000000        0x0 C:\Users\Lenovo\AppData\Local\Temp\cc31Rp1e.o
+ .text          0x00000000        0x0 C:\Users\Lenovo\AppData\Local\Temp\ccEWwCVH.o
+ .data          0x00000000        0x0 C:\Users\Lenovo\AppData\Local\Temp\ccEWwCVH.o
+ .bss           0x00000000        0x0 C:\Users\Lenovo\AppData\Local\Temp\ccEWwCVH.o
  .data          0x00000000        0x0 d:/program files2/gnu tool chain/12.3 rel1/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
  .bss           0x00000000        0x0 d:/program files2/gnu tool chain/12.3 rel1/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
  .text          0x00000000        0x0 d:/program files2/gnu tool chain/12.3 rel1/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v6-m/nofp\libc.a(libc_a-calloc.o)
@@ -1563,7 +1563,7 @@ LOAD d:/program files2/gnu tool chain/12.3 rel1/bin/../lib/gcc/arm-none-eabi/12.
 .boot2          0x10000000      0x100
                 0x10000000                        __boot2_start__ = .
  *(.boot2)
- .boot2         0x10000000      0x100 C:\Users\Lenovo\AppData\Local\Temp\cc31Rp1e.o
+ .boot2         0x10000000      0x100 C:\Users\Lenovo\AppData\Local\Temp\ccEWwCVH.o
                 0x10000100                        __boot2_end__ = .
                 0x00000001                        ASSERT (((__boot2_end__ - __boot2_start__) == 0x100), ERROR: Pico second stage bootloader must be 256 bytes in size)
 
@@ -1634,602 +1634,603 @@ LOAD d:/program files2/gnu tool chain/12.3 rel1/bin/../lib/gcc/arm-none-eabi/12.
  .text.setup    0x10000308       0xa0 CMakeFiles/nrfTesting.dir/main.c.obj
                 0x10000308                setup
  .text.startup.main
-                0x100003a8      0x164 CMakeFiles/nrfTesting.dir/main.c.obj
+                0x100003a8      0x160 CMakeFiles/nrfTesting.dir/main.c.obj
                 0x100003a8                main
  .text.nrf_send_data
-                0x1000050c      0x164 CMakeFiles/nrfTesting.dir/Nrf.c.obj
-                0x1000050c                nrf_send_data
+                0x10000508      0x164 CMakeFiles/nrfTesting.dir/Nrf.c.obj
+                0x10000508                nrf_send_data
  .text.nrf_enable_dynamic_payload
-                0x10000670      0x108 CMakeFiles/nrfTesting.dir/Nrf.c.obj
-                0x10000670                nrf_enable_dynamic_payload
+                0x1000066c      0x108 CMakeFiles/nrfTesting.dir/Nrf.c.obj
+                0x1000066c                nrf_enable_dynamic_payload
  .text.nrf_init
-                0x10000778      0x224 CMakeFiles/nrfTesting.dir/Nrf.c.obj
-                0x10000778                nrf_init
+                0x10000774      0x224 CMakeFiles/nrfTesting.dir/Nrf.c.obj
+                0x10000774                nrf_init
  .text.nrf_configure_as_transmitter
-                0x1000099c       0x80 CMakeFiles/nrfTesting.dir/Nrf.c.obj
-                0x1000099c                nrf_configure_as_transmitter
+                0x10000998       0x80 CMakeFiles/nrfTesting.dir/Nrf.c.obj
+                0x10000998                nrf_configure_as_transmitter
  .text.gpio_set_function
-                0x10000a1c       0x30 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
-                0x10000a1c                gpio_set_function
+                0x10000a18       0x30 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+                0x10000a18                gpio_set_function
  .text.gpio_set_pulls
-                0x10000a4c       0x24 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
-                0x10000a4c                gpio_set_pulls
+                0x10000a48       0x24 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+                0x10000a48                gpio_set_pulls
  .text.gpio_set_input_enabled
-                0x10000a70       0x28 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
-                0x10000a70                gpio_set_input_enabled
+                0x10000a6c       0x28 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+                0x10000a6c                gpio_set_input_enabled
  .text.gpio_init
-                0x10000a98       0x3c CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
-                0x10000a98                gpio_init
+                0x10000a94       0x3c CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+                0x10000a94                gpio_init
  .text.running_on_fpga
-                0x10000ad4       0x10 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
-                0x10000ad4                running_on_fpga
+                0x10000ad0       0x10 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+                0x10000ad0                running_on_fpga
  .text.hw_claim_or_assert
-                0x10000ae4       0x44 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
-                0x10000ae4                hw_claim_or_assert
+                0x10000ae0       0x44 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+                0x10000ae0                hw_claim_or_assert
  .text.hw_claim_unused_from_range
-                0x10000b28       0x9c CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
-                0x10000b28                hw_claim_unused_from_range
+                0x10000b24       0x9c CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+                0x10000b24                hw_claim_unused_from_range
  .text.spin_locks_reset
-                0x10000bc4       0x1c CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
-                0x10000bc4                spin_locks_reset
+                0x10000bc0       0x1c CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+                0x10000bc0                spin_locks_reset
  .text.next_striped_spin_lock_num
-                0x10000be0       0x18 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
-                0x10000be0                next_striped_spin_lock_num
+                0x10000bdc       0x18 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+                0x10000bdc                next_striped_spin_lock_num
  .text.spin_lock_claim_unused
-                0x10000bf8       0x24 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
-                0x10000bf8                spin_lock_claim_unused
+                0x10000bf4       0x24 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+                0x10000bf4                spin_lock_claim_unused
  .text.irq_set_enabled
-                0x10000c1c       0x24 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x10000c1c                irq_set_enabled
+                0x10000c18       0x24 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x10000c18                irq_set_enabled
  .text.irq_set_pending
-                0x10000c40       0x10 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x10000c40                irq_set_pending
+                0x10000c3c       0x10 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x10000c3c                irq_set_pending
  .text.irq_has_shared_handler
-                0x10000c50       0x2c CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x10000c50                irq_has_shared_handler
+                0x10000c4c       0x2c CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x10000c4c                irq_has_shared_handler
  .text.irq_get_vtable_handler
-                0x10000c7c       0x10 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x10000c7c                irq_get_vtable_handler
+                0x10000c78       0x10 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x10000c78                irq_get_vtable_handler
  .text.irq_set_exclusive_handler
-                0x10000c8c       0x54 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x10000c8c                irq_set_exclusive_handler
+                0x10000c88       0x54 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x10000c88                irq_set_exclusive_handler
  .text.irq_add_shared_handler
-                0x10000ce0      0x1e0 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x10000ce0                irq_add_shared_handler
+                0x10000cdc      0x1e0 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x10000cdc                irq_add_shared_handler
  .text.irq_remove_handler
-                0x10000ec0      0x1c4 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x10000ec0                irq_remove_handler
+                0x10000ebc      0x1c4 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x10000ebc                irq_remove_handler
  .text.irq_add_tail_to_free_list
-                0x10001084       0xb4 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x10001084                irq_add_tail_to_free_list
+                0x10001080       0xb4 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x10001080                irq_add_tail_to_free_list
  .text.irq_init_priorities
-                0x10001138       0x24 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x10001138                irq_init_priorities
+                0x10001134       0x24 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x10001134                irq_init_priorities
  .text.user_irq_claim_unused
-                0x1000115c       0x2c CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x1000115c                user_irq_claim_unused
+                0x10001158       0x2c CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x10001158                user_irq_claim_unused
  .text.lock_init
-                0x10001188       0x10 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
-                0x10001188                lock_init
+                0x10001184       0x10 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
+                0x10001184                lock_init
  .text.mutex_init
-                0x10001198       0x1c CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
-                0x10001198                mutex_init
+                0x10001194       0x1c CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+                0x10001194                mutex_init
  .text.recursive_mutex_init
-                0x100011b4       0x1c CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
-                0x100011b4                recursive_mutex_init
+                0x100011b0       0x1c CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+                0x100011b0                recursive_mutex_init
  .text.critical_section_init
-                0x100011d0       0x1c CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
-                0x100011d0                critical_section_init
+                0x100011cc       0x1c CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
+                0x100011cc                critical_section_init
  .text.critical_section_init_with_lock_num
-                0x100011ec       0x14 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
-                0x100011ec                critical_section_init_with_lock_num
+                0x100011e8       0x14 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
+                0x100011e8                critical_section_init_with_lock_num
  .text.timer_pool_entry_comparator
-                0x10001200       0x34 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x10001200                timer_pool_entry_comparator
+                0x100011fc       0x34 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x100011fc                timer_pool_entry_comparator
  .text.sleep_until_callback
-                0x10001234       0x30 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x10001230       0x30 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
  .text.add_alarm_under_lock.isra.0
-                0x10001264       0xf8 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x10001260       0xf8 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
  .text.alarm_pool_alarm_callback
-                0x1000135c      0x1c0 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x10001358      0x1c0 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
  .text.alarm_pool_init_default
-                0x1000151c       0x6c CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x1000151c                alarm_pool_init_default
+                0x10001518       0x6c CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x10001518                alarm_pool_init_default
  .text.alarm_pool_get_default
-                0x10001588        0x8 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x10001588                alarm_pool_get_default
+                0x10001584        0x8 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x10001584                alarm_pool_get_default
  .text.alarm_pool_add_alarm_at
-                0x10001590      0x17c CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x10001590                alarm_pool_add_alarm_at
+                0x1000158c      0x17c CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x1000158c                alarm_pool_add_alarm_at
  .text.alarm_pool_core_num
-                0x1000170c        0x4 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x1000170c                alarm_pool_core_num
+                0x10001708        0x4 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x10001708                alarm_pool_core_num
  .text.sleep_until
-                0x10001710       0xc4 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x10001710                sleep_until
+                0x1000170c       0xc4 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x1000170c                sleep_until
  .text.sleep_us
-                0x100017d4       0x28 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x100017d4                sleep_us
+                0x100017d0       0x28 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x100017d0                sleep_us
  .text.sleep_ms
-                0x100017fc       0x38 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x100017fc                sleep_ms
+                0x100017f8       0x38 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x100017f8                sleep_ms
  .text.best_effort_wfe_or_timeout
-                0x10001834       0xcc CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x10001834                best_effort_wfe_or_timeout
+                0x10001830       0xcc CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x10001830                best_effort_wfe_or_timeout
  .text.hardware_alarm_irq_handler
-                0x10001900       0xbc CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x100018fc       0xbc CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
  .text.hardware_alarm_claim
-                0x100019bc       0x18 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x100019bc                hardware_alarm_claim
+                0x100019b8       0x18 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x100019b8                hardware_alarm_claim
  .text.time_us_64
-                0x100019d4       0x14 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x100019d4                time_us_64
+                0x100019d0       0x14 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x100019d0                time_us_64
  .text.busy_wait_until
-                0x100019e8       0x20 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x100019e8                busy_wait_until
+                0x100019e4       0x20 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x100019e4                busy_wait_until
  .text.hardware_alarm_set_callback
-                0x10001a08       0x8c CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x10001a08                hardware_alarm_set_callback
+                0x10001a04       0x8c CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x10001a04                hardware_alarm_set_callback
  .text.hardware_alarm_set_target
-                0x10001a94       0xd0 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x10001a94                hardware_alarm_set_target
+                0x10001a90       0xd0 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x10001a90                hardware_alarm_set_target
  .text.hardware_alarm_cancel
-                0x10001b64       0x3c CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x10001b64                hardware_alarm_cancel
+                0x10001b60       0x3c CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x10001b60                hardware_alarm_cancel
  .text.ph_merge_nodes
-                0x10001ba0       0x58 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x10001b9c       0x58 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/pheap.c.obj
  .text.ph_post_alloc_init
-                0x10001bf8       0x3c CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/pheap.c.obj
-                0x10001bf8                ph_post_alloc_init
+                0x10001bf4       0x3c CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x10001bf4                ph_post_alloc_init
  .text.ph_merge_two_pass
-                0x10001c34       0x8c CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/pheap.c.obj
-                0x10001c34                ph_merge_two_pass
+                0x10001c30       0x8c CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x10001c30                ph_merge_two_pass
  .text.ph_remove_any_head
-                0x10001cc0      0x100 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x10001cbc      0x100 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/pheap.c.obj
  .text.ph_remove_head
-                0x10001dc0      0x104 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/pheap.c.obj
-                0x10001dc0                ph_remove_head
+                0x10001dbc      0x104 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x10001dbc                ph_remove_head
  .text.ph_remove_and_free_node
-                0x10001ec4       0x78 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/pheap.c.obj
-                0x10001ec4                ph_remove_and_free_node
+                0x10001ec0       0x78 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x10001ec0                ph_remove_and_free_node
  .text.clocks_init
-                0x10001f3c      0x2c8 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
-                0x10001f3c                clocks_init
+                0x10001f38      0x2c8 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+                0x10001f38                clocks_init
  .text.clock_get_hz
-                0x10002204        0xc CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
-                0x10002204                clock_get_hz
+                0x10002200        0xc CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+                0x10002200                clock_get_hz
  .text.pll_init
-                0x10002210       0xa0 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
-                0x10002210                pll_init
+                0x1000220c       0xa0 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+                0x1000220c                pll_init
  .text.watchdog_start_tick
-                0x100022b0       0x10 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
-                0x100022b0                watchdog_start_tick
+                0x100022ac       0x10 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+                0x100022ac                watchdog_start_tick
  .text.watchdog_reboot
-                0x100022c0       0x9c CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
-                0x100022c0                watchdog_reboot
+                0x100022bc       0x9c CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+                0x100022bc                watchdog_reboot
  .text.xosc_init
-                0x1000235c       0x28 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
-                0x1000235c                xosc_init
+                0x10002358       0x28 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+                0x10002358                xosc_init
  .text.runtime_init
-                0x10002384       0xec CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x10002384                runtime_init
- .text._exit    0x10002470        0x4 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x10002470                _exit
- .text.exit     0x10002474        0x8 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x10002474                exit
- .text.panic    0x1000247c       0x30 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x1000247c                panic
+                0x10002380       0xec CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x10002380                runtime_init
+ .text._exit    0x1000246c        0x4 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x1000246c                _exit
+ .text.exit     0x10002470        0x8 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x10002470                exit
+ .text.panic    0x10002478       0x30 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x10002478                panic
  .text.hard_assertion_failure
-                0x100024ac        0xc CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x100024ac                hard_assertion_failure
+                0x100024a8        0xc CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x100024a8                hard_assertion_failure
  .text._out_null
-                0x100024b8        0x4 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x100024b4        0x4 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text._out_rev
-                0x100024bc       0x90 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x100024b8       0x90 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text._ntoa_format
-                0x1000254c      0x208 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x10002548      0x208 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text._out_char
-                0x10002754       0x10 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x10002750       0x10 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text._out_fct
-                0x10002764       0x10 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .text._etoa    0x10002774      0x464 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .text._ftoa    0x10002bd8      0x3c4 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x10002760       0x10 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .text._etoa    0x10002770      0x464 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .text._ftoa    0x10002bd4      0x3c4 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text._vsnprintf
-                0x10002f9c      0xc18 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x10002f98      0xc18 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text.vfctprintf
-                0x10003bb4       0x20 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
-                0x10003bb4                vfctprintf
+                0x10003bb0       0x20 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x10003bb0                vfctprintf
  .text.weak_raw_vprintf
-                0x10003bd4       0x30 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
-                0x10003bd4                weak_raw_vprintf
- .text          0x10003c04       0x10 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+                0x10003bd0       0x30 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x10003bd0                weak_raw_vprintf
+ .text          0x10003c00       0x10 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
  .text.rom_func_lookup
-                0x10003c14       0x10 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
-                0x10003c14                rom_func_lookup
+                0x10003c10       0x10 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x10003c10                rom_func_lookup
  .text.rom_data_lookup
-                0x10003c24       0x10 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
-                0x10003c24                rom_data_lookup
+                0x10003c20       0x10 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x10003c20                rom_data_lookup
  .text.rom_funcs_lookup
-                0x10003c34       0x44 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
-                0x10003c34                rom_funcs_lookup
+                0x10003c30       0x44 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x10003c30                rom_funcs_lookup
  .text.__wrap___aeabi_idiv
-                0x10003c78       0x50 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
-                0x10003c78                __wrap___aeabi_idivmod
-                0x10003c78                divmod_s32s32
-                0x10003c78                div_s32s32
-                0x10003c78                __wrap___aeabi_idiv
-                0x10003c80                divmod_s32s32_unsafe
-                0x10003cac                divmod_s32s32_savestate
+                0x10003c74       0x50 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+                0x10003c74                __wrap___aeabi_idivmod
+                0x10003c74                divmod_s32s32
+                0x10003c74                div_s32s32
+                0x10003c74                __wrap___aeabi_idiv
+                0x10003c7c                divmod_s32s32_unsafe
+                0x10003ca8                divmod_s32s32_savestate
  .text.__wrap___aeabi_uidiv
-                0x10003cc8       0x4c CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
-                0x10003cc8                __wrap___aeabi_uidiv
-                0x10003cc8                __wrap___aeabi_uidivmod
-                0x10003cc8                div_u32u32
-                0x10003cc8                divmod_u32u32
-                0x10003cd0                divmod_u32u32_unsafe
-                0x10003cf8                divmod_u32u32_savestate
+                0x10003cc4       0x4c CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+                0x10003cc4                __wrap___aeabi_uidiv
+                0x10003cc4                __wrap___aeabi_uidivmod
+                0x10003cc4                div_u32u32
+                0x10003cc4                divmod_u32u32
+                0x10003ccc                divmod_u32u32_unsafe
+                0x10003cf4                divmod_u32u32_savestate
  .text.__wrap___aeabi_ldiv
-                0x10003d14      0x424 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
-                0x10003d14                div_s64s64
-                0x10003d14                divmod_s64s64
-                0x10003d14                __wrap___aeabi_ldivmod
-                0x10003d44                divmod_u64u64
-                0x10003d44                div_u64u64
-                0x10003d44                __wrap___aeabi_uldivmod
-                0x10003d54                divmod_u64u64_savestate
-                0x10003d74                divmod_s64s64_unsafe
-                0x10003dfc                divmod_u64u64_unsafe
+                0x10003d10      0x424 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+                0x10003d10                div_s64s64
+                0x10003d10                divmod_s64s64
+                0x10003d10                __wrap___aeabi_ldivmod
+                0x10003d40                divmod_u64u64
+                0x10003d40                div_u64u64
+                0x10003d40                __wrap___aeabi_uldivmod
+                0x10003d50                divmod_u64u64_savestate
+                0x10003d70                divmod_s64s64_unsafe
+                0x10003df8                divmod_u64u64_unsafe
  .text.__wrap___aeabi_darithmetic
-                0x10004138       0x80 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x10004138                __wrap___aeabi_drsub
-                0x1000413e                __wrap___aeabi_dsub
-                0x10004150                __wrap___aeabi_dadd
-                0x10004162                __wrap___aeabi_ddiv
-                0x1000419e                __wrap___aeabi_dmul
+                0x10004134       0x80 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x10004134                __wrap___aeabi_drsub
+                0x1000413a                __wrap___aeabi_dsub
+                0x1000414c                __wrap___aeabi_dadd
+                0x1000415e                __wrap___aeabi_ddiv
+                0x1000419a                __wrap___aeabi_dmul
  .text.__wrap___aeabi_cdcmple
-                0x100041b8       0x6c CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x100041b8                __wrap___aeabi_cdrcmple
-                0x100041c8                __wrap___aeabi_cdcmpeq
-                0x100041c8                __wrap___aeabi_cdcmple
+                0x100041b4       0x6c CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x100041b4                __wrap___aeabi_cdrcmple
+                0x100041c4                __wrap___aeabi_cdcmpeq
+                0x100041c4                __wrap___aeabi_cdcmple
  .text.__wrap___aeabi_dcmplt
-                0x10004224        0xc CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x10004224                __wrap___aeabi_dcmplt
+                0x10004220        0xc CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x10004220                __wrap___aeabi_dcmplt
  .text.__wrap___aeabi_dcmpge
-                0x10004230       0x10 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x10004230                __wrap___aeabi_dcmpge
+                0x1000422c       0x10 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x1000422c                __wrap___aeabi_dcmpge
  .text.__wrap___aeabi_dcmpgt
-                0x10004240        0xa CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x10004240                __wrap___aeabi_dcmpgt
+                0x1000423c        0xa CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x1000423c                __wrap___aeabi_dcmpgt
  .text.__wrap___aeabi_dcmpun
-                0x1000424a       0x1c CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x1000424a                __wrap___aeabi_dcmpun
- *fill*         0x10004266        0x2 
+                0x10004246       0x1c CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x10004246                __wrap___aeabi_dcmpun
+ *fill*         0x10004262        0x2 
  .text.__wrap___aeabi_i2d
-                0x10004268       0x38 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x10004268                __wrap___aeabi_ui2d
-                0x10004270                __wrap___aeabi_i2d
+                0x10004264       0x38 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x10004264                __wrap___aeabi_ui2d
+                0x1000426c                __wrap___aeabi_i2d
  .text.__wrap___aeabi_d2iz
-                0x100042a0       0x48 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x100042a0                double2int_z
-                0x100042a0                __wrap___aeabi_d2iz
+                0x1000429c       0x48 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x1000429c                double2int_z
+                0x1000429c                __wrap___aeabi_d2iz
  .text.__wrap___aeabi_d2uiz
-                0x100042e8       0x18 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x100042e8                __wrap___aeabi_d2uiz
-                0x100042e8                double2uint
+                0x100042e4       0x18 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x100042e4                __wrap___aeabi_d2uiz
+                0x100042e4                double2uint
  .text.__aeabi_double_init
-                0x10004300       0x98 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
-                0x10004300                __aeabi_double_init
+                0x100042fc       0x98 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+                0x100042fc                __aeabi_double_init
  .text.double_table_shim_on_use_helper
-                0x10004398       0x2c CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x10004398                double_table_shim_on_use_helper
+                0x10004394       0x2c CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x10004394                double_table_shim_on_use_helper
  .text.__wrap___aeabi_dsub
-                0x100043c4       0x10 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x100043c4                drsub_shim
-                0x100043ca                dsub_shim
+                0x100043c0       0x10 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x100043c0                drsub_shim
+                0x100043c6                dsub_shim
  .text.dadd_shim
-                0x100043d4      0x15c CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x100043d4                dadd_shim
+                0x100043d0      0x15c CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x100043d0                dadd_shim
  .text.dmul_shim
-                0x10004530      0x15c CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x10004530                dmul_shim
+                0x1000452c      0x15c CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x1000452c                dmul_shim
  .text.ddiv_shim
-                0x1000468c      0x1b0 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x1000468c                ddiv_shim
+                0x10004688      0x1b0 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x10004688                ddiv_shim
  .text.double2uint_shim
-                0x1000483c        0xe CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x1000483c                double2uint_shim
-                0x1000483e                double2ufix_shim
- *fill*         0x1000484a        0x2 
+                0x10004838        0xe CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x10004838                double2uint_shim
+                0x1000483a                double2ufix_shim
+ *fill*         0x10004846        0x2 
  .text.double2uint64_shim
-                0x1000484c       0x70 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x1000484c                double2uint64_shim
-                0x1000484e                double2ufix64_shim
-                0x1000486e                d2fix_a
+                0x10004848       0x70 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x10004848                double2uint64_shim
+                0x1000484a                double2ufix64_shim
+                0x1000486a                d2fix_a
  .text.dunpacks
-                0x100048bc       0x3c CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x100048bc                dunpacks
+                0x100048b8       0x3c CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x100048b8                dunpacks
  .text.__aeabi_lmul
-                0x100048f8       0x32 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
-                0x100048f8                __wrap___aeabi_lmul
- *fill*         0x1000492a        0x2 
+                0x100048f4       0x32 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+                0x100048f4                __wrap___aeabi_lmul
+ *fill*         0x10004926        0x2 
  .text.__aeabi_float_init
-                0x1000492c       0x64 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
-                0x1000492c                __aeabi_float_init
+                0x10004928       0x64 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+                0x10004928                __aeabi_float_init
  .text.float_table_shim_on_use_helper
-                0x10004990       0x2c CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
-                0x10004990                float_table_shim_on_use_helper
- .text          0x100049bc       0x10 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-                0x100049bc                __aeabi_mem_init
- .text.memset   0x100049cc        0xc CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-                0x100049cc                __wrap_memset
- .text.memcpy   0x100049d8        0xc CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-                0x100049d8                __wrap_memcpy
-                0x100049d8                __wrap___aeabi_memcpy
+                0x1000498c       0x2c CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
+                0x1000498c                float_table_shim_on_use_helper
+ .text          0x100049b8       0x10 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+                0x100049b8                __aeabi_mem_init
+ .text.memset   0x100049c8        0xc CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+                0x100049c8                __wrap_memset
+ .text.memcpy   0x100049d4        0xc CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+                0x100049d4                __wrap_memcpy
+                0x100049d4                __wrap___aeabi_memcpy
  .text.stdio_out_chars_crlf
-                0x100049e4       0x94 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x100049e0       0x94 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .text.stdio_buffered_printer
-                0x10004a78       0x64 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x10004a74       0x64 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .text.__wrap_putchar
-                0x10004adc       0x98 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x10004adc                __wrap_putchar
+                0x10004ad8       0x98 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x10004ad8                __wrap_putchar
  .text.__wrap_puts
-                0x10004b74       0xe0 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x10004b74                __wrap_puts
+                0x10004b70       0xe0 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x10004b70                __wrap_puts
  .text.stdio_set_driver_enabled
-                0x10004c54       0x30 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x10004c54                stdio_set_driver_enabled
+                0x10004c50       0x30 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x10004c50                stdio_set_driver_enabled
  .text.__wrap_vprintf
-                0x10004c84       0xd4 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x10004c84                __wrap_vprintf
+                0x10004c80       0xd4 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x10004c80                __wrap_vprintf
  .text.__wrap_printf
-                0x10004d58       0x18 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x10004d58                __wrap_printf
+                0x10004d54       0x18 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x10004d54                __wrap_printf
  .text.stdio_init_all
-                0x10004d70        0x8 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x10004d70                stdio_init_all
+                0x10004d6c        0x8 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x10004d6c                stdio_init_all
  .text.resetd_init
-                0x10004d78        0x4 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                0x10004d74        0x4 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
  .text.resetd_reset
-                0x10004d7c        0xc CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                0x10004d78        0xc CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
  .text.resetd_open
-                0x10004d88       0x28 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                0x10004d84       0x28 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
  .text.resetd_xfer_cb
-                0x10004db0        0x4 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                0x10004dac        0x4 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
  .text.resetd_control_xfer_cb
-                0x10004db4       0x60 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                0x10004db0       0x60 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
  .text.usbd_app_driver_get_cb
-                0x10004e14        0xc CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
-                0x10004e14                usbd_app_driver_get_cb
+                0x10004e10        0xc CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                0x10004e10                usbd_app_driver_get_cb
  .text.tud_cdc_line_coding_cb
-                0x10004e20       0x34 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
-                0x10004e20                tud_cdc_line_coding_cb
+                0x10004e1c       0x34 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                0x10004e1c                tud_cdc_line_coding_cb
  .text.stdio_usb_set_chars_available_callback
-                0x10004e54       0x14 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
-                0x10004e54                stdio_usb_set_chars_available_callback
- .text.usb_irq  0x10004e68       0x10 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x10004e50       0x14 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x10004e50                stdio_usb_set_chars_available_callback
+ .text.usb_irq  0x10004e64       0x10 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
  .text.timer_task
-                0x10004e78       0x54 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x10004e74       0x54 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
  .text.stdio_usb_in_chars
-                0x10004ecc       0x90 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
-                0x10004ecc                stdio_usb_in_chars
+                0x10004ec8       0x90 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x10004ec8                stdio_usb_in_chars
  .text.stdio_usb_out_chars
-                0x10004f5c      0x104 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x10004f58      0x104 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
  .text.low_priority_worker_irq
-                0x10005060       0xa8 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x1000505c       0xa8 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
  .text.tud_cdc_rx_cb
-                0x10005108       0x20 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
-                0x10005108                tud_cdc_rx_cb
+                0x10005104       0x20 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x10005104                tud_cdc_rx_cb
  .text.stdio_usb_init
-                0x10005128       0xe0 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
-                0x10005128                stdio_usb_init
+                0x10005124       0xe0 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x10005124                stdio_usb_init
  .text.tud_descriptor_device_cb
-                0x10005208        0x8 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
-                0x10005208                tud_descriptor_device_cb
+                0x10005204        0x8 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+                0x10005204                tud_descriptor_device_cb
  .text.tud_descriptor_configuration_cb
-                0x10005210        0x8 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
-                0x10005210                tud_descriptor_configuration_cb
+                0x1000520c        0x8 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+                0x1000520c                tud_descriptor_configuration_cb
  .text.tud_descriptor_string_cb
-                0x10005218       0x78 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
-                0x10005218                tud_descriptor_string_cb
+                0x10005214       0x78 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+                0x10005214                tud_descriptor_string_cb
  .text.startup._retrieve_unique_id_on_boot
-                0x10005290       0x10 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
+                0x1000528c       0x10 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
  .text.pico_get_unique_board_id_string
-                0x100052a0      0x1a8 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
-                0x100052a0                pico_get_unique_board_id_string
+                0x1000529c      0x1a8 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
+                0x1000529c                pico_get_unique_board_id_string
  .text.flash_get_unique_id
-                0x10005448       0x40 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
-                0x10005448                flash_get_unique_id
+                0x10005444       0x40 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
+                0x10005444                flash_get_unique_id
  .text.dcd_int_enable
-                0x10005488        0xc CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x10005488                dcd_int_enable
+                0x10005484        0xc CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x10005484                dcd_int_enable
  .text.dcd_set_address
-                0x10005494       0x14 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x10005494                dcd_set_address
+                0x10005490       0x14 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x10005490                dcd_set_address
  .text.dcd_connect
-                0x100054a8       0x10 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x100054a8                dcd_connect
+                0x100054a4       0x10 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x100054a4                dcd_connect
  .text.dcd_init
-                0x100054b8       0x98 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x100054b8                dcd_init
+                0x100054b4       0x98 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x100054b4                dcd_init
  .text.dcd_edpt0_status_complete
-                0x10005550       0x1c CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x10005550                dcd_edpt0_status_complete
+                0x1000554c       0x1c CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x1000554c                dcd_edpt0_status_complete
  .text.dcd_edpt_open
-                0x1000556c      0x108 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x1000556c                dcd_edpt_open
+                0x10005568      0x108 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x10005568                dcd_edpt_open
  .text.dcd_edpt_close_all
-                0x10005674        0x8 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x10005674                dcd_edpt_close_all
+                0x10005670        0x8 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x10005670                dcd_edpt_close_all
  .text.dcd_edpt_xfer
-                0x1000567c       0x24 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x1000567c                dcd_edpt_xfer
+                0x10005678       0x24 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x10005678                dcd_edpt_xfer
  .text.dcd_edpt_stall
-                0x100056a0       0x34 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x100056a0                dcd_edpt_stall
+                0x1000569c       0x34 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x1000569c                dcd_edpt_stall
  .text.dcd_edpt_clear_stall
-                0x100056d4       0x30 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x100056d4                dcd_edpt_clear_stall
+                0x100056d0       0x30 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x100056d0                dcd_edpt_clear_stall
  .text.rp2040_usb_init
-                0x10005704       0x4c CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
-                0x10005704                rp2040_usb_init
+                0x10005700       0x4c CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+                0x10005700                rp2040_usb_init
  .text.hw_endpoint_xfer_start
-                0x10005750       0x40 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
-                0x10005750                hw_endpoint_xfer_start
+                0x1000574c       0x40 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+                0x1000574c                hw_endpoint_xfer_start
  .text.tud_mounted
-                0x10005790       0x10 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x10005790                tud_mounted
+                0x1000578c       0x10 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x1000578c                tud_mounted
  .text.tud_suspended
-                0x100057a0       0x10 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x100057a0                tud_suspended
+                0x1000579c       0x10 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x1000579c                tud_suspended
  .text.tud_inited
-                0x100057b0       0x14 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x100057b0                tud_inited
+                0x100057ac       0x14 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x100057ac                tud_inited
  .text.tud_init
-                0x100057c4       0xd8 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x100057c4                tud_init
+                0x100057c0       0xd8 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x100057c0                tud_init
  .text.tud_task_ext
-                0x1000589c      0x8a4 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x1000589c                tud_task_ext
+                0x10005898      0x8a4 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x10005898                tud_task_ext
  .text.usbd_open_edpt_pair
-                0x10006140       0x9c CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x10006140                usbd_open_edpt_pair
+                0x1000613c       0x9c CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x1000613c                usbd_open_edpt_pair
  .text.usbd_defer_func
-                0x100061dc       0x48 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x100061dc                usbd_defer_func
+                0x100061d8       0x48 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x100061d8                usbd_defer_func
  .text.usbd_edpt_open
-                0x10006224       0x34 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x10006224                usbd_edpt_open
+                0x10006220       0x34 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x10006220                usbd_edpt_open
  .text.usbd_edpt_claim
-                0x10006258       0x28 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x10006258                usbd_edpt_claim
+                0x10006254       0x28 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x10006254                usbd_edpt_claim
  .text.usbd_edpt_release
-                0x10006280       0x28 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x10006280                usbd_edpt_release
+                0x1000627c       0x28 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x1000627c                usbd_edpt_release
  .text.usbd_edpt_xfer
-                0x100062a8       0x4c CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x100062a8                usbd_edpt_xfer
+                0x100062a4       0x4c CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x100062a4                usbd_edpt_xfer
  .text.tud_control_status
-                0x100062f4       0x2c CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
-                0x100062f4                tud_control_status
+                0x100062f0       0x2c CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+                0x100062f0                tud_control_status
  .text.tud_control_xfer
-                0x10006320       0xac CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
-                0x10006320                tud_control_xfer
+                0x1000631c       0xac CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+                0x1000631c                tud_control_xfer
  .text.usbd_control_reset
-                0x100063cc       0x14 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
-                0x100063cc                usbd_control_reset
+                0x100063c8       0x14 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+                0x100063c8                usbd_control_reset
  .text.usbd_control_set_complete_callback
-                0x100063e0        0xc CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
-                0x100063e0                usbd_control_set_complete_callback
+                0x100063dc        0xc CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+                0x100063dc                usbd_control_set_complete_callback
  .text.usbd_control_set_request
-                0x100063ec       0x1c CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
-                0x100063ec                usbd_control_set_request
+                0x100063e8       0x1c CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+                0x100063e8                usbd_control_set_request
  .text.usbd_control_xfer_cb
-                0x10006408       0xf4 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
-                0x10006408                usbd_control_xfer_cb
+                0x10006404       0xf4 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+                0x10006404                usbd_control_xfer_cb
  .text.tud_cdc_n_connected
-                0x100064fc       0x30 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x100064fc                tud_cdc_n_connected
+                0x100064f8       0x30 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x100064f8                tud_cdc_n_connected
  .text.tud_cdc_n_available
-                0x1000652c       0x18 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x1000652c                tud_cdc_n_available
+                0x10006528       0x18 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x10006528                tud_cdc_n_available
  .text.tud_cdc_n_read
-                0x10006544       0x70 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x10006544                tud_cdc_n_read
+                0x10006540       0x70 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x10006540                tud_cdc_n_read
  .text.tud_cdc_n_write_flush
-                0x100065b4       0x78 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x100065b4                tud_cdc_n_write_flush
+                0x100065b0       0x78 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x100065b0                tud_cdc_n_write_flush
  .text.tud_cdc_n_write
-                0x1000662c       0x34 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x1000662c                tud_cdc_n_write
+                0x10006628       0x34 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x10006628                tud_cdc_n_write
  .text.tud_cdc_n_write_available
-                0x10006660       0x18 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x10006660                tud_cdc_n_write_available
+                0x1000665c       0x18 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x1000665c                tud_cdc_n_write_available
  .text.cdcd_init
-                0x10006678       0x7c CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x10006678                cdcd_init
+                0x10006674       0x7c CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x10006674                cdcd_init
  .text.cdcd_reset
-                0x100066f4       0x2c CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x100066f4                cdcd_reset
+                0x100066f0       0x2c CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x100066f0                cdcd_reset
  .text.cdcd_open
-                0x10006720       0xe4 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x10006720                cdcd_open
+                0x1000671c       0xe4 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x1000671c                cdcd_open
  .text.cdcd_control_xfer_cb
-                0x10006804       0xe4 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x10006804                cdcd_control_xfer_cb
+                0x10006800       0xe4 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x10006800                cdcd_control_xfer_cb
  .text.cdcd_xfer_cb
-                0x100068e8      0x13c CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x100068e8                cdcd_xfer_cb
+                0x100068e4      0x13c CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x100068e4                cdcd_xfer_cb
  .text.tusb_init
-                0x10006a24        0xc CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
-                0x10006a24                tusb_init
+                0x10006a20        0xc CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
+                0x10006a20                tusb_init
  .text.tusb_inited
-                0x10006a30        0x8 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
-                0x10006a30                tusb_inited
+                0x10006a2c        0x8 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
+                0x10006a2c                tusb_inited
  .text.tu_edpt_claim
-                0x10006a38       0x50 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
-                0x10006a38                tu_edpt_claim
+                0x10006a34       0x50 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
+                0x10006a34                tu_edpt_claim
  .text.tu_edpt_release
-                0x10006a88       0x38 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
-                0x10006a88                tu_edpt_release
+                0x10006a84       0x38 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
+                0x10006a84                tu_edpt_release
  .text.tu_edpt_validate
-                0x10006ac0       0x7c CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
-                0x10006ac0                tu_edpt_validate
+                0x10006abc       0x7c CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
+                0x10006abc                tu_edpt_validate
  .text.tu_edpt_bind_driver
-                0x10006b3c       0x34 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
-                0x10006b3c                tu_edpt_bind_driver
+                0x10006b38       0x34 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
+                0x10006b38                tu_edpt_bind_driver
  .text.tu_fifo_config
-                0x10006b70       0x6c CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x10006b70                tu_fifo_config
+                0x10006b6c       0x6c CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x10006b6c                tu_fifo_config
  .text.tu_fifo_count
-                0x10006bdc       0x2c CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x10006bdc                tu_fifo_count
+                0x10006bd8       0x2c CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x10006bd8                tu_fifo_count
  .text.tu_fifo_empty
-                0x10006c08       0x10 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x10006c08                tu_fifo_empty
+                0x10006c04       0x10 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x10006c04                tu_fifo_empty
  .text.tu_fifo_remaining
-                0x10006c18       0x2c CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x10006c18                tu_fifo_remaining
+                0x10006c14       0x2c CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x10006c14                tu_fifo_remaining
  .text.tu_fifo_read
-                0x10006c44       0x9c CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x10006c44                tu_fifo_read
+                0x10006c40       0x9c CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x10006c40                tu_fifo_read
  .text.tu_fifo_read_n
-                0x10006ce0       0xe8 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x10006ce0                tu_fifo_read_n
+                0x10006cdc       0xe8 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x10006cdc                tu_fifo_read_n
  .text.tu_fifo_write
-                0x10006dc8       0x88 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x10006dc8                tu_fifo_write
+                0x10006dc4       0x88 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x10006dc4                tu_fifo_write
  .text.tu_fifo_write_n
-                0x10006e50      0x178 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x10006e50                tu_fifo_write_n
+                0x10006e4c      0x178 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x10006e4c                tu_fifo_write_n
  .text.tu_fifo_clear
-                0x10006fc8       0x40 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x10006fc8                tu_fifo_clear
+                0x10006fc4       0x40 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x10006fc4                tu_fifo_clear
  .text.tu_fifo_set_overwritable
-                0x10007008       0x48 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x10007008                tu_fifo_set_overwritable
+                0x10007004       0x48 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x10007004                tu_fifo_set_overwritable
  .text.spi_init
-                0x10007050      0x150 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj
-                0x10007050                spi_init
+                0x1000704c      0x150 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj
+                0x1000704c                spi_init
  .text.i2c_set_baudrate
-                0x100071a0       0xc4 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
-                0x100071a0                i2c_set_baudrate
+                0x1000719c       0xc4 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
+                0x1000719c                i2c_set_baudrate
  .text.i2c_init
-                0x10007264       0x54 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
-                0x10007264                i2c_init
+                0x10007260       0x54 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
+                0x10007260                i2c_init
  .text.i2c_write_blocking
-                0x100072b8       0xd0 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
-                0x100072b8                i2c_write_blocking
+                0x100072b4       0xd0 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
+                0x100072b4                i2c_write_blocking
  .text.i2c_read_blocking
-                0x10007388       0x90 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
-                0x10007388                i2c_read_blocking
+                0x10007384       0x90 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
+                0x10007384                i2c_read_blocking
  .text.adc_init
-                0x10007418       0x38 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
-                0x10007418                adc_init
- .text.strlen   0x10007450       0x5c d:/program files2/gnu tool chain/12.3 rel1/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v6-m/nofp\libc.a(libc_a-strlen-stub.o)
-                0x10007450                strlen
+                0x10007414       0x38 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
+                0x10007414                adc_init
+ .text.strlen   0x1000744c       0x5c d:/program files2/gnu tool chain/12.3 rel1/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v6-m/nofp\libc.a(libc_a-strlen-stub.o)
+                0x1000744c                strlen
  *(.fini)
- .fini          0x100074ac        0x4 d:/program files2/gnu tool chain/12.3 rel1/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v6-m/nofp/crti.o
-                0x100074ac                _fini
+ .fini          0x100074a8        0x4 d:/program files2/gnu tool chain/12.3 rel1/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v6-m/nofp/crti.o
+                0x100074a8                _fini
+ *fill*         0x100074ac        0x4 
  .fini.__stub   0x100074b0       0xe0 linker stubs
  *crtbegin.o(.ctors)
  *crtbegin?.o(.ctors)
@@ -2755,7 +2756,7 @@ LOAD CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_fi
 LOAD CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj
 LOAD CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
 LOAD CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
-LOAD C:\Users\Lenovo\AppData\Local\Temp\cc31Rp1e.o
+LOAD C:\Users\Lenovo\AppData\Local\Temp\ccEWwCVH.o
 LOAD d:/program files2/gnu tool chain/12.3 rel1/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v6-m/nofp\libstdc++.a
 LOAD d:/program files2/gnu tool chain/12.3 rel1/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v6-m/nofp\libm.a
 START GROUP
@@ -2877,7 +2878,7 @@ LOAD linker stubs
  .ARM.attributes
                 0x00000826       0x2c CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
  .ARM.attributes
-                0x00000852       0x22 C:\Users\Lenovo\AppData\Local\Temp\cc31Rp1e.o
+                0x00000852       0x22 C:\Users\Lenovo\AppData\Local\Temp\ccEWwCVH.o
  .ARM.attributes
                 0x00000874       0x1e d:/program files2/gnu tool chain/12.3 rel1/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
  .ARM.attributes

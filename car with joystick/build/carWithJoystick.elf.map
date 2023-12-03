@@ -1237,9 +1237,9 @@ Discarded input sections
  .text          0x00000000        0x0 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
  .data          0x00000000        0x0 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
  .bss           0x00000000        0x0 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
- .text          0x00000000        0x0 C:\Users\Lenovo\AppData\Local\Temp\ccIS25F0.o
- .data          0x00000000        0x0 C:\Users\Lenovo\AppData\Local\Temp\ccIS25F0.o
- .bss           0x00000000        0x0 C:\Users\Lenovo\AppData\Local\Temp\ccIS25F0.o
+ .text          0x00000000        0x0 C:\Users\Lenovo\AppData\Local\Temp\ccpddiJj.o
+ .data          0x00000000        0x0 C:\Users\Lenovo\AppData\Local\Temp\ccpddiJj.o
+ .bss           0x00000000        0x0 C:\Users\Lenovo\AppData\Local\Temp\ccpddiJj.o
  .data          0x00000000        0x0 d:/program files2/gnu tool chain/12.3 rel1/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
  .bss           0x00000000        0x0 d:/program files2/gnu tool chain/12.3 rel1/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
  .text          0x00000000        0x0 d:/program files2/gnu tool chain/12.3 rel1/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v6-m/nofp\libc.a(libc_a-calloc.o)
@@ -1558,11 +1558,11 @@ LOAD d:/program files2/gnu tool chain/12.3 rel1/bin/../lib/gcc/arm-none-eabi/12.
 .boot2          0x10000000      0x100
                 0x10000000                        __boot2_start__ = .
  *(.boot2)
- .boot2         0x10000000      0x100 C:\Users\Lenovo\AppData\Local\Temp\ccIS25F0.o
+ .boot2         0x10000000      0x100 C:\Users\Lenovo\AppData\Local\Temp\ccpddiJj.o
                 0x10000100                        __boot2_end__ = .
                 0x00000001                        ASSERT (((__boot2_end__ - __boot2_start__) == 0x100), ERROR: Pico second stage bootloader must be 256 bytes in size)
 
-.text           0x10000100     0x69f8
+.text           0x10000100     0x69e8
                 0x10000100                        __logical_binary_start = .
  *(.vectors)
  .vectors       0x10000100       0xd4 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
@@ -1626,571 +1626,571 @@ LOAD d:/program files2/gnu tool chain/12.3 rel1/bin/../lib/gcc/arm-none-eabi/12.
                 0x100002bc       0x28 d:/program files2/gnu tool chain/12.3 rel1/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v6-m/nofp/crtbegin.o
  .text.frame_dummy
                 0x100002e4       0x24 d:/program files2/gnu tool chain/12.3 rel1/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v6-m/nofp/crtbegin.o
- .text.setup    0x10000308       0x40 CMakeFiles/carWithJoystick.dir/main.c.obj
-                0x10000308                setup
+ .text.adc_gpio_init
+                0x10000308       0x20 CMakeFiles/carWithJoystick.dir/main.c.obj
  .text.startup.main
-                0x10000348       0x90 CMakeFiles/carWithJoystick.dir/main.c.obj
-                0x10000348                main
+                0x10000328       0xa0 CMakeFiles/carWithJoystick.dir/main.c.obj
+                0x10000328                main
  .text.gpio_set_function
-                0x100003d8       0x30 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
-                0x100003d8                gpio_set_function
+                0x100003c8       0x30 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+                0x100003c8                gpio_set_function
  .text.gpio_set_pulls
-                0x10000408       0x24 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
-                0x10000408                gpio_set_pulls
+                0x100003f8       0x24 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+                0x100003f8                gpio_set_pulls
  .text.gpio_set_input_enabled
-                0x1000042c       0x28 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
-                0x1000042c                gpio_set_input_enabled
+                0x1000041c       0x28 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+                0x1000041c                gpio_set_input_enabled
  .text.running_on_fpga
-                0x10000454       0x10 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
-                0x10000454                running_on_fpga
+                0x10000444       0x10 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+                0x10000444                running_on_fpga
  .text.hw_claim_or_assert
-                0x10000464       0x44 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
-                0x10000464                hw_claim_or_assert
+                0x10000454       0x44 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+                0x10000454                hw_claim_or_assert
  .text.hw_claim_unused_from_range
-                0x100004a8       0x9c CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
-                0x100004a8                hw_claim_unused_from_range
+                0x10000498       0x9c CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+                0x10000498                hw_claim_unused_from_range
  .text.spin_locks_reset
-                0x10000544       0x1c CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
-                0x10000544                spin_locks_reset
+                0x10000534       0x1c CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+                0x10000534                spin_locks_reset
  .text.next_striped_spin_lock_num
-                0x10000560       0x18 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
-                0x10000560                next_striped_spin_lock_num
+                0x10000550       0x18 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+                0x10000550                next_striped_spin_lock_num
  .text.spin_lock_claim_unused
-                0x10000578       0x24 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
-                0x10000578                spin_lock_claim_unused
+                0x10000568       0x24 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+                0x10000568                spin_lock_claim_unused
  .text.irq_set_enabled
-                0x1000059c       0x24 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x1000059c                irq_set_enabled
+                0x1000058c       0x24 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x1000058c                irq_set_enabled
  .text.irq_set_pending
-                0x100005c0       0x10 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x100005c0                irq_set_pending
+                0x100005b0       0x10 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x100005b0                irq_set_pending
  .text.irq_has_shared_handler
-                0x100005d0       0x2c CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x100005d0                irq_has_shared_handler
+                0x100005c0       0x2c CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x100005c0                irq_has_shared_handler
  .text.irq_get_vtable_handler
-                0x100005fc       0x10 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x100005fc                irq_get_vtable_handler
+                0x100005ec       0x10 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x100005ec                irq_get_vtable_handler
  .text.irq_set_exclusive_handler
-                0x1000060c       0x54 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x1000060c                irq_set_exclusive_handler
+                0x100005fc       0x54 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x100005fc                irq_set_exclusive_handler
  .text.irq_add_shared_handler
-                0x10000660      0x1e0 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x10000660                irq_add_shared_handler
+                0x10000650      0x1e0 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x10000650                irq_add_shared_handler
  .text.irq_remove_handler
-                0x10000840      0x1c4 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x10000840                irq_remove_handler
+                0x10000830      0x1c4 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x10000830                irq_remove_handler
  .text.irq_add_tail_to_free_list
-                0x10000a04       0xb4 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x10000a04                irq_add_tail_to_free_list
+                0x100009f4       0xb4 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x100009f4                irq_add_tail_to_free_list
  .text.irq_init_priorities
-                0x10000ab8       0x24 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x10000ab8                irq_init_priorities
+                0x10000aa8       0x24 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x10000aa8                irq_init_priorities
  .text.user_irq_claim_unused
-                0x10000adc       0x2c CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x10000adc                user_irq_claim_unused
+                0x10000acc       0x2c CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x10000acc                user_irq_claim_unused
  .text.lock_init
-                0x10000b08       0x10 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
-                0x10000b08                lock_init
+                0x10000af8       0x10 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
+                0x10000af8                lock_init
  .text.mutex_init
-                0x10000b18       0x1c CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
-                0x10000b18                mutex_init
+                0x10000b08       0x1c CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+                0x10000b08                mutex_init
  .text.recursive_mutex_init
-                0x10000b34       0x1c CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
-                0x10000b34                recursive_mutex_init
+                0x10000b24       0x1c CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+                0x10000b24                recursive_mutex_init
  .text.critical_section_init
-                0x10000b50       0x1c CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
-                0x10000b50                critical_section_init
+                0x10000b40       0x1c CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
+                0x10000b40                critical_section_init
  .text.critical_section_init_with_lock_num
-                0x10000b6c       0x14 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
-                0x10000b6c                critical_section_init_with_lock_num
+                0x10000b5c       0x14 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
+                0x10000b5c                critical_section_init_with_lock_num
  .text.timer_pool_entry_comparator
-                0x10000b80       0x34 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x10000b80                timer_pool_entry_comparator
+                0x10000b70       0x34 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x10000b70                timer_pool_entry_comparator
  .text.sleep_until_callback
-                0x10000bb4       0x30 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x10000ba4       0x30 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
  .text.add_alarm_under_lock.isra.0
-                0x10000be4       0xf8 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x10000bd4       0xf8 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
  .text.alarm_pool_alarm_callback
-                0x10000cdc      0x1c0 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x10000ccc      0x1c0 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
  .text.alarm_pool_init_default
-                0x10000e9c       0x6c CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x10000e9c                alarm_pool_init_default
+                0x10000e8c       0x6c CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x10000e8c                alarm_pool_init_default
  .text.alarm_pool_get_default
-                0x10000f08        0x8 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x10000f08                alarm_pool_get_default
+                0x10000ef8        0x8 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x10000ef8                alarm_pool_get_default
  .text.alarm_pool_add_alarm_at
-                0x10000f10      0x17c CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x10000f10                alarm_pool_add_alarm_at
+                0x10000f00      0x17c CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x10000f00                alarm_pool_add_alarm_at
  .text.alarm_pool_core_num
-                0x1000108c        0x4 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x1000108c                alarm_pool_core_num
+                0x1000107c        0x4 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x1000107c                alarm_pool_core_num
  .text.sleep_until
-                0x10001090       0xc4 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x10001090                sleep_until
+                0x10001080       0xc4 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x10001080                sleep_until
  .text.sleep_ms
-                0x10001154       0x38 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x10001154                sleep_ms
+                0x10001144       0x38 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x10001144                sleep_ms
  .text.best_effort_wfe_or_timeout
-                0x1000118c       0xcc CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x1000118c                best_effort_wfe_or_timeout
+                0x1000117c       0xcc CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x1000117c                best_effort_wfe_or_timeout
  .text.hardware_alarm_irq_handler
-                0x10001258       0xbc CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x10001248       0xbc CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
  .text.hardware_alarm_claim
-                0x10001314       0x18 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x10001314                hardware_alarm_claim
+                0x10001304       0x18 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x10001304                hardware_alarm_claim
  .text.time_us_64
-                0x1000132c       0x14 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x1000132c                time_us_64
+                0x1000131c       0x14 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x1000131c                time_us_64
  .text.busy_wait_until
-                0x10001340       0x20 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x10001340                busy_wait_until
+                0x10001330       0x20 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x10001330                busy_wait_until
  .text.hardware_alarm_set_callback
-                0x10001360       0x8c CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x10001360                hardware_alarm_set_callback
+                0x10001350       0x8c CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x10001350                hardware_alarm_set_callback
  .text.hardware_alarm_set_target
-                0x100013ec       0xd0 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x100013ec                hardware_alarm_set_target
+                0x100013dc       0xd0 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x100013dc                hardware_alarm_set_target
  .text.hardware_alarm_cancel
-                0x100014bc       0x3c CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x100014bc                hardware_alarm_cancel
+                0x100014ac       0x3c CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x100014ac                hardware_alarm_cancel
  .text.ph_merge_nodes
-                0x100014f8       0x58 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x100014e8       0x58 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/pheap.c.obj
  .text.ph_post_alloc_init
-                0x10001550       0x3c CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/pheap.c.obj
-                0x10001550                ph_post_alloc_init
+                0x10001540       0x3c CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x10001540                ph_post_alloc_init
  .text.ph_merge_two_pass
-                0x1000158c       0x8c CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/pheap.c.obj
-                0x1000158c                ph_merge_two_pass
+                0x1000157c       0x8c CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x1000157c                ph_merge_two_pass
  .text.ph_remove_any_head
-                0x10001618      0x100 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x10001608      0x100 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/pheap.c.obj
  .text.ph_remove_head
-                0x10001718      0x104 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/pheap.c.obj
-                0x10001718                ph_remove_head
+                0x10001708      0x104 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x10001708                ph_remove_head
  .text.ph_remove_and_free_node
-                0x1000181c       0x78 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/pheap.c.obj
-                0x1000181c                ph_remove_and_free_node
+                0x1000180c       0x78 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x1000180c                ph_remove_and_free_node
  .text.clocks_init
-                0x10001894      0x2c8 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
-                0x10001894                clocks_init
+                0x10001884      0x2c8 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+                0x10001884                clocks_init
  .text.pll_init
-                0x10001b5c       0xa0 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
-                0x10001b5c                pll_init
+                0x10001b4c       0xa0 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+                0x10001b4c                pll_init
  .text.watchdog_start_tick
-                0x10001bfc       0x10 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
-                0x10001bfc                watchdog_start_tick
+                0x10001bec       0x10 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+                0x10001bec                watchdog_start_tick
  .text.watchdog_reboot
-                0x10001c0c       0x9c CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
-                0x10001c0c                watchdog_reboot
+                0x10001bfc       0x9c CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+                0x10001bfc                watchdog_reboot
  .text.xosc_init
-                0x10001ca8       0x28 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
-                0x10001ca8                xosc_init
+                0x10001c98       0x28 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+                0x10001c98                xosc_init
  .text.runtime_init
-                0x10001cd0       0xec CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x10001cd0                runtime_init
- .text._exit    0x10001dbc        0x4 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x10001dbc                _exit
- .text.exit     0x10001dc0        0x8 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x10001dc0                exit
- .text.panic    0x10001dc8       0x30 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x10001dc8                panic
+                0x10001cc0       0xec CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x10001cc0                runtime_init
+ .text._exit    0x10001dac        0x4 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x10001dac                _exit
+ .text.exit     0x10001db0        0x8 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x10001db0                exit
+ .text.panic    0x10001db8       0x30 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x10001db8                panic
  .text.hard_assertion_failure
-                0x10001df8        0xc CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x10001df8                hard_assertion_failure
+                0x10001de8        0xc CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x10001de8                hard_assertion_failure
  .text._out_null
-                0x10001e04        0x4 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x10001df4        0x4 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text._out_rev
-                0x10001e08       0x90 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x10001df8       0x90 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text._ntoa_format
-                0x10001e98      0x208 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x10001e88      0x208 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text._out_char
-                0x100020a0       0x10 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x10002090       0x10 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text._out_fct
-                0x100020b0       0x10 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .text._etoa    0x100020c0      0x464 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .text._ftoa    0x10002524      0x3c4 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x100020a0       0x10 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .text._etoa    0x100020b0      0x464 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .text._ftoa    0x10002514      0x3c4 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text._vsnprintf
-                0x100028e8      0xc18 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x100028d8      0xc18 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text.vfctprintf
-                0x10003500       0x20 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
-                0x10003500                vfctprintf
+                0x100034f0       0x20 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x100034f0                vfctprintf
  .text.weak_raw_vprintf
-                0x10003520       0x30 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
-                0x10003520                weak_raw_vprintf
- .text          0x10003550       0x10 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+                0x10003510       0x30 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x10003510                weak_raw_vprintf
+ .text          0x10003540       0x10 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
  .text.rom_func_lookup
-                0x10003560       0x10 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
-                0x10003560                rom_func_lookup
+                0x10003550       0x10 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x10003550                rom_func_lookup
  .text.rom_data_lookup
-                0x10003570       0x10 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
-                0x10003570                rom_data_lookup
+                0x10003560       0x10 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x10003560                rom_data_lookup
  .text.rom_funcs_lookup
-                0x10003580       0x44 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
-                0x10003580                rom_funcs_lookup
+                0x10003570       0x44 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x10003570                rom_funcs_lookup
  .text.__wrap___aeabi_idiv
-                0x100035c4       0x50 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
-                0x100035c4                __wrap___aeabi_idivmod
-                0x100035c4                divmod_s32s32
-                0x100035c4                div_s32s32
-                0x100035c4                __wrap___aeabi_idiv
-                0x100035cc                divmod_s32s32_unsafe
-                0x100035f8                divmod_s32s32_savestate
+                0x100035b4       0x50 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+                0x100035b4                __wrap___aeabi_idivmod
+                0x100035b4                divmod_s32s32
+                0x100035b4                div_s32s32
+                0x100035b4                __wrap___aeabi_idiv
+                0x100035bc                divmod_s32s32_unsafe
+                0x100035e8                divmod_s32s32_savestate
  .text.__wrap___aeabi_uidiv
-                0x10003614       0x4c CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
-                0x10003614                __wrap___aeabi_uidiv
-                0x10003614                __wrap___aeabi_uidivmod
-                0x10003614                div_u32u32
-                0x10003614                divmod_u32u32
-                0x1000361c                divmod_u32u32_unsafe
-                0x10003644                divmod_u32u32_savestate
+                0x10003604       0x4c CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+                0x10003604                __wrap___aeabi_uidiv
+                0x10003604                __wrap___aeabi_uidivmod
+                0x10003604                div_u32u32
+                0x10003604                divmod_u32u32
+                0x1000360c                divmod_u32u32_unsafe
+                0x10003634                divmod_u32u32_savestate
  .text.__wrap___aeabi_ldiv
-                0x10003660      0x424 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
-                0x10003660                div_s64s64
-                0x10003660                divmod_s64s64
-                0x10003660                __wrap___aeabi_ldivmod
-                0x10003690                divmod_u64u64
-                0x10003690                div_u64u64
-                0x10003690                __wrap___aeabi_uldivmod
-                0x100036a0                divmod_u64u64_savestate
-                0x100036c0                divmod_s64s64_unsafe
-                0x10003748                divmod_u64u64_unsafe
+                0x10003650      0x424 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+                0x10003650                div_s64s64
+                0x10003650                divmod_s64s64
+                0x10003650                __wrap___aeabi_ldivmod
+                0x10003680                divmod_u64u64
+                0x10003680                div_u64u64
+                0x10003680                __wrap___aeabi_uldivmod
+                0x10003690                divmod_u64u64_savestate
+                0x100036b0                divmod_s64s64_unsafe
+                0x10003738                divmod_u64u64_unsafe
  .text.__wrap___aeabi_darithmetic
-                0x10003a84       0x80 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x10003a84                __wrap___aeabi_drsub
-                0x10003a8a                __wrap___aeabi_dsub
-                0x10003a9c                __wrap___aeabi_dadd
-                0x10003aae                __wrap___aeabi_ddiv
-                0x10003aea                __wrap___aeabi_dmul
+                0x10003a74       0x80 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x10003a74                __wrap___aeabi_drsub
+                0x10003a7a                __wrap___aeabi_dsub
+                0x10003a8c                __wrap___aeabi_dadd
+                0x10003a9e                __wrap___aeabi_ddiv
+                0x10003ada                __wrap___aeabi_dmul
  .text.__wrap___aeabi_cdcmple
-                0x10003b04       0x6c CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x10003b04                __wrap___aeabi_cdrcmple
-                0x10003b14                __wrap___aeabi_cdcmpeq
-                0x10003b14                __wrap___aeabi_cdcmple
+                0x10003af4       0x6c CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x10003af4                __wrap___aeabi_cdrcmple
+                0x10003b04                __wrap___aeabi_cdcmpeq
+                0x10003b04                __wrap___aeabi_cdcmple
  .text.__wrap___aeabi_dcmplt
-                0x10003b70        0xc CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x10003b70                __wrap___aeabi_dcmplt
+                0x10003b60        0xc CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x10003b60                __wrap___aeabi_dcmplt
  .text.__wrap___aeabi_dcmpge
-                0x10003b7c       0x10 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x10003b7c                __wrap___aeabi_dcmpge
+                0x10003b6c       0x10 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x10003b6c                __wrap___aeabi_dcmpge
  .text.__wrap___aeabi_dcmpgt
-                0x10003b8c        0xa CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x10003b8c                __wrap___aeabi_dcmpgt
+                0x10003b7c        0xa CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x10003b7c                __wrap___aeabi_dcmpgt
  .text.__wrap___aeabi_dcmpun
-                0x10003b96       0x1c CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x10003b96                __wrap___aeabi_dcmpun
- *fill*         0x10003bb2        0x2 
+                0x10003b86       0x1c CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x10003b86                __wrap___aeabi_dcmpun
+ *fill*         0x10003ba2        0x2 
  .text.__wrap___aeabi_i2d
-                0x10003bb4       0x38 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x10003bb4                __wrap___aeabi_ui2d
-                0x10003bbc                __wrap___aeabi_i2d
+                0x10003ba4       0x38 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x10003ba4                __wrap___aeabi_ui2d
+                0x10003bac                __wrap___aeabi_i2d
  .text.__wrap___aeabi_d2iz
-                0x10003bec       0x48 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x10003bec                double2int_z
-                0x10003bec                __wrap___aeabi_d2iz
+                0x10003bdc       0x48 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x10003bdc                double2int_z
+                0x10003bdc                __wrap___aeabi_d2iz
  .text.__wrap___aeabi_d2uiz
-                0x10003c34       0x18 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x10003c34                __wrap___aeabi_d2uiz
-                0x10003c34                double2uint
+                0x10003c24       0x18 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x10003c24                __wrap___aeabi_d2uiz
+                0x10003c24                double2uint
  .text.__aeabi_double_init
-                0x10003c4c       0x98 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
-                0x10003c4c                __aeabi_double_init
+                0x10003c3c       0x98 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+                0x10003c3c                __aeabi_double_init
  .text.double_table_shim_on_use_helper
-                0x10003ce4       0x2c CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x10003ce4                double_table_shim_on_use_helper
+                0x10003cd4       0x2c CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x10003cd4                double_table_shim_on_use_helper
  .text.__wrap___aeabi_dsub
-                0x10003d10       0x10 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x10003d10                drsub_shim
-                0x10003d16                dsub_shim
+                0x10003d00       0x10 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x10003d00                drsub_shim
+                0x10003d06                dsub_shim
  .text.dadd_shim
-                0x10003d20      0x15c CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x10003d20                dadd_shim
+                0x10003d10      0x15c CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x10003d10                dadd_shim
  .text.dmul_shim
-                0x10003e7c      0x15c CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x10003e7c                dmul_shim
+                0x10003e6c      0x15c CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x10003e6c                dmul_shim
  .text.ddiv_shim
-                0x10003fd8      0x1b0 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x10003fd8                ddiv_shim
+                0x10003fc8      0x1b0 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x10003fc8                ddiv_shim
  .text.double2uint_shim
-                0x10004188        0xe CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x10004188                double2uint_shim
-                0x1000418a                double2ufix_shim
- *fill*         0x10004196        0x2 
+                0x10004178        0xe CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x10004178                double2uint_shim
+                0x1000417a                double2ufix_shim
+ *fill*         0x10004186        0x2 
  .text.double2uint64_shim
-                0x10004198       0x70 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x10004198                double2uint64_shim
-                0x1000419a                double2ufix64_shim
-                0x100041ba                d2fix_a
+                0x10004188       0x70 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x10004188                double2uint64_shim
+                0x1000418a                double2ufix64_shim
+                0x100041aa                d2fix_a
  .text.dunpacks
-                0x10004208       0x3c CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x10004208                dunpacks
+                0x100041f8       0x3c CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x100041f8                dunpacks
  .text.__aeabi_lmul
-                0x10004244       0x32 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
-                0x10004244                __wrap___aeabi_lmul
- *fill*         0x10004276        0x2 
+                0x10004234       0x32 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+                0x10004234                __wrap___aeabi_lmul
+ *fill*         0x10004266        0x2 
  .text.__aeabi_float_init
-                0x10004278       0x64 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
-                0x10004278                __aeabi_float_init
+                0x10004268       0x64 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+                0x10004268                __aeabi_float_init
  .text.float_table_shim_on_use_helper
-                0x100042dc       0x2c CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
-                0x100042dc                float_table_shim_on_use_helper
- .text          0x10004308       0x10 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-                0x10004308                __aeabi_mem_init
- .text.memset   0x10004318        0xc CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-                0x10004318                __wrap_memset
- .text.memcpy   0x10004324        0xc CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-                0x10004324                __wrap_memcpy
-                0x10004324                __wrap___aeabi_memcpy
+                0x100042cc       0x2c CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
+                0x100042cc                float_table_shim_on_use_helper
+ .text          0x100042f8       0x10 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+                0x100042f8                __aeabi_mem_init
+ .text.memset   0x10004308        0xc CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+                0x10004308                __wrap_memset
+ .text.memcpy   0x10004314        0xc CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+                0x10004314                __wrap_memcpy
+                0x10004314                __wrap___aeabi_memcpy
  .text.stdio_out_chars_crlf
-                0x10004330       0x94 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x10004320       0x94 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .text.stdio_buffered_printer
-                0x100043c4       0x64 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x100043b4       0x64 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .text.__wrap_putchar
-                0x10004428       0x98 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x10004428                __wrap_putchar
+                0x10004418       0x98 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x10004418                __wrap_putchar
  .text.__wrap_puts
-                0x100044c0       0xe0 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x100044c0                __wrap_puts
+                0x100044b0       0xe0 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x100044b0                __wrap_puts
  .text.stdio_set_driver_enabled
-                0x100045a0       0x30 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x100045a0                stdio_set_driver_enabled
+                0x10004590       0x30 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x10004590                stdio_set_driver_enabled
  .text.__wrap_vprintf
-                0x100045d0       0xd4 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x100045d0                __wrap_vprintf
+                0x100045c0       0xd4 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x100045c0                __wrap_vprintf
  .text.__wrap_printf
-                0x100046a4       0x18 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x100046a4                __wrap_printf
+                0x10004694       0x18 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x10004694                __wrap_printf
  .text.stdio_init_all
-                0x100046bc        0x8 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x100046bc                stdio_init_all
+                0x100046ac        0x8 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x100046ac                stdio_init_all
  .text.resetd_init
-                0x100046c4        0x4 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                0x100046b4        0x4 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
  .text.resetd_reset
-                0x100046c8        0xc CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                0x100046b8        0xc CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
  .text.resetd_open
-                0x100046d4       0x28 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                0x100046c4       0x28 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
  .text.resetd_xfer_cb
-                0x100046fc        0x4 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                0x100046ec        0x4 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
  .text.resetd_control_xfer_cb
-                0x10004700       0x60 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                0x100046f0       0x60 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
  .text.usbd_app_driver_get_cb
-                0x10004760        0xc CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
-                0x10004760                usbd_app_driver_get_cb
+                0x10004750        0xc CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                0x10004750                usbd_app_driver_get_cb
  .text.tud_cdc_line_coding_cb
-                0x1000476c       0x34 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
-                0x1000476c                tud_cdc_line_coding_cb
+                0x1000475c       0x34 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                0x1000475c                tud_cdc_line_coding_cb
  .text.stdio_usb_set_chars_available_callback
-                0x100047a0       0x14 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
-                0x100047a0                stdio_usb_set_chars_available_callback
- .text.usb_irq  0x100047b4       0x10 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x10004790       0x14 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x10004790                stdio_usb_set_chars_available_callback
+ .text.usb_irq  0x100047a4       0x10 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
  .text.timer_task
-                0x100047c4       0x54 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x100047b4       0x54 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
  .text.stdio_usb_in_chars
-                0x10004818       0x90 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
-                0x10004818                stdio_usb_in_chars
+                0x10004808       0x90 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x10004808                stdio_usb_in_chars
  .text.stdio_usb_out_chars
-                0x100048a8      0x104 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x10004898      0x104 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
  .text.low_priority_worker_irq
-                0x100049ac       0xa8 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x1000499c       0xa8 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
  .text.tud_cdc_rx_cb
-                0x10004a54       0x20 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
-                0x10004a54                tud_cdc_rx_cb
+                0x10004a44       0x20 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x10004a44                tud_cdc_rx_cb
  .text.stdio_usb_init
-                0x10004a74       0xe0 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
-                0x10004a74                stdio_usb_init
+                0x10004a64       0xe0 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x10004a64                stdio_usb_init
  .text.tud_descriptor_device_cb
-                0x10004b54        0x8 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
-                0x10004b54                tud_descriptor_device_cb
+                0x10004b44        0x8 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+                0x10004b44                tud_descriptor_device_cb
  .text.tud_descriptor_configuration_cb
-                0x10004b5c        0x8 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
-                0x10004b5c                tud_descriptor_configuration_cb
+                0x10004b4c        0x8 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+                0x10004b4c                tud_descriptor_configuration_cb
  .text.tud_descriptor_string_cb
-                0x10004b64       0x78 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
-                0x10004b64                tud_descriptor_string_cb
+                0x10004b54       0x78 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+                0x10004b54                tud_descriptor_string_cb
  .text.startup._retrieve_unique_id_on_boot
-                0x10004bdc       0x10 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
+                0x10004bcc       0x10 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
  .text.pico_get_unique_board_id_string
-                0x10004bec      0x1a8 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
-                0x10004bec                pico_get_unique_board_id_string
+                0x10004bdc      0x1a8 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
+                0x10004bdc                pico_get_unique_board_id_string
  .text.flash_get_unique_id
-                0x10004d94       0x40 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
-                0x10004d94                flash_get_unique_id
+                0x10004d84       0x40 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
+                0x10004d84                flash_get_unique_id
  .text.dcd_int_enable
-                0x10004dd4        0xc CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x10004dd4                dcd_int_enable
+                0x10004dc4        0xc CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x10004dc4                dcd_int_enable
  .text.dcd_set_address
-                0x10004de0       0x14 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x10004de0                dcd_set_address
+                0x10004dd0       0x14 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x10004dd0                dcd_set_address
  .text.dcd_connect
-                0x10004df4       0x10 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x10004df4                dcd_connect
+                0x10004de4       0x10 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x10004de4                dcd_connect
  .text.dcd_init
-                0x10004e04       0x98 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x10004e04                dcd_init
+                0x10004df4       0x98 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x10004df4                dcd_init
  .text.dcd_edpt0_status_complete
-                0x10004e9c       0x1c CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x10004e9c                dcd_edpt0_status_complete
+                0x10004e8c       0x1c CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x10004e8c                dcd_edpt0_status_complete
  .text.dcd_edpt_open
-                0x10004eb8      0x108 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x10004eb8                dcd_edpt_open
+                0x10004ea8      0x108 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x10004ea8                dcd_edpt_open
  .text.dcd_edpt_close_all
-                0x10004fc0        0x8 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x10004fc0                dcd_edpt_close_all
+                0x10004fb0        0x8 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x10004fb0                dcd_edpt_close_all
  .text.dcd_edpt_xfer
-                0x10004fc8       0x24 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x10004fc8                dcd_edpt_xfer
+                0x10004fb8       0x24 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x10004fb8                dcd_edpt_xfer
  .text.dcd_edpt_stall
-                0x10004fec       0x34 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x10004fec                dcd_edpt_stall
+                0x10004fdc       0x34 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x10004fdc                dcd_edpt_stall
  .text.dcd_edpt_clear_stall
-                0x10005020       0x30 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x10005020                dcd_edpt_clear_stall
+                0x10005010       0x30 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x10005010                dcd_edpt_clear_stall
  .text.rp2040_usb_init
-                0x10005050       0x4c CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
-                0x10005050                rp2040_usb_init
+                0x10005040       0x4c CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+                0x10005040                rp2040_usb_init
  .text.hw_endpoint_xfer_start
-                0x1000509c       0x40 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
-                0x1000509c                hw_endpoint_xfer_start
+                0x1000508c       0x40 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+                0x1000508c                hw_endpoint_xfer_start
  .text.tud_mounted
-                0x100050dc       0x10 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x100050dc                tud_mounted
+                0x100050cc       0x10 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x100050cc                tud_mounted
  .text.tud_suspended
-                0x100050ec       0x10 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x100050ec                tud_suspended
+                0x100050dc       0x10 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x100050dc                tud_suspended
  .text.tud_inited
-                0x100050fc       0x14 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x100050fc                tud_inited
+                0x100050ec       0x14 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x100050ec                tud_inited
  .text.tud_init
-                0x10005110       0xd8 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x10005110                tud_init
+                0x10005100       0xd8 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x10005100                tud_init
  .text.tud_task_ext
-                0x100051e8      0x8a4 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x100051e8                tud_task_ext
+                0x100051d8      0x8a4 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x100051d8                tud_task_ext
  .text.usbd_open_edpt_pair
-                0x10005a8c       0x9c CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x10005a8c                usbd_open_edpt_pair
+                0x10005a7c       0x9c CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x10005a7c                usbd_open_edpt_pair
  .text.usbd_defer_func
-                0x10005b28       0x48 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x10005b28                usbd_defer_func
+                0x10005b18       0x48 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x10005b18                usbd_defer_func
  .text.usbd_edpt_open
-                0x10005b70       0x34 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x10005b70                usbd_edpt_open
+                0x10005b60       0x34 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x10005b60                usbd_edpt_open
  .text.usbd_edpt_claim
-                0x10005ba4       0x28 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x10005ba4                usbd_edpt_claim
+                0x10005b94       0x28 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x10005b94                usbd_edpt_claim
  .text.usbd_edpt_release
-                0x10005bcc       0x28 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x10005bcc                usbd_edpt_release
+                0x10005bbc       0x28 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x10005bbc                usbd_edpt_release
  .text.usbd_edpt_xfer
-                0x10005bf4       0x4c CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x10005bf4                usbd_edpt_xfer
+                0x10005be4       0x4c CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x10005be4                usbd_edpt_xfer
  .text.tud_control_status
-                0x10005c40       0x2c CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
-                0x10005c40                tud_control_status
+                0x10005c30       0x2c CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+                0x10005c30                tud_control_status
  .text.tud_control_xfer
-                0x10005c6c       0xac CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
-                0x10005c6c                tud_control_xfer
+                0x10005c5c       0xac CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+                0x10005c5c                tud_control_xfer
  .text.usbd_control_reset
-                0x10005d18       0x14 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
-                0x10005d18                usbd_control_reset
+                0x10005d08       0x14 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+                0x10005d08                usbd_control_reset
  .text.usbd_control_set_complete_callback
-                0x10005d2c        0xc CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
-                0x10005d2c                usbd_control_set_complete_callback
+                0x10005d1c        0xc CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+                0x10005d1c                usbd_control_set_complete_callback
  .text.usbd_control_set_request
-                0x10005d38       0x1c CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
-                0x10005d38                usbd_control_set_request
+                0x10005d28       0x1c CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+                0x10005d28                usbd_control_set_request
  .text.usbd_control_xfer_cb
-                0x10005d54       0xf4 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
-                0x10005d54                usbd_control_xfer_cb
+                0x10005d44       0xf4 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+                0x10005d44                usbd_control_xfer_cb
  .text.tud_cdc_n_connected
-                0x10005e48       0x30 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x10005e48                tud_cdc_n_connected
+                0x10005e38       0x30 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x10005e38                tud_cdc_n_connected
  .text.tud_cdc_n_available
-                0x10005e78       0x18 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x10005e78                tud_cdc_n_available
+                0x10005e68       0x18 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x10005e68                tud_cdc_n_available
  .text.tud_cdc_n_read
-                0x10005e90       0x70 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x10005e90                tud_cdc_n_read
+                0x10005e80       0x70 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x10005e80                tud_cdc_n_read
  .text.tud_cdc_n_write_flush
-                0x10005f00       0x78 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x10005f00                tud_cdc_n_write_flush
+                0x10005ef0       0x78 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x10005ef0                tud_cdc_n_write_flush
  .text.tud_cdc_n_write
-                0x10005f78       0x34 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x10005f78                tud_cdc_n_write
+                0x10005f68       0x34 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x10005f68                tud_cdc_n_write
  .text.tud_cdc_n_write_available
-                0x10005fac       0x18 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x10005fac                tud_cdc_n_write_available
+                0x10005f9c       0x18 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x10005f9c                tud_cdc_n_write_available
  .text.cdcd_init
-                0x10005fc4       0x7c CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x10005fc4                cdcd_init
+                0x10005fb4       0x7c CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x10005fb4                cdcd_init
  .text.cdcd_reset
-                0x10006040       0x2c CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x10006040                cdcd_reset
+                0x10006030       0x2c CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x10006030                cdcd_reset
  .text.cdcd_open
-                0x1000606c       0xe4 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x1000606c                cdcd_open
+                0x1000605c       0xe4 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x1000605c                cdcd_open
  .text.cdcd_control_xfer_cb
-                0x10006150       0xe4 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x10006150                cdcd_control_xfer_cb
+                0x10006140       0xe4 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x10006140                cdcd_control_xfer_cb
  .text.cdcd_xfer_cb
-                0x10006234      0x13c CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x10006234                cdcd_xfer_cb
+                0x10006224      0x13c CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x10006224                cdcd_xfer_cb
  .text.tusb_init
-                0x10006370        0xc CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
-                0x10006370                tusb_init
+                0x10006360        0xc CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
+                0x10006360                tusb_init
  .text.tusb_inited
-                0x1000637c        0x8 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
-                0x1000637c                tusb_inited
+                0x1000636c        0x8 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
+                0x1000636c                tusb_inited
  .text.tu_edpt_claim
-                0x10006384       0x50 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
-                0x10006384                tu_edpt_claim
+                0x10006374       0x50 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
+                0x10006374                tu_edpt_claim
  .text.tu_edpt_release
-                0x100063d4       0x38 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
-                0x100063d4                tu_edpt_release
+                0x100063c4       0x38 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
+                0x100063c4                tu_edpt_release
  .text.tu_edpt_validate
-                0x1000640c       0x7c CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
-                0x1000640c                tu_edpt_validate
+                0x100063fc       0x7c CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
+                0x100063fc                tu_edpt_validate
  .text.tu_edpt_bind_driver
-                0x10006488       0x34 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
-                0x10006488                tu_edpt_bind_driver
+                0x10006478       0x34 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
+                0x10006478                tu_edpt_bind_driver
  .text.tu_fifo_config
-                0x100064bc       0x6c CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x100064bc                tu_fifo_config
+                0x100064ac       0x6c CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x100064ac                tu_fifo_config
  .text.tu_fifo_count
-                0x10006528       0x2c CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x10006528                tu_fifo_count
+                0x10006518       0x2c CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x10006518                tu_fifo_count
  .text.tu_fifo_empty
-                0x10006554       0x10 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x10006554                tu_fifo_empty
+                0x10006544       0x10 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x10006544                tu_fifo_empty
  .text.tu_fifo_remaining
-                0x10006564       0x2c CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x10006564                tu_fifo_remaining
+                0x10006554       0x2c CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x10006554                tu_fifo_remaining
  .text.tu_fifo_read
-                0x10006590       0x9c CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x10006590                tu_fifo_read
+                0x10006580       0x9c CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x10006580                tu_fifo_read
  .text.tu_fifo_read_n
-                0x1000662c       0xe8 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x1000662c                tu_fifo_read_n
+                0x1000661c       0xe8 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x1000661c                tu_fifo_read_n
  .text.tu_fifo_write
-                0x10006714       0x88 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x10006714                tu_fifo_write
+                0x10006704       0x88 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x10006704                tu_fifo_write
  .text.tu_fifo_write_n
-                0x1000679c      0x178 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x1000679c                tu_fifo_write_n
+                0x1000678c      0x178 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x1000678c                tu_fifo_write_n
  .text.tu_fifo_clear
-                0x10006914       0x40 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x10006914                tu_fifo_clear
+                0x10006904       0x40 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x10006904                tu_fifo_clear
  .text.tu_fifo_set_overwritable
-                0x10006954       0x48 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x10006954                tu_fifo_set_overwritable
+                0x10006944       0x48 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x10006944                tu_fifo_set_overwritable
  .text.adc_init
-                0x1000699c       0x38 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
-                0x1000699c                adc_init
- .text.strlen   0x100069d4       0x5c d:/program files2/gnu tool chain/12.3 rel1/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v6-m/nofp\libc.a(libc_a-strlen-stub.o)
-                0x100069d4                strlen
+                0x1000698c       0x38 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
+                0x1000698c                adc_init
+ .text.strlen   0x100069c4       0x5c d:/program files2/gnu tool chain/12.3 rel1/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v6-m/nofp\libc.a(libc_a-strlen-stub.o)
+                0x100069c4                strlen
  *(.fini)
- .fini          0x10006a30        0x4 d:/program files2/gnu tool chain/12.3 rel1/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v6-m/nofp/crti.o
-                0x10006a30                _fini
- *fill*         0x10006a34        0x4 
- .fini.__stub   0x10006a38       0xc0 linker stubs
+ .fini          0x10006a20        0x4 d:/program files2/gnu tool chain/12.3 rel1/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v6-m/nofp/crti.o
+                0x10006a20                _fini
+ *fill*         0x10006a24        0x4 
+ .fini.__stub   0x10006a28       0xc0 linker stubs
  *crtbegin.o(.ctors)
  *crtbegin?.o(.ctors)
  *(EXCLUDE_FILE(*crtend.o *crtend?.o) .ctors)
@@ -2202,125 +2202,126 @@ LOAD d:/program files2/gnu tool chain/12.3 rel1/bin/../lib/gcc/arm-none-eabi/12.
  *(SORT_BY_NAME(.dtors.*))
  *(.dtors)
  *(.eh_frame*)
- .eh_frame      0x10006af8        0x0 d:/program files2/gnu tool chain/12.3 rel1/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v6-m/nofp/crtbegin.o
-                0x10006af8                        . = ALIGN (0x4)
+ .eh_frame      0x10006ae8        0x0 d:/program files2/gnu tool chain/12.3 rel1/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v6-m/nofp/crtbegin.o
+                0x10006ae8                        . = ALIGN (0x4)
 
-.glue_7         0x10006af8        0x0
- .glue_7        0x10006af8        0x0 linker stubs
+.glue_7         0x10006ae8        0x0
+ .glue_7        0x10006ae8        0x0 linker stubs
 
-.glue_7t        0x10006af8        0x0
- .glue_7t       0x10006af8        0x0 linker stubs
+.glue_7t        0x10006ae8        0x0
+ .glue_7t       0x10006ae8        0x0 linker stubs
 
-.vfp11_veneer   0x10006af8        0x0
- .vfp11_veneer  0x10006af8        0x0 linker stubs
+.vfp11_veneer   0x10006ae8        0x0
+ .vfp11_veneer  0x10006ae8        0x0 linker stubs
 
-.v4_bx          0x10006af8        0x0
- .v4_bx         0x10006af8        0x0 linker stubs
+.v4_bx          0x10006ae8        0x0
+ .v4_bx         0x10006ae8        0x0 linker stubs
 
-.iplt           0x10006af8        0x0
- .iplt          0x10006af8        0x0 d:/program files2/gnu tool chain/12.3 rel1/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v6-m/nofp/crtbegin.o
+.iplt           0x10006ae8        0x0
+ .iplt          0x10006ae8        0x0 d:/program files2/gnu tool chain/12.3 rel1/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v6-m/nofp/crtbegin.o
 
-.rodata         0x10006af8      0x4ec
+.rodata         0x10006ae8      0x4ec
  *(EXCLUDE_FILE(*libm.a: *libc.a:*lib_a-mem*.o *libgcc.a:) .rodata*)
  .rodata.main.str1.4
-                0x10006af8        0xd CMakeFiles/carWithJoystick.dir/main.c.obj
- *fill*         0x10006b05        0x3 
+                0x10006ae8        0xe CMakeFiles/carWithJoystick.dir/main.c.obj
+ *fill*         0x10006af6        0x2 
  .rodata.spin_lock_claim_unused.str1.4
-                0x10006b08       0x1b CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
- *fill*         0x10006b23        0x1 
+                0x10006af8       0x1b CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+ *fill*         0x10006b13        0x1 
  .rodata.user_irq_claim_unused.str1.4
-                0x10006b24       0x1b CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- *fill*         0x10006b3f        0x1 
+                0x10006b14       0x1b CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ *fill*         0x10006b2f        0x1 
  .rodata.hardware_alarm_claim.str1.4
-                0x10006b40       0x22 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
- *fill*         0x10006b62        0x2 
+                0x10006b30       0x22 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+ *fill*         0x10006b52        0x2 
  .rodata.panic.str1.4
-                0x10006b64       0x12 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
- *fill*         0x10006b76        0x2 
+                0x10006b54       0x10 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                                 0x12 (size before relaxing)
  .rodata.hard_assertion_failure.str1.4
-                0x10006b78        0xc CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x10006b64        0xc CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
  .rodata._ftoa.str1.4
-                0x10006b84       0x15 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- *fill*         0x10006b99        0x3 
+                0x10006b70       0x15 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ *fill*         0x10006b85        0x3 
  .rodata._vsnprintf
-                0x10006b9c      0x19c CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x10006b88      0x19c CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ *fill*         0x10006d24        0x4 
  .rodata.pow10.0
-                0x10006d38       0x50 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x10006d28       0x50 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .rodata.str1.4
-                0x10006d88       0x44 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x10006d78       0x44 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.__bi_81
-                0x10006dcc        0xc CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x10006dbc        0xc CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.__bi_75
-                0x10006dd8        0xc CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x10006dc8        0xc CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.__bi_44
-                0x10006de4        0xc CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x10006dd4        0xc CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.crlf_str.0
-                0x10006df0        0x2 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
- *fill*         0x10006df2        0x2 
+                0x10006de0        0x2 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+ *fill*         0x10006de2        0x2 
  .rodata._resetd_driver
-                0x10006df4       0x18 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                0x10006de4       0x18 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
  .rodata.str1.4
-                0x10006e0c       0x13 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
- *fill*         0x10006e1f        0x1 
+                0x10006dfc       0x13 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+ *fill*         0x10006e0f        0x1 
  .rodata.__bi_182.0
-                0x10006e20        0xc CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x10006e10        0xc CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
  .rodata.str1.4
-                0x10006e2c       0x2a CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
- *fill*         0x10006e56        0x2 
+                0x10006e1c       0x2a CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+ *fill*         0x10006e46        0x2 
  .rodata.usbd_desc_str
-                0x10006e58       0x18 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+                0x10006e48       0x18 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
  .rodata.usbd_desc_cfg
-                0x10006e70       0x54 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+                0x10006e60       0x54 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
  .rodata.usbd_desc_device
-                0x10006ec4       0x12 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
- *fill*         0x10006ed6        0x2 
+                0x10006eb4       0x12 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+ *fill*         0x10006ec6        0x2 
  .rodata.str1.4
-                0x10006ed8       0x14 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x10006ec8       0x14 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
  .rodata.str1.4
-                0x10006eec       0x53 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
- *fill*         0x10006f3f        0x1 
+                0x10006edc       0x53 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+ *fill*         0x10006f2f        0x1 
  .rodata.tud_task_ext
-                0x10006f40       0x8c CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x10006f30       0x8c CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
  .rodata._usbd_driver
-                0x10006fcc       0x18 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x10006fe4                        . = ALIGN (0x4)
+                0x10006fbc       0x18 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x10006fd4                        . = ALIGN (0x4)
  *(SORT_BY_ALIGNMENT(SORT_BY_NAME(.flashdata*)))
-                0x10006fe4                        . = ALIGN (0x4)
+                0x10006fd4                        . = ALIGN (0x4)
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x10006fe4                        __exidx_start = .
+                0x10006fd4                        __exidx_start = .
 
 .ARM.exidx
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
-                0x10006fe4                        __exidx_end = .
-                0x10006fe4                        . = ALIGN (0x4)
-                0x10006fe4                        __binary_info_start = .
+                0x10006fd4                        __exidx_end = .
+                0x10006fd4                        . = ALIGN (0x4)
+                0x10006fd4                        __binary_info_start = .
 
-.binary_info    0x10006fe4       0x20
+.binary_info    0x10006fd4       0x20
  *(.binary_info.keep.*)
  .binary_info.keep.__bi_ptr81
-                0x10006fe4        0x4 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x10006fd4        0x4 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr75
-                0x10006fe8        0x4 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x10006fd8        0x4 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr50
-                0x10006fec        0x4 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x10006fdc        0x4 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr44
-                0x10006ff0        0x4 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x10006fe0        0x4 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr38
-                0x10006ff4        0x4 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x10006fe4        0x4 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr30
-                0x10006ff8        0x4 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x10006fe8        0x4 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr22
-                0x10006ffc        0x4 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x10006fec        0x4 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  *(.binary_info.*)
  .binary_info.__bi_ptr182
-                0x10007000        0x4 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
-                0x10007004                        __binary_info_end = .
+                0x10006ff0        0x4 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x10006ff4                        __binary_info_end = .
 
-.rel.dyn        0x10007004        0x0
- .rel.iplt      0x10007004        0x0 d:/program files2/gnu tool chain/12.3 rel1/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v6-m/nofp/crtbegin.o
-                0x10007004                        . = ALIGN (0x4)
+.rel.dyn        0x10006ff4        0x0
+ .rel.iplt      0x10006ff4        0x0 d:/program files2/gnu tool chain/12.3 rel1/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v6-m/nofp/crtbegin.o
+                0x10006ff4                        . = ALIGN (0x4)
 
 .ram_vector_table
                 0x20000000       0xc0
@@ -2329,7 +2330,7 @@ LOAD d:/program files2/gnu tool chain/12.3 rel1/bin/../lib/gcc/arm-none-eabi/12.
                 0x20000000       0xc0 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
                 0x20000000                ram_vector_table
 
-.data           0x200000c0      0xe20 load address 0x10007004
+.data           0x200000c0      0xe20 load address 0x10006ff4
                 0x200000c0                        __data_start__ = .
  *(vtable)
  *(.time_critical*)
@@ -2462,36 +2463,36 @@ LOAD d:/program files2/gnu tool chain/12.3 rel1/bin/../lib/gcc/arm-none-eabi/12.
  *(.jcr)
                 0x20000ee0                        . = ALIGN (0x4)
                 0x20000ee0                        __data_end__ = .
-                0x10007004                        __etext = LOADADDR (.data)
+                0x10006ff4                        __etext = LOADADDR (.data)
 
 .tm_clone_table
-                0x20000ee0        0x0 load address 0x10007e24
+                0x20000ee0        0x0 load address 0x10007e14
  .tm_clone_table
                 0x20000ee0        0x0 d:/program files2/gnu tool chain/12.3 rel1/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v6-m/nofp/crtbegin.o
  .tm_clone_table
                 0x20000ee0        0x0 d:/program files2/gnu tool chain/12.3 rel1/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v6-m/nofp/crtend.o
 
-.igot.plt       0x20000ee0        0x0 load address 0x10007e24
+.igot.plt       0x20000ee0        0x0 load address 0x10007e14
  .igot.plt      0x20000ee0        0x0 d:/program files2/gnu tool chain/12.3 rel1/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v6-m/nofp/crtbegin.o
 
 .uninitialized_data
-                0x20000ee0        0x0 load address 0x10007e24
+                0x20000ee0        0x0 load address 0x10007e14
                 0x20000ee0                        . = ALIGN (0x4)
  *(.uninitialized_data*)
 
-.scratch_x      0x20040000        0x0 load address 0x10007e24
+.scratch_x      0x20040000        0x0 load address 0x10007e14
                 0x20040000                        __scratch_x_start__ = .
  *(.scratch_x.*)
                 0x20040000                        . = ALIGN (0x4)
                 0x20040000                        __scratch_x_end__ = .
-                0x10007e24                        __scratch_x_source__ = LOADADDR (.scratch_x)
+                0x10007e14                        __scratch_x_source__ = LOADADDR (.scratch_x)
 
-.scratch_y      0x20041000        0x0 load address 0x10007e24
+.scratch_y      0x20041000        0x0 load address 0x10007e14
                 0x20041000                        __scratch_y_start__ = .
  *(.scratch_y.*)
                 0x20041000                        . = ALIGN (0x4)
                 0x20041000                        __scratch_y_end__ = .
-                0x10007e24                        __scratch_y_source__ = LOADADDR (.scratch_y)
+                0x10007e14                        __scratch_y_source__ = LOADADDR (.scratch_y)
 
 .bss            0x20000ee0      0xd84
                 0x20000ee0                        . = ALIGN (0x4)
@@ -2608,8 +2609,8 @@ LOAD d:/program files2/gnu tool chain/12.3 rel1/bin/../lib/gcc/arm-none-eabi/12.
  *(.stack*)
  .stack         0x20041000      0x800 CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
 
-.flash_end      0x10007e24        0x0
-                0x10007e24                        PROVIDE (__flash_binary_end = .)
+.flash_end      0x10007e14        0x0
+                0x10007e14                        PROVIDE (__flash_binary_end = .)
                 0x20040000                        __StackLimit = (ORIGIN (RAM) + LENGTH (RAM))
                 0x20041000                        __StackOneTop = (ORIGIN (SCRATCH_X) + LENGTH (SCRATCH_X))
                 0x20042000                        __StackTop = (ORIGIN (SCRATCH_Y) + LENGTH (SCRATCH_Y))
@@ -2690,7 +2691,7 @@ LOAD CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pi
 LOAD CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
 LOAD CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj
 LOAD CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
-LOAD C:\Users\Lenovo\AppData\Local\Temp\ccIS25F0.o
+LOAD C:\Users\Lenovo\AppData\Local\Temp\ccpddiJj.o
 LOAD d:/program files2/gnu tool chain/12.3 rel1/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v6-m/nofp\libstdc++.a
 LOAD d:/program files2/gnu tool chain/12.3 rel1/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v6-m/nofp\libm.a
 START GROUP
@@ -2806,7 +2807,7 @@ LOAD linker stubs
  .ARM.attributes
                 0x000007a2       0x2c CMakeFiles/carWithJoystick.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
  .ARM.attributes
-                0x000007ce       0x22 C:\Users\Lenovo\AppData\Local\Temp\ccIS25F0.o
+                0x000007ce       0x22 C:\Users\Lenovo\AppData\Local\Temp\ccpddiJj.o
  .ARM.attributes
                 0x000007f0       0x1e d:/program files2/gnu tool chain/12.3 rel1/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
  .ARM.attributes

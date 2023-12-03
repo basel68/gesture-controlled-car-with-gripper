@@ -62,4 +62,8 @@ CMakeFiles/nrfTesting.dir/main.c.obj: \
  D:\VSARM\sdk\pico\pico-sdk\src\rp2_common\hardware_spi\include/hardware/spi.h \
  D:\VSARM\sdk\pico\pico-sdk\src\rp2040\hardware_structs\include/hardware/structs/spi.h \
  D:\VSARM\sdk\pico\pico-sdk\src\rp2040\hardware_regs\include/hardware/regs/spi.h \
- D:\gesture-controlled-car-with-gripper\nrf\ receiver\Nrf.h
+ D:\VSARM\sdk\pico\pico-sdk\src\rp2_common\hardware_pwm\include/hardware/pwm.h \
+ D:\VSARM\sdk\pico\pico-sdk\src\rp2040\hardware_structs\include/hardware/structs/pwm.h \
+ D:\VSARM\sdk\pico\pico-sdk\src\rp2040\hardware_regs\include/hardware/regs/pwm.h \
+ D:\gesture-controlled-car-with-gripper\nrf\ receiver\Nrf.h \
+ D:\gesture-controlled-car-with-gripper\nrf\ receiver\car.h

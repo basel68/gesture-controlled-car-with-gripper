@@ -43,7 +43,7 @@ int main() {
     // Initialize MPU6050
     mpu6050_init();
     
-    nrf24l01_init();
+    
     while (1) {
         int16_t ax = read_mpu6050_register(ACCEL_XOUT_H);
         int16_t ay = read_mpu6050_register(ACCEL_YOUT_H);

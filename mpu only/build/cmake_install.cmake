@@ -1,8 +1,8 @@
-# Install script for directory: /Users/omarahmed/Desktop/Embedded Systems/gesture-controlled-car-with-gripper/mpu only
+# Install script for directory: D:/gesture-controlled-car-with-gripper/mpu only
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/usr/local")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/mpu")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -34,12 +34,12 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "/opt/homebrew/bin/arm-none-eabi-objdump")
+  set(CMAKE_OBJDUMP "D:/program files2/GNU TOOL CHAIN/12.3 rel1/bin/arm-none-eabi-objdump.exe")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/omarahmed/Desktop/Embedded Systems/gesture-controlled-car-with-gripper/mpu only/build/pico-sdk/cmake_install.cmake")
+  include("D:/gesture-controlled-car-with-gripper/mpu only/build/pico-sdk/cmake_install.cmake")
 
 endif()
 
@@ -51,5 +51,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/omarahmed/Desktop/Embedded Systems/gesture-controlled-car-with-gripper/mpu only/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "D:/gesture-controlled-car-with-gripper/mpu only/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

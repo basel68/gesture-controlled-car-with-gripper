@@ -116,6 +116,8 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
   "D:/VSARM/sdk/pico/pico-sdk/lib/tinyusb/hw"
   "D:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/include"
   "D:/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_spi/include"
+  "D:/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_pwm/include"
+  "D:/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_adc/include"
   )
 
 # The set of dependency files which are needed:
@@ -147,6 +149,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "D:/VSARM/sdk/pico/pico-sdk/src/common/pico_util/datetime.c" "CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/datetime.c.obj" "gcc" "CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/datetime.c.obj.d"
   "D:/VSARM/sdk/pico/pico-sdk/src/common/pico_util/pheap.c" "CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/pheap.c.obj" "gcc" "CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/pheap.c.obj.d"
   "D:/VSARM/sdk/pico/pico-sdk/src/common/pico_util/queue.c" "CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/queue.c.obj" "gcc" "CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/queue.c.obj.d"
+  "D:/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c" "CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj" "gcc" "CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj.d"
   "D:/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c" "CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj" "gcc" "CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj.d"
   "D:/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c" "CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj" "gcc" "CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj.d"
   "D:/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c" "CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj" "gcc" "CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj.d"
@@ -178,6 +181,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "D:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c" "CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj" "gcc" "CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj.d"
   "D:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c" "CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj" "gcc" "CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj.d"
   "D:/gesture-controlled-car-with-gripper/nrf receiver/Nrf.c" "CMakeFiles/nrfTesting.dir/Nrf.c.obj" "gcc" "CMakeFiles/nrfTesting.dir/Nrf.c.obj.d"
+  "D:/gesture-controlled-car-with-gripper/nrf receiver/car.c" "CMakeFiles/nrfTesting.dir/car.c.obj" "gcc" "CMakeFiles/nrfTesting.dir/car.c.obj.d"
   "D:/gesture-controlled-car-with-gripper/nrf receiver/main.c" "CMakeFiles/nrfTesting.dir/main.c.obj" "gcc" "CMakeFiles/nrfTesting.dir/main.c.obj.d"
   "D:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp" "CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj" "gcc" "CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj.d"
   )

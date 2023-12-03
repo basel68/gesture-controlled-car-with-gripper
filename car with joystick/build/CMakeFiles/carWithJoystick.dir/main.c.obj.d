@@ -56,4 +56,12 @@ CMakeFiles/carWithJoystick.dir/main.c.obj: \
  D:\VSARM\sdk\pico\pico-sdk\src\rp2040\hardware_regs\include/hardware/regs/pwm.h \
  D:\VSARM\sdk\pico\pico-sdk\src\rp2_common\hardware_adc\include/hardware/adc.h \
  D:\VSARM\sdk\pico\pico-sdk\src\rp2040\hardware_structs\include/hardware/structs/adc.h \
- D:\VSARM\sdk\pico\pico-sdk\src\rp2040\hardware_regs\include/hardware/regs/adc.h
+ D:\VSARM\sdk\pico\pico-sdk\src\rp2040\hardware_regs\include/hardware/regs/adc.h \
+ d:\program\ files2\gnu\ tool\ chain\12.3\ rel1\arm-none-eabi\include\stdio.h \
+ d:\program\ files2\gnu\ tool\ chain\12.3\ rel1\lib\gcc\arm-none-eabi\12.3.1\include\stdarg.h \
+ d:\program\ files2\gnu\ tool\ chain\12.3\ rel1\arm-none-eabi\include\sys\reent.h \
+ d:\program\ files2\gnu\ tool\ chain\12.3\ rel1\arm-none-eabi\include\_ansi.h \
+ d:\program\ files2\gnu\ tool\ chain\12.3\ rel1\arm-none-eabi\include\sys\_types.h \
+ d:\program\ files2\gnu\ tool\ chain\12.3\ rel1\arm-none-eabi\include\machine\_types.h \
+ d:\program\ files2\gnu\ tool\ chain\12.3\ rel1\arm-none-eabi\include\sys\lock.h \
+ d:\program\ files2\gnu\ tool\ chain\12.3\ rel1\arm-none-eabi\include\sys\stdio.h

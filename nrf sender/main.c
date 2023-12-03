@@ -71,8 +71,8 @@ void setup() {
 }
 // A test payload to send
 typedef struct{
-uint8_t xjoy;
-uint8_t yjoy;
+uint16_t xjoy;
+uint16_t yjoy;
 uint16_t ax;
 uint16_t ay;
 uint16_t az;

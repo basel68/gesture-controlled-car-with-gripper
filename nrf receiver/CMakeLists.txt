@@ -16,6 +16,7 @@ pico_sdk_init()
 add_executable(${PROJECT_NAME} 
     main.c
     Nrf.c
+    car.c
 )
 
 # Create map/bin/hex/uf2 files
@@ -26,6 +27,8 @@ target_link_libraries(${PROJECT_NAME}
     pico_stdlib
     hardware_spi
     hardware_gpio
+    hardware_pwm
+    hardware_adc
 )
 
 # Enable usb output, disable uart output

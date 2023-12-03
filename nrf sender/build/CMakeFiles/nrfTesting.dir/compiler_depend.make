@@ -1318,6 +1318,54 @@ CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/queue.
   D:/VSARM/sdk/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
   D:/VSARM/sdk/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h
 
+CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj: D:/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c \
+  D:/VSARM/sdk/pico/pico-sdk/src/common/pico_base/include/pico.h \
+  D:/VSARM/sdk/pico/pico-sdk/src/common/pico_base/include/pico/types.h \
+  D:/VSARM/sdk/pico/pico-sdk/src/common/pico_base/include/pico/assert.h \
+  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/lib/gcc/arm-none-eabi/12.3.1/include/stdbool.h \
+  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/arm-none-eabi/include/assert.h \
+  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/arm-none-eabi/include/_ansi.h \
+  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/arm-none-eabi/include/newlib.h \
+  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/arm-none-eabi/include/_newlib_version.h \
+  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/arm-none-eabi/include/sys/config.h \
+  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/arm-none-eabi/include/machine/ieeefp.h \
+  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/arm-none-eabi/include/sys/features.h \
+  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/lib/gcc/arm-none-eabi/12.3.1/include/stdint.h \
+  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/arm-none-eabi/include/stdint.h \
+  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/arm-none-eabi/include/machine/_default_types.h \
+  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/arm-none-eabi/include/sys/_intsup.h \
+  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/arm-none-eabi/include/sys/_stdint.h \
+  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/lib/gcc/arm-none-eabi/12.3.1/include/stddef.h \
+  generated/pico_base/pico/version.h \
+  D:/VSARM/sdk/pico/pico-sdk/src/common/pico_base/include/pico/config.h \
+  generated/pico_base/pico/config_autogen.h \
+  D:/VSARM/sdk/pico/pico-sdk/src/boards/include/boards/pico.h \
+  D:/VSARM/sdk/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  D:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h \
+  D:/VSARM/sdk/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  D:/VSARM/sdk/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  D:/VSARM/sdk/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/arm-none-eabi/include/sys/cdefs.h \
+  D:/VSARM/sdk/pico/pico-sdk/src/common/pico_base/include/pico/types.h \
+  D:/VSARM/sdk/pico/pico-sdk/src/common/pico_base/include/pico/error.h \
+  D:/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_adc/include/hardware/adc.h \
+  D:/VSARM/sdk/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/adc.h \
+  D:/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  D:/VSARM/sdk/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/adc.h \
+  D:/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h \
+  D:/VSARM/sdk/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/sio.h \
+  D:/VSARM/sdk/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/interp.h \
+  D:/VSARM/sdk/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/padsbank0.h \
+  D:/VSARM/sdk/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pads_bank0.h \
+  D:/VSARM/sdk/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/iobank0.h \
+  D:/VSARM/sdk/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/io_bank0.h \
+  D:/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
+  D:/VSARM/sdk/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
+  D:/VSARM/sdk/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h \
+  D:/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_resets/include/hardware/resets.h \
+  D:/VSARM/sdk/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/resets.h \
+  D:/VSARM/sdk/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/resets.h
+
 CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj: D:/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c \
   D:/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_claim/include/hardware/claim.h \
   D:/VSARM/sdk/pico/pico-sdk/src/common/pico_base/include/pico.h \
@@ -2955,7 +3003,10 @@ CMakeFiles/nrfTesting.dir/main.c.obj: D:/gesture-controlled-car-with-gripper/nrf
   D:/gesture-controlled-car-with-gripper/nrf\ sender/Nrf.h \
   D:/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_i2c/include/hardware/i2c.h \
   D:/VSARM/sdk/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/i2c.h \
-  D:/VSARM/sdk/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/i2c.h
+  D:/VSARM/sdk/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/i2c.h \
+  D:/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_adc/include/hardware/adc.h \
+  D:/VSARM/sdk/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/adc.h \
+  D:/VSARM/sdk/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/adc.h
 
 
 D:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h:
@@ -2975,6 +3026,8 @@ D:/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h:
 D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/arm-none-eabi/include/sys/sched.h:
 
 D:/VSARM/sdk/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h:
+
+D:/VSARM/sdk/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/adc.h:
 
 D:/VSARM/sdk/pico/pico-sdk/src/common/pico_base/include/pico.h:
 
@@ -3120,6 +3173,8 @@ D:/VSARM/sdk/pico/pico-sdk/src/common/pico_time/include/pico/time.h:
 
 D:/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h:
 
+D:/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c:
+
 D:/VSARM/sdk/pico/pico-sdk/src/common/pico_sync/include/pico/lock_core.h:
 
 D:/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h:
@@ -3127,6 +3182,8 @@ D:/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h:
 D:/VSARM/sdk/pico/pico-sdk/src/common/pico_sync/include/pico/mutex.h:
 
 D:/VSARM/sdk/pico/pico-sdk/src/common/pico_sync/include/pico/critical_section.h:
+
+D:/VSARM/sdk/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/adc.h:
 
 D:/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.h:
 
@@ -3230,6 +3287,24 @@ D:/VSARM/sdk/pico/pico-sdk/src/common/pico_util/queue.c:
 
 D:/VSARM/sdk/pico/pico-sdk/src/common/pico_util/include/pico/util/queue.h:
 
+D:/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_adc/include/hardware/adc.h:
+
+D:/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h:
+
+D:/VSARM/sdk/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/io_bank0.h:
+
+D:/VSARM/sdk/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/sio.h:
+
+D:/VSARM/sdk/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/psm.h:
+
+D:/VSARM/sdk/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/io_qspi.h:
+
+D:/VSARM/sdk/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/interp.h:
+
+D:/VSARM/sdk/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pads_bank0.h:
+
+D:/VSARM/sdk/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/iobank0.h:
+
 D:/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_claim/include/hardware/claim.h:
 
 D:/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c:
@@ -3247,22 +3322,6 @@ D:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c:
 D:/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_xosc/include/hardware/xosc.h:
 
 D:/VSARM/sdk/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/xosc.h:
-
-D:/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h:
-
-D:/VSARM/sdk/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/io_bank0.h:
-
-D:/VSARM/sdk/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/sio.h:
-
-D:/VSARM/sdk/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/psm.h:
-
-D:/VSARM/sdk/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/io_qspi.h:
-
-D:/VSARM/sdk/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/interp.h:
-
-D:/VSARM/sdk/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pads_bank0.h:
-
-D:/VSARM/sdk/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/iobank0.h:
 
 D:/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c:
 

@@ -2,34 +2,34 @@
 	"sources" : 
 	[
 		{
-			"file" : "/Users/omarahmed/Desktop/Embedded Systems/gesture-controlled-car-with-gripper/car only/build/pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/PioasmBuild"
+			"file" : "D:/gesture-controlled-car-with-gripper/car only/build/pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/PioasmBuild"
 		},
 		{
-			"file" : "/Users/omarahmed/Desktop/Embedded Systems/gesture-controlled-car-with-gripper/car only/build/pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/PioasmBuild.rule"
+			"file" : "D:/gesture-controlled-car-with-gripper/car only/build/pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/PioasmBuild.rule"
 		},
 		{
-			"file" : "/Users/omarahmed/Desktop/Embedded Systems/gesture-controlled-car-with-gripper/car only/build/pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/PioasmBuild-complete.rule"
+			"file" : "D:/gesture-controlled-car-with-gripper/car only/build/pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/PioasmBuild-complete.rule"
 		},
 		{
-			"file" : "/Users/omarahmed/Desktop/Embedded Systems/gesture-controlled-car-with-gripper/car only/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-build.rule"
+			"file" : "D:/gesture-controlled-car-with-gripper/car only/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-build.rule"
 		},
 		{
-			"file" : "/Users/omarahmed/Desktop/Embedded Systems/gesture-controlled-car-with-gripper/car only/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-configure.rule"
+			"file" : "D:/gesture-controlled-car-with-gripper/car only/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-configure.rule"
 		},
 		{
-			"file" : "/Users/omarahmed/Desktop/Embedded Systems/gesture-controlled-car-with-gripper/car only/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-download.rule"
+			"file" : "D:/gesture-controlled-car-with-gripper/car only/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-download.rule"
 		},
 		{
-			"file" : "/Users/omarahmed/Desktop/Embedded Systems/gesture-controlled-car-with-gripper/car only/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-install.rule"
+			"file" : "D:/gesture-controlled-car-with-gripper/car only/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-install.rule"
 		},
 		{
-			"file" : "/Users/omarahmed/Desktop/Embedded Systems/gesture-controlled-car-with-gripper/car only/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-mkdir.rule"
+			"file" : "D:/gesture-controlled-car-with-gripper/car only/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-mkdir.rule"
 		},
 		{
-			"file" : "/Users/omarahmed/Desktop/Embedded Systems/gesture-controlled-car-with-gripper/car only/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-patch.rule"
+			"file" : "D:/gesture-controlled-car-with-gripper/car only/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-patch.rule"
 		},
 		{
-			"file" : "/Users/omarahmed/Desktop/Embedded Systems/gesture-controlled-car-with-gripper/car only/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-update.rule"
+			"file" : "D:/gesture-controlled-car-with-gripper/car only/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-update.rule"
 		}
 	],
 	"target" : 

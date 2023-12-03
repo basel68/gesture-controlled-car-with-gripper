@@ -854,6 +854,30 @@ D_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/queue.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\nrfTesting.dir\build.make CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/queue.c.s
 .PHONY : D_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/queue.c.s
 
+D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_adc/adc.obj: D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
+.PHONY : D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_adc/adc.obj
+
+# target to build an object file
+D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\nrfTesting.dir\build.make CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
+.PHONY : D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
+
+D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_adc/adc.i: D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.i
+.PHONY : D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_adc/adc.i
+
+# target to preprocess a source file
+D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\nrfTesting.dir\build.make CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.i
+.PHONY : D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.i
+
+D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_adc/adc.s: D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.s
+.PHONY : D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_adc/adc.s
+
+# target to generate assembly for a file
+D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\nrfTesting.dir\build.make CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.s
+.PHONY : D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.s
+
 D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_claim/claim.obj: D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
 .PHONY : D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_claim/claim.obj
 
@@ -1710,6 +1734,30 @@ Nrf.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\nrfTesting.dir\build.make CMakeFiles/nrfTesting.dir/Nrf.c.s
 .PHONY : Nrf.c.s
 
+car.obj: car.c.obj
+.PHONY : car.obj
+
+# target to build an object file
+car.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\nrfTesting.dir\build.make CMakeFiles/nrfTesting.dir/car.c.obj
+.PHONY : car.c.obj
+
+car.i: car.c.i
+.PHONY : car.i
+
+# target to preprocess a source file
+car.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\nrfTesting.dir\build.make CMakeFiles/nrfTesting.dir/car.c.i
+.PHONY : car.c.i
+
+car.s: car.c.s
+.PHONY : car.s
+
+# target to generate assembly for a file
+car.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\nrfTesting.dir\build.make CMakeFiles/nrfTesting.dir/car.c.s
+.PHONY : car.c.s
+
 main.obj: main.c.obj
 .PHONY : main.obj
 
@@ -1830,6 +1878,9 @@ help:
 	@echo ... D_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/queue.obj
 	@echo ... D_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/queue.i
 	@echo ... D_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/queue.s
+	@echo ... D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_adc/adc.obj
+	@echo ... D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_adc/adc.i
+	@echo ... D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_adc/adc.s
 	@echo ... D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_claim/claim.obj
 	@echo ... D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_claim/claim.i
 	@echo ... D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_claim/claim.s
@@ -1937,6 +1988,9 @@ help:
 	@echo ... Nrf.obj
 	@echo ... Nrf.i
 	@echo ... Nrf.s
+	@echo ... car.obj
+	@echo ... car.i
+	@echo ... car.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
