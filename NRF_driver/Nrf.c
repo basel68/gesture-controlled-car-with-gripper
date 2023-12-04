@@ -147,8 +147,8 @@ void nrf_init(nrf_pin_t *nrf_pins) {
     uint8_t rf_ch_value = 76;
     nrf_write_register(NRF_RF_CH, &rf_ch_value, 1,nrf_pins);
  // Setting data rate to high (2Mbps) and RF power to 0dBm
-uint8_t rf_setup_value = RF_SETUP_DR_2MBPS | RF_SETUP_PWR_0DBM;
-nrf_write_register(NRF_RF_SETUP, &rf_setup_value, 1, nrf_pins);
+    uint8_t rf_setup_value = RF_SETUP_DR_2MBPS | RF_SETUP_PWR_0DBM;
+    nrf_write_register(NRF_RF_SETUP, &rf_setup_value, 1, nrf_pins);
 
     nrf_setup_retransmission(nrf_pins, 0x08, 0x0F);
     //Enable address port0
