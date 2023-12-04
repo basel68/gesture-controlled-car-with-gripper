@@ -17,6 +17,7 @@ extern uint8_t tx_addr_p0[];
 #define NRF_CMD_FLUSH_TX    0xE1
 #define NRF_CMD_R_RX_PAYLOAD 0x61
 #define NRF_CMD_R_REGISTER 0x00
+#define NRF_CMD_FLUSH_RX 0xE2
 #define dummmy_byte 0xFF
 #define spi_port_0 spi0
 #define rf_chan_2Gh 2
@@ -137,7 +138,8 @@ bool nrf_transmission_successful(nrf_pin_t *nrf_pins);
 
 bool nrf_data_ready(nrf_pin_t *nrf_pins);
 void check_auto_ack(nrf_pin_t *nrf_pins);
-
+void nrf_clear_transmit_buffer(nrf_pin_t *nrf_pin);
+void nrf_clear_receive_buffer(nrf_pin_t *nrf_pin);
 
 void print_all_registers(nrf_pin_t *nrf_pins);
 

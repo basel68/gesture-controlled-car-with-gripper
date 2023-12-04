@@ -1,5 +1,5 @@
-D:/gesture-controlled-car-with-gripper/car only/build/elf2uf2/CMakeFiles/elf2uf2.dir
-D:/gesture-controlled-car-with-gripper/car only/build/elf2uf2/CMakeFiles/edit_cache.dir
-D:/gesture-controlled-car-with-gripper/car only/build/elf2uf2/CMakeFiles/rebuild_cache.dir
-D:/gesture-controlled-car-with-gripper/car only/build/elf2uf2/boot_uf2_headers/CMakeFiles/edit_cache.dir
-D:/gesture-controlled-car-with-gripper/car only/build/elf2uf2/boot_uf2_headers/CMakeFiles/rebuild_cache.dir
+/Users/omarahmed/Desktop/Embedded Systems/gesture-controlled-car-with-gripper/car only/build/elf2uf2/CMakeFiles/elf2uf2.dir
+/Users/omarahmed/Desktop/Embedded Systems/gesture-controlled-car-with-gripper/car only/build/elf2uf2/CMakeFiles/edit_cache.dir
+/Users/omarahmed/Desktop/Embedded Systems/gesture-controlled-car-with-gripper/car only/build/elf2uf2/CMakeFiles/rebuild_cache.dir
+/Users/omarahmed/Desktop/Embedded Systems/gesture-controlled-car-with-gripper/car only/build/elf2uf2/boot_uf2_headers/CMakeFiles/edit_cache.dir
+/Users/omarahmed/Desktop/Embedded Systems/gesture-controlled-car-with-gripper/car only/build/elf2uf2/boot_uf2_headers/CMakeFiles/rebuild_cache.dir

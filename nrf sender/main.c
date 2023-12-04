@@ -9,7 +9,7 @@
 #define SCK_PIN_NUMBER 18
 #define CE_PIN_NUMBER 20
 #define CSN_PIN_NUMBER 17
-//joystick pins
+// joystick pins
 #define JOY_X_PIN 27 // ADC capable pin for X-axis
 #define JOY_Y_PIN 26 // ADC capable pin for Y-axis
 // MPU6050 I2C address
@@ -28,35 +28,38 @@ nrf_pin_t nrf_pins = {
     .CE = CE_PIN_NUMBER,
     .SCK = SCK_PIN_NUMBER,
     .MOSI = MOSI_PIN_NUMBER,
-    .MISO = MISO_PIN_NUMBER
-};
-int read_joystick_axis(uint gpio) {
-    adc_select_input(gpio == JOY_X_PIN ? 0 : 1); 
-    return adc_read(); 
+    .MISO = MISO_PIN_NUMBER};
+int read_joystick_axis(uint gpio)
+{
+    adc_select_input(gpio == JOY_X_PIN ? 0 : 1);
+    return adc_read();
 }
-void mpu6050_init() {
+void mpu6050_init()
+{
     uint8_t buf[2];
     buf[0] = PWR_MGMT_1;
     buf[1] = 0;
     i2c_write_blocking(I2C_PORT, MPU6050_ADDR, buf, 2, false);
 }
 
-int16_t read_mpu6050_register(uint8_t reg) {
+int16_t read_mpu6050_register(uint8_t reg)
+{
     uint8_t buf[2];
     i2c_write_blocking(I2C_PORT, MPU6050_ADDR, &reg, 1, true);
     i2c_read_blocking(I2C_PORT, MPU6050_ADDR, buf, 2, false);
-    return (int16_t) (buf[0] << 8 | buf[1]);
+    return (int16_t)(buf[0] << 8 | buf[1]);
 }
-void setup() {
+void setup()
+{
     stdio_init_all();
-// Initialize ADC for joystick
+    // Initialize ADC for joystick
     adc_init();
     adc_gpio_init(JOY_X_PIN);
     adc_gpio_init(JOY_Y_PIN);
 
     // Initialize the NRF device
     nrf_init(&nrf_pins);
-// Initialize I2C
+    // Initialize I2C
     i2c_init(I2C_PORT, 100 * 1000);
     gpio_set_function(4, GPIO_FUNC_I2C);
     gpio_set_function(5, GPIO_FUNC_I2C);
@@ -65,48 +68,62 @@ void setup() {
 
     // Initialize MPU6050
     mpu6050_init();
-   
-    nrf_configure_as_transmitter(&nrf_pins);
 
+    nrf_configure_as_transmitter(&nrf_pins);
 }
 // A test payload to send
-typedef struct{
-uint16_t xjoy;
-uint16_t yjoy;
-uint16_t ax;
-uint16_t ay;
-uint16_t az;
-}data_t;
+typedef struct
+{
+    uint8_t direction;
+    uint16_t ax;
+    uint16_t ay;
+    uint16_t az;
+} data_t;
 
-int main() {
+int main()
+{
+    uint8_t direction = 0;
     data_t payload;
     setup();
-
     while (1)
-{
-    int xValue = read_joystick_axis(JOY_X_PIN);
-    int yValue = read_joystick_axis(JOY_Y_PIN);
-    int16_t ax = read_mpu6050_register(ACCEL_XOUT_H);
-    int16_t ay = read_mpu6050_register(ACCEL_YOUT_H);
-    int16_t az = read_mpu6050_register(ACCEL_ZOUT_H);
-    payload.xjoy=xValue;
-    payload.yjoy=yValue;
-    payload.ax=ax;
-    payload.ay=ay;
-    payload.az=az;
+    {
+        int xValue = read_joystick_axis(JOY_X_PIN);
+        int yValue = read_joystick_axis(JOY_Y_PIN);
+        int16_t ax = read_mpu6050_register(ACCEL_XOUT_H);
+        int16_t ay = read_mpu6050_register(ACCEL_YOUT_H);
+        int16_t az = read_mpu6050_register(ACCEL_ZOUT_H);
+        payload.direction = 0;
+        payload.ax = ax;
+        payload.ay = ay;
+        payload.az = az;
 
-    // Check for transmission complete status
-    if  (nrf_send_data(&payload, sizeof(payload),&nrf_pins)) {
-    //  print_all_registers(&nrf_pins);
+        if ((xValue > 2000 && xValue < 2200) &&
+            (yValue > 2000 && yValue < 2200))
+        {
+            direction = 0;
+        }
+        else if ((xValue >= 0 && xValue < 50) &&
+                 (yValue > 2000 && yValue < 2200))
+        {
+            direction = 1;
+        }
+        else if ((xValue > 4000 && xValue < 4200) &&
+                 (yValue > 2000 && yValue < 2200))
+        {
+            direction = 2;
+        }
 
-     printf("sent successfully\n");
-
-    //  print_all_registers(&nrf_pins);
-    } else {
-       printf("Transmission failed\n");
+        if (nrf_send_data(&direction, sizeof(direction), &nrf_pins))
+        {
+            printf("direction: %d\n", direction);
+            printf("sent successfully\n");
+        }
+        else
+        {
+            printf("Transmission failed\n");
+        }
+        sleep_ms(200);
     }
-    sleep_ms(1000);
-}
-    
+
     return 0;
 }

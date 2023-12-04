@@ -7,7 +7,29 @@ static void nrf_gpio_init( nrf_pin_t *nrf_pins);
 uint8_t tx_addr_p0[5] = {0xE7, 0xE7, 0xE7, 0xE7, 0xE7}; // Same as receiver's RX_ADDR_P0
 uint8_t rx_addr_p0[5] = {0xE7, 0xE7, 0xE7, 0xE7, 0xE7}; // For auto-acknowledgment
 
+void nrf_clear_transmit_buffer(nrf_pin_t *nrf_pin) {
+    // Command to flush TX FIFO
+    uint8_t flush_tx_cmd = NRF_CMD_FLUSH_TX;
 
+    gpio_put(nrf_pin->CSN, 0); // CSN low to start the SPI transaction
+    spi_write_blocking(spi_port_0, &flush_tx_cmd, 1); // Send the flush TX FIFO command
+    gpio_put(nrf_pin->CSN, 1); // CSN high to end the SPI transaction
+
+    // Additionally, clear the MAX_RT and TX_DS interrupt flags
+    uint8_t status = (1 << NRF_STATUS_MAX_RT_BIT) | (1 << NRF_STATUS_TX_DS_BIT);
+    nrf_write_register(NRF_STATUS, &status, 1, nrf_pin);
+}
+void nrf_clear_receive_buffer(nrf_pin_t *nrf_pin) {
+    // Command to flush RX FIFO
+    uint8_t flush_rx_cmd = NRF_CMD_FLUSH_RX;
+
+    gpio_put(nrf_pin->CSN, 0); // CSN low to start the SPI transaction
+    spi_write_blocking(spi_port_0, &flush_rx_cmd, 1); // Send the flush RX FIFO command
+    gpio_put(nrf_pin->CSN, 1); // CSN high to end the SPI transaction
+
+    // Additionally, clear the RX_DR interrupt flag
+    nrf_clear_rx_dr(&nrf_pin);
+}
 
 bool nrf_receive_data(uint8_t *data, size_t len, nrf_pin_t *nrf_pin) {
     if (nrf_data_ready(nrf_pin)) {
@@ -123,9 +145,10 @@ void nrf_init(nrf_pin_t *nrf_pins) {
     //set rf channel
     uint8_t rf_ch_value = 76;
     nrf_write_register(NRF_RF_CH, &rf_ch_value, 1,nrf_pins);
-   // setting data rate to low and rf power
-    uint8_t rf_setup_value = RF_SETUP_DR_250KBPS | RF_SETUP_PWR_MINUS_6DBM;
-    nrf_write_register(NRF_RF_SETUP, &rf_setup_value, 1,nrf_pins);
+  // Setting data rate to high (2Mbps) and RF power to 0dBm
+uint8_t rf_setup_value = RF_SETUP_DR_2MBPS | RF_SETUP_PWR_0DBM;
+nrf_write_register(NRF_RF_SETUP, &rf_setup_value, 1, nrf_pins);
+
 
     nrf_setup_retransmission(nrf_pins, 0x08, 0x0F);
     //Enable address port0

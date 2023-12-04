@@ -1,13 +1,13 @@
 # Target labels
  ELF2UF2Build
 # Source files and their labels
-D:/gesture-controlled-car-with-gripper/nrf sender/build/CMakeFiles/ELF2UF2Build
-D:/gesture-controlled-car-with-gripper/nrf sender/build/CMakeFiles/ELF2UF2Build.rule
-D:/gesture-controlled-car-with-gripper/nrf sender/build/CMakeFiles/ELF2UF2Build-complete.rule
-D:/gesture-controlled-car-with-gripper/nrf sender/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-build.rule
-D:/gesture-controlled-car-with-gripper/nrf sender/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-configure.rule
-D:/gesture-controlled-car-with-gripper/nrf sender/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-download.rule
-D:/gesture-controlled-car-with-gripper/nrf sender/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-install.rule
-D:/gesture-controlled-car-with-gripper/nrf sender/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-mkdir.rule
-D:/gesture-controlled-car-with-gripper/nrf sender/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-patch.rule
-D:/gesture-controlled-car-with-gripper/nrf sender/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-update.rule
+/Users/omarahmed/Desktop/Embedded Systems/gesture-controlled-car-with-gripper/nrf sender/build/CMakeFiles/ELF2UF2Build
+/Users/omarahmed/Desktop/Embedded Systems/gesture-controlled-car-with-gripper/nrf sender/build/CMakeFiles/ELF2UF2Build.rule
+/Users/omarahmed/Desktop/Embedded Systems/gesture-controlled-car-with-gripper/nrf sender/build/CMakeFiles/ELF2UF2Build-complete.rule
+/Users/omarahmed/Desktop/Embedded Systems/gesture-controlled-car-with-gripper/nrf sender/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-build.rule
+/Users/omarahmed/Desktop/Embedded Systems/gesture-controlled-car-with-gripper/nrf sender/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-configure.rule
+/Users/omarahmed/Desktop/Embedded Systems/gesture-controlled-car-with-gripper/nrf sender/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-download.rule
+/Users/omarahmed/Desktop/Embedded Systems/gesture-controlled-car-with-gripper/nrf sender/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-install.rule
+/Users/omarahmed/Desktop/Embedded Systems/gesture-controlled-car-with-gripper/nrf sender/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-mkdir.rule
+/Users/omarahmed/Desktop/Embedded Systems/gesture-controlled-car-with-gripper/nrf sender/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-patch.rule
+/Users/omarahmed/Desktop/Embedded Systems/gesture-controlled-car-with-gripper/nrf sender/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-update.rule

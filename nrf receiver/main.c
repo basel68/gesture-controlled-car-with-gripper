@@ -17,81 +17,112 @@ nrf_pin_t nrf_pins = {
     .CE = CE_PIN_NUMBER,
     .SCK = SCK_PIN_NUMBER,
     .MOSI = MOSI_PIN_NUMBER,
-    .MISO = MISO_PIN_NUMBER
-};
-typedef struct{
-uint16_t xjoy;
-uint16_t yjoy;
-uint16_t ax;
-uint16_t ay;
-uint16_t az;
-}data_t;
+    .MISO = MISO_PIN_NUMBER};
+typedef struct
+{
+    uint16_t xjoy;
+    uint16_t yjoy;
+    uint16_t ax;
+    uint16_t ay;
+    uint16_t az;
+} data_t;
 
- data_t receivedData;
+data_t receivedData;
 
-int main() {
+uint8_t direction = 0;
+
+int main()
+{
     stdio_init_all();
     // Initialize the NRF device
     nrf_init(&nrf_pins);
     car_init();
+    carStop();
     nrf_configure_as_receiver(&nrf_pins);
-    
-     gpio_init(led);
+
+    gpio_init(led);
     gpio_set_dir(led, GPIO_OUT);
-    
+
     // Implement a loop to keep checking for received data
-    while (true) {
-        
-        
-        if (nrf_data_ready(&nrf_pins)) {
-            
-            nrf_receive_data(&receivedData, sizeof(receivedData), &nrf_pins);
-            
+    // while (true)
+    // {
+    //     if (nrf_data_ready(&nrf_pins))
+    //     {
+
+    //         nrf_receive_data(&receivedData, sizeof(receivedData), &nrf_pins);
+
+    //         printf("Received data:\n");
+    //         printf("X Joy: %d\n", receivedData.xjoy);
+    //         printf("Y Joy: %d\n", receivedData.yjoy);
+    //         // printf("AX: %d\n", receivedData.ax);
+    //         // printf("AY: %d\n", receivedData.ay);
+    //         // printf("AZ: %d\n", receivedData.az);
+    //     }
+    //     else
+    //     {
+    //         printf("No data available\n");
+    //     }
+
+    //     if ((receivedData.xjoy > 2000 && receivedData.xjoy < 2200) &&
+    //         (receivedData.yjoy > 2000 && receivedData.yjoy < 2200))
+    //     {
+    //         printf("stop");
+    //         // Stop
+    //         carStop();
+    //     }
+    //     else if ((receivedData.xjoy >= 0 && receivedData.xjoy < 50) &&
+    //              (receivedData.yjoy > 2000 && receivedData.yjoy < 2200))
+    //     {
+    //         printf("forward");
+    //         // Move forward
+    //         carForward();
+    //     }
+    //     else if ((receivedData.xjoy > 4000 && receivedData.xjoy < 4200) &&
+    //              (receivedData.yjoy > 2000 && receivedData.yjoy < 2200))
+    //     {
+    //         // Move backward
+    //         printf("backward");
+    //         carBackward();
+    //     }else{
+    //         printf("stop");
+    //         // Stop
+    //         carStop();
+    //     }
+    // }
+
+    while (1)
+    {
+        if (nrf_data_ready(&nrf_pins))
+        {
+            nrf_receive_data(&direction, sizeof(direction), &nrf_pins);
+            nrf_clear_receive_buffer(&nrf_pins);
             printf("Received data:\n");
-            printf("X Joy: %d\n", receivedData.xjoy);
-            printf("Y Joy: %d\n", receivedData.yjoy);
-            printf("AX: %d\n", receivedData.ax);
-            printf("AY: %d\n", receivedData.ay);
-            printf("AZ: %d\n", receivedData.az);
-        } else {
-            printf("No data available\n");
+            printf("direction: %d\n", direction);
+            // printf("AX: %d\n", receivedData.ax);
+            // printf("AY: %d\n", receivedData.ay);
+            // printf("AZ: %d\n", receivedData.az);
         }
-        
-       if ((receivedData.xjoy > 2000 && receivedData.xjoy < 2200) && 
-    (receivedData.yjoy > 2000 && receivedData.yjoy < 2200)) {
-        printf("stop");
-    // Stop
-    carStop();
-} 
-else if ((receivedData.xjoy > 0 && receivedData.xjoy < 40) && 
-         (receivedData.yjoy > 2000 && receivedData.yjoy < 2200)) {
-            printf("forward");
-    // Move forward
-    carForward();
-} 
-else if ((receivedData.xjoy > 4000 && receivedData.xjoy < 4200) && 
-         (receivedData.yjoy > 2000 && receivedData.yjoy < 2200)) {
-    // Move backward
-    printf("backward");
-    carBackward();
-} 
-else if ((receivedData.xjoy > 2000 && receivedData.xjoy < 2200) && 
-         (receivedData.yjoy > 4000 && receivedData.yjoy < 4200)) {
-    // Turn right
-    // carRight();
-} 
-else if ((receivedData.xjoy > 2000 && receivedData.xjoy < 2200) && 
-         (receivedData.yjoy > 10 && receivedData.yjoy < 40)) {
-    // Turn left
-    // carLeft();
-}else{
-    carStop();
-}
+        else
+        {
+            //  printf("No data available\n");
+            continue;
+        }
 
-        sleep_ms(1000);
+        if (direction == 1)
+        {
+            carForward();
+            printf("forward\n");
+        }
+        else if (direction == 2)
+        {
+            carBackward();
+            printf("backward\n");
+        }
+        else
+        {
+            carStop();
+            printf("stop\n");
+        }
     }
-
- 
-    
     return 0;
 }
