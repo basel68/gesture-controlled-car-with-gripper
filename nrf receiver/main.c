@@ -64,14 +64,14 @@ int main()
             continue;
         }
         if(receivedData.crane_direction==0){
-            servo_angle(90,V);
+            servo_angle(90,'V');
         }else if(receivedData.crane_direction==1){
-            servo_angle(0,V);
+            servo_angle(0,'V');
         }
         else if(receivedData.crane_direction==2){
-            servo_angle(0,H);
+            servo_angle(0,'H');
         }else if(receivedData.crane_direction==3){
-            servo_angle(90,H);
+            servo_angle(90,'H');
         }
 
         if (receivedData.car_direction == 1)
