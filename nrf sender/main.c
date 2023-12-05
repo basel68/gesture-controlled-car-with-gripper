@@ -74,15 +74,13 @@ void setup()
 // A test payload to send
 typedef struct
 {
-    uint8_t direction;
-    uint16_t ax;
-    uint16_t ay;
-    uint16_t az;
+    uint8_t car_direction;
+    uint8_t crane_direction;
 } data_t;
 
 int main()
 {
-    uint8_t direction = 0;
+    
     data_t payload;
     setup();
     while (1)
@@ -91,31 +89,41 @@ int main()
         int yValue = read_joystick_axis(JOY_Y_PIN);
         int16_t ax = read_mpu6050_register(ACCEL_XOUT_H);
         int16_t ay = read_mpu6050_register(ACCEL_YOUT_H);
-        int16_t az = read_mpu6050_register(ACCEL_ZOUT_H);
-        payload.direction = 0;
-        payload.ax = ax;
-        payload.ay = ay;
-        payload.az = az;
+
+      
+        if(ax<-10000){//front
+            payload.crane_direction=0;
+        }
+        else if(ax>10000)
+        {//back
+        payload.crane_direction=1;
+        }
+        else if(ay>9000){//right
+        payload.crane_direction=2;
+        } else if(ay<-9000){//left
+        payload.crane_direction=3;
+         }
 
         if ((xValue > 2000 && xValue < 2200) &&
             (yValue > 2000 && yValue < 2200))
         {
-            direction = 0;
+            payload.car_direction = 0;
         }
         else if ((xValue >= 0 && xValue < 50) &&
                  (yValue > 2000 && yValue < 2200))
         {
-            direction = 1;
+            payload.car_direction = 1;
         }
         else if ((xValue > 4000 && xValue < 4200) &&
                  (yValue > 2000 && yValue < 2200))
         {
-            direction = 2;
+            payload.car_direction = 2;
         }
 
-        if (nrf_send_data(&direction, sizeof(direction), &nrf_pins))
+        if (nrf_send_data(&payload, sizeof(payload), &nrf_pins))
         {
-            printf("direction: %d\n", direction);
+            printf("direction: %d\n", payload.car_direction);
+            printf("direction: %d\n", payload.crane_direction);
             printf("sent successfully\n");
         }
         else
