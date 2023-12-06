@@ -1783,6 +1783,30 @@ main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/nrfTesting.dir/build.make CMakeFiles/nrfTesting.dir/main.c.s
 .PHONY : main.c.s
 
+servo.obj: servo.c.obj
+.PHONY : servo.obj
+
+# target to build an object file
+servo.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nrfTesting.dir/build.make CMakeFiles/nrfTesting.dir/servo.c.obj
+.PHONY : servo.c.obj
+
+servo.i: servo.c.i
+.PHONY : servo.i
+
+# target to preprocess a source file
+servo.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nrfTesting.dir/build.make CMakeFiles/nrfTesting.dir/servo.c.i
+.PHONY : servo.c.i
+
+servo.s: servo.c.s
+.PHONY : servo.s
+
+# target to generate assembly for a file
+servo.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nrfTesting.dir/build.make CMakeFiles/nrfTesting.dir/servo.c.s
+.PHONY : servo.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -1995,6 +2019,9 @@ help:
 	@echo "... main.obj"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... servo.obj"
+	@echo "... servo.i"
+	@echo "... servo.s"
 .PHONY : help
 
 

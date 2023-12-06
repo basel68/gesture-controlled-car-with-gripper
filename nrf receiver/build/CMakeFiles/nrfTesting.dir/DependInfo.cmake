@@ -183,6 +183,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/omarahmed/Desktop/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c" "CMakeFiles/nrfTesting.dir/Users/omarahmed/Desktop/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj" "gcc" "CMakeFiles/nrfTesting.dir/Users/omarahmed/Desktop/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj.d"
   "/Users/omarahmed/Desktop/Embedded Systems/gesture-controlled-car-with-gripper/nrf receiver/car.c" "CMakeFiles/nrfTesting.dir/car.c.obj" "gcc" "CMakeFiles/nrfTesting.dir/car.c.obj.d"
   "/Users/omarahmed/Desktop/Embedded Systems/gesture-controlled-car-with-gripper/nrf receiver/main.c" "CMakeFiles/nrfTesting.dir/main.c.obj" "gcc" "CMakeFiles/nrfTesting.dir/main.c.obj.d"
+  "/Users/omarahmed/Desktop/Embedded Systems/gesture-controlled-car-with-gripper/nrf receiver/servo.c" "CMakeFiles/nrfTesting.dir/servo.c.obj" "gcc" "CMakeFiles/nrfTesting.dir/servo.c.obj.d"
   "/Users/omarahmed/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp" "CMakeFiles/nrfTesting.dir/Users/omarahmed/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj" "gcc" "CMakeFiles/nrfTesting.dir/Users/omarahmed/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj.d"
   )
 

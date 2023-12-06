@@ -5,8 +5,8 @@
 
 
 
-#define SERVO_PIN_V 20
-#define SERVO_PIN_H 21
+#define SERVO_PIN_V 26
+#define SERVO_PIN_H 27
 
 
 uint angle_to_pwm_duty_cycle(int angle, uint32_t wrap_value);

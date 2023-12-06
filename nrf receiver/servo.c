@@ -1,8 +1,8 @@
 #include "servo.h"
 
-uint32_t clock_freq = 125000000;
-uint32_t pwm_freq = 50;
-uint32_t wrap_value = clock_freq / pwm_freq / 16 - 1;
+const uint32_t clock_freq = 125000000;
+const uint32_t pwm_freq = 50;
+const uint32_t wrap_value = clock_freq / pwm_freq / 16 - 1;
 
 uint angle_to_pwm_duty_cycle(int angle, uint32_t wrap_value) {
     const float min_duty = 0.025; // 2.5% duty cycle corresponds to 0 degrees

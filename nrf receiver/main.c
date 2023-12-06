@@ -50,17 +50,17 @@ int main()
         if (nrf_data_ready(&nrf_pins))
         {
             nrf_receive_data(&receivedData, sizeof(receivedData), &nrf_pins);
-            nrf_clear_receive_buffer(&nrf_pins);
             printf("Received data:\n");
             printf("direction: %d\n", receivedData.car_direction);
             printf("direction: %d\n", receivedData.crane_direction);
+            nrf_clear_receive_buffer(&nrf_pins);
             // printf("AX: %d\n", receivedData.ax);
             // printf("AY: %d\n", receivedData.ay);
             // printf("AZ: %d\n", receivedData.az);
         }
         else
         {
-            //  printf("No data available\n");
+              printf("No data available\n");
             continue;
         }
         if(receivedData.crane_direction==0){

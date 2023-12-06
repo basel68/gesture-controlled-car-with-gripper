@@ -134,6 +134,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/nrfTesting.dir/car.c.obj.d"
   "CMakeFiles/nrfTesting.dir/main.c.obj"
   "CMakeFiles/nrfTesting.dir/main.c.obj.d"
+  "CMakeFiles/nrfTesting.dir/servo.c.obj"
+  "CMakeFiles/nrfTesting.dir/servo.c.obj.d"
   "nrfTesting.elf"
   "nrfTesting.pdb"
 )
