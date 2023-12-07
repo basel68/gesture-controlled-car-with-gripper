@@ -64,7 +64,7 @@ int main()
             continue;
         }
         if(receivedData.crane_direction==0){
-            servo_angle(90,'V');
+            servo_angle(80,'V');
         }else if(receivedData.crane_direction==1){
             servo_angle(0,'V');
         }

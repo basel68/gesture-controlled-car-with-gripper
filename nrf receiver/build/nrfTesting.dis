@@ -398,7 +398,7 @@ Disassembly of section .text:
 100003c6:	f004 fcdd 	bl	10004d84 <__wrap_puts>
 100003ca:	e7c5      	b.n	10000358 <main+0x50>
 100003cc:	2156      	movs	r1, #86	@ 0x56
-100003ce:	205a      	movs	r0, #90	@ 0x5a
+100003ce:	2050      	movs	r0, #80	@ 0x50
 100003d0:	f000 fbe0 	bl	10000b94 <servo_angle>
 100003d4:	e7e1      	b.n	1000039a <main+0x92>
 100003d6:	f000 fb69 	bl	10000aac <carBackward>

@@ -90,8 +90,9 @@ int main()
         int yValue = read_joystick_axis(JOY_Y_PIN);
         int16_t ax = read_mpu6050_register(ACCEL_XOUT_H);
         int16_t ay = read_mpu6050_register(ACCEL_YOUT_H);
+         printf("x: %d\n", ax);
+         printf("y: %d\n", ay); 
 
-      
         if(ax<-10000){//front
             payload.crane_direction=0;
         }
