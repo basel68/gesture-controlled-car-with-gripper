@@ -1,3 +1,3 @@
-/Users/omarahmed/Desktop/Embedded Systems/gesture-controlled-car-with-gripper/nrf receiver/build/pioasm/CMakeFiles/pioasm.dir
-/Users/omarahmed/Desktop/Embedded Systems/gesture-controlled-car-with-gripper/nrf receiver/build/pioasm/CMakeFiles/edit_cache.dir
-/Users/omarahmed/Desktop/Embedded Systems/gesture-controlled-car-with-gripper/nrf receiver/build/pioasm/CMakeFiles/rebuild_cache.dir
+D:/gesture-controlled-car-with-gripper/nrf receiver/build/pioasm/CMakeFiles/pioasm.dir
+D:/gesture-controlled-car-with-gripper/nrf receiver/build/pioasm/CMakeFiles/edit_cache.dir
+D:/gesture-controlled-car-with-gripper/nrf receiver/build/pioasm/CMakeFiles/rebuild_cache.dir

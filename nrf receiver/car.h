@@ -17,3 +17,7 @@ void set_motor_speed(uint gpio, float duty_cycle);
 void carForward();
 void carBackward();
 void carStop();
+void Crane_UP();
+void Crane_DOWN();
+void Gripper_open();
+void Gripper_close();

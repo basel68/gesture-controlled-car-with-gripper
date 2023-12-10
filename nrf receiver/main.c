@@ -1,38 +1,18 @@
-#include <stdio.h>
-#include "pico/stdlib.h"
-#include "hardware/spi.h"
-#include "hardware/pwm.h"
-#include "hardware/gpio.h"
-#include "Nrf.h"
-#include "car.h"
-#include "servo.h"
-#define MISO_PIN_NUMBER 4
-#define MOSI_PIN_NUMBER 7
-#define SCK_PIN_NUMBER 6
-#define CE_PIN_NUMBER 21
-#define CSN_PIN_NUMBER 5
-#define led 25
+#include "main.h"
 
-// Your NRF pins configuration based on your actual wiring
+data_t receivedData;
+
 nrf_pin_t nrf_pins = {
     .CSN = CSN_PIN_NUMBER,
     .CE = CE_PIN_NUMBER,
     .SCK = SCK_PIN_NUMBER,
     .MOSI = MOSI_PIN_NUMBER,
     .MISO = MISO_PIN_NUMBER};
-typedef struct
-{
-    uint8_t car_direction;
-    uint8_t crane_direction;
-} data_t;
-
-data_t receivedData;
-
-
 
 int main()
 {
     stdio_init_all();
+    System_t *system;
     // Initialize the NRF device
     nrf_init(&nrf_pins);
     car_init();
@@ -42,9 +22,12 @@ int main()
 
     gpio_init(led);
     gpio_set_dir(led, GPIO_OUT);
+    System_init(system);
 
 
-
+    CarEvent_t car_event;
+    CraneGripEvent_t grip_event;
+    CraneVerticalEvent_t crane_event;
     while (1)
     {
         if (nrf_data_ready(&nrf_pins))
@@ -64,31 +47,34 @@ int main()
             continue;
         }
         if(receivedData.crane_direction==0){
-            servo_angle(80,'V');
+            crane_event=CRANE_LIFT_UP;
         }else if(receivedData.crane_direction==1){
-            servo_angle(0,'V');
+            crane_event=CRANE_LOWER_DOWN;
         }
         else if(receivedData.crane_direction==2){
-            servo_angle(0,'H');
+            grip_event=CRANE_OPEN_GRIP;
         }else if(receivedData.crane_direction==3){
-            servo_angle(90,'H');
+            grip_event=CRANE_CLOSE_GRIP;
         }
 
         if (receivedData.car_direction == 1)
         {
-            carForward();
+            car_event=CAR_MOVE_FORWARD;
             printf("forward\n");
         }
         else if (receivedData.car_direction == 2)
         {
-            carBackward();
+            car_event=CAR_MOVE_BACKWARD;
             printf("backward\n");
         }
         else
         {
-            carStop();
+            car_event=CAR_BRAKE;
             printf("stop\n");
         }
+        CarSystem_StateMachine(&(system->carSystem),car_event);
+        CraneVerticalMovement_StateMachine(&(system->craneSystem),crane_event);
+        CraneGrip_StateMachine(&(system->craneSystem),grip_event);
     }
     return 0;
 }

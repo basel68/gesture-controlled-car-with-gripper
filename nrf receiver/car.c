@@ -1,4 +1,5 @@
 #include "Car.h"
+#include "servo.h"
 uint get_pwm_slice_number(uint gpio)
 {
     return pwm_gpio_to_slice_num(gpio);
@@ -35,7 +36,18 @@ void car_init()
     pwm_set_clkdiv(get_pwm_slice_number(ENABLE_A_PIN), 4.f);
     pwm_set_clkdiv(get_pwm_slice_number(ENABLE_B_PIN), 4.f);
 }
-
+void Crane_UP(){
+    servo_angle(80,'V');
+}
+void Crane_DOWN(){
+    servo_angle(0,'V');
+}
+void Gripper_open(){
+    servo_angle(0,'H');
+}
+void Gripper_close(){
+    servo_angle(90,'H');
+}
 void carForward()
 {
     gpio_put(MOTOR1_PIN, 1);

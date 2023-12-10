@@ -18,6 +18,7 @@ add_executable(${PROJECT_NAME}
     Nrf.c
     car.c
     servo.c
+    State_Machine.c
 )
 
 # Create map/bin/hex/uf2 files
