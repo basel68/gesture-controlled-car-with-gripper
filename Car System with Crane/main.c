@@ -38,6 +38,7 @@ void controlCar(void *pvParameters) {
     }
 }
 void controlCrane(void *pvParameters) {
+    while (1) {
         if(receivedData.crane_direction==0){
             Crane_UP();
         }else if(receivedData.crane_direction==1){
@@ -50,6 +51,7 @@ void controlCrane(void *pvParameters) {
         }
 
         vTaskDelay(pdMS_TO_TICKS(100)); // Delay for task scheduling
+    }
 }
 
 void receiveDataTask(void *pvParameters) {
@@ -90,9 +92,6 @@ int main()
     car_init();
     servo_init();
     nrf_configure_as_receiver(&nrf_pins);
-
-    gpio_init(led);
-    gpio_set_dir(led, GPIO_OUT);
 
     xTaskCreate(receiveDataTask, "Receive Data Task", 256, NULL, 1, NULL);
     xTaskCreate(controlCar, "Control Car", 256, NULL, 1, NULL);
