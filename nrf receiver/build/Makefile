@@ -1710,6 +1710,150 @@ D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\nrfTesting.dir\build.make CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
 .PHONY : D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
 
+D_/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/list.obj: D_/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/list.c.obj
+.PHONY : D_/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/list.obj
+
+# target to build an object file
+D_/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/list.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\nrfTesting.dir\build.make CMakeFiles/nrfTesting.dir/D_/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/list.c.obj
+.PHONY : D_/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/list.c.obj
+
+D_/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/list.i: D_/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/list.c.i
+.PHONY : D_/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/list.i
+
+# target to preprocess a source file
+D_/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/list.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\nrfTesting.dir\build.make CMakeFiles/nrfTesting.dir/D_/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/list.c.i
+.PHONY : D_/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/list.c.i
+
+D_/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/list.s: D_/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/list.c.s
+.PHONY : D_/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/list.s
+
+# target to generate assembly for a file
+D_/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/list.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\nrfTesting.dir\build.make CMakeFiles/nrfTesting.dir/D_/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/list.c.s
+.PHONY : D_/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/list.c.s
+
+D_/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/portable/GCC/ARM_CM0/port.obj: D_/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/portable/GCC/ARM_CM0/port.c.obj
+.PHONY : D_/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/portable/GCC/ARM_CM0/port.obj
+
+# target to build an object file
+D_/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/portable/GCC/ARM_CM0/port.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\nrfTesting.dir\build.make CMakeFiles/nrfTesting.dir/D_/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/portable/GCC/ARM_CM0/port.c.obj
+.PHONY : D_/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/portable/GCC/ARM_CM0/port.c.obj
+
+D_/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/portable/GCC/ARM_CM0/port.i: D_/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/portable/GCC/ARM_CM0/port.c.i
+.PHONY : D_/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/portable/GCC/ARM_CM0/port.i
+
+# target to preprocess a source file
+D_/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/portable/GCC/ARM_CM0/port.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\nrfTesting.dir\build.make CMakeFiles/nrfTesting.dir/D_/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/portable/GCC/ARM_CM0/port.c.i
+.PHONY : D_/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/portable/GCC/ARM_CM0/port.c.i
+
+D_/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/portable/GCC/ARM_CM0/port.s: D_/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/portable/GCC/ARM_CM0/port.c.s
+.PHONY : D_/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/portable/GCC/ARM_CM0/port.s
+
+# target to generate assembly for a file
+D_/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/portable/GCC/ARM_CM0/port.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\nrfTesting.dir\build.make CMakeFiles/nrfTesting.dir/D_/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/portable/GCC/ARM_CM0/port.c.s
+.PHONY : D_/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/portable/GCC/ARM_CM0/port.c.s
+
+D_/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/portable/MemMang/heap_4.obj: D_/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/portable/MemMang/heap_4.c.obj
+.PHONY : D_/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/portable/MemMang/heap_4.obj
+
+# target to build an object file
+D_/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/portable/MemMang/heap_4.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\nrfTesting.dir\build.make CMakeFiles/nrfTesting.dir/D_/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/portable/MemMang/heap_4.c.obj
+.PHONY : D_/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/portable/MemMang/heap_4.c.obj
+
+D_/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/portable/MemMang/heap_4.i: D_/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/portable/MemMang/heap_4.c.i
+.PHONY : D_/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/portable/MemMang/heap_4.i
+
+# target to preprocess a source file
+D_/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/portable/MemMang/heap_4.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\nrfTesting.dir\build.make CMakeFiles/nrfTesting.dir/D_/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/portable/MemMang/heap_4.c.i
+.PHONY : D_/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/portable/MemMang/heap_4.c.i
+
+D_/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/portable/MemMang/heap_4.s: D_/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/portable/MemMang/heap_4.c.s
+.PHONY : D_/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/portable/MemMang/heap_4.s
+
+# target to generate assembly for a file
+D_/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/portable/MemMang/heap_4.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\nrfTesting.dir\build.make CMakeFiles/nrfTesting.dir/D_/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/portable/MemMang/heap_4.c.s
+.PHONY : D_/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/portable/MemMang/heap_4.c.s
+
+D_/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/queue.obj: D_/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/queue.c.obj
+.PHONY : D_/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/queue.obj
+
+# target to build an object file
+D_/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/queue.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\nrfTesting.dir\build.make CMakeFiles/nrfTesting.dir/D_/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/queue.c.obj
+.PHONY : D_/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/queue.c.obj
+
+D_/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/queue.i: D_/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/queue.c.i
+.PHONY : D_/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/queue.i
+
+# target to preprocess a source file
+D_/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/queue.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\nrfTesting.dir\build.make CMakeFiles/nrfTesting.dir/D_/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/queue.c.i
+.PHONY : D_/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/queue.c.i
+
+D_/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/queue.s: D_/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/queue.c.s
+.PHONY : D_/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/queue.s
+
+# target to generate assembly for a file
+D_/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/queue.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\nrfTesting.dir\build.make CMakeFiles/nrfTesting.dir/D_/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/queue.c.s
+.PHONY : D_/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/queue.c.s
+
+D_/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/tasks.obj: D_/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/tasks.c.obj
+.PHONY : D_/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/tasks.obj
+
+# target to build an object file
+D_/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/tasks.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\nrfTesting.dir\build.make CMakeFiles/nrfTesting.dir/D_/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/tasks.c.obj
+.PHONY : D_/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/tasks.c.obj
+
+D_/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/tasks.i: D_/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/tasks.c.i
+.PHONY : D_/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/tasks.i
+
+# target to preprocess a source file
+D_/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/tasks.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\nrfTesting.dir\build.make CMakeFiles/nrfTesting.dir/D_/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/tasks.c.i
+.PHONY : D_/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/tasks.c.i
+
+D_/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/tasks.s: D_/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/tasks.c.s
+.PHONY : D_/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/tasks.s
+
+# target to generate assembly for a file
+D_/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/tasks.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\nrfTesting.dir\build.make CMakeFiles/nrfTesting.dir/D_/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/tasks.c.s
+.PHONY : D_/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/tasks.c.s
+
+D_/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/timers.obj: D_/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/timers.c.obj
+.PHONY : D_/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/timers.obj
+
+# target to build an object file
+D_/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/timers.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\nrfTesting.dir\build.make CMakeFiles/nrfTesting.dir/D_/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/timers.c.obj
+.PHONY : D_/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/timers.c.obj
+
+D_/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/timers.i: D_/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/timers.c.i
+.PHONY : D_/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/timers.i
+
+# target to preprocess a source file
+D_/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/timers.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\nrfTesting.dir\build.make CMakeFiles/nrfTesting.dir/D_/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/timers.c.i
+.PHONY : D_/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/timers.c.i
+
+D_/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/timers.s: D_/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/timers.c.s
+.PHONY : D_/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/timers.s
+
+# target to generate assembly for a file
+D_/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/timers.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\nrfTesting.dir\build.make CMakeFiles/nrfTesting.dir/D_/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/timers.c.s
+.PHONY : D_/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/timers.c.s
+
 Nrf.obj: Nrf.c.obj
 .PHONY : Nrf.obj
 
@@ -1733,30 +1877,6 @@ Nrf.s: Nrf.c.s
 Nrf.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\nrfTesting.dir\build.make CMakeFiles/nrfTesting.dir/Nrf.c.s
 .PHONY : Nrf.c.s
-
-State_Machine.obj: State_Machine.c.obj
-.PHONY : State_Machine.obj
-
-# target to build an object file
-State_Machine.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\nrfTesting.dir\build.make CMakeFiles/nrfTesting.dir/State_Machine.c.obj
-.PHONY : State_Machine.c.obj
-
-State_Machine.i: State_Machine.c.i
-.PHONY : State_Machine.i
-
-# target to preprocess a source file
-State_Machine.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\nrfTesting.dir\build.make CMakeFiles/nrfTesting.dir/State_Machine.c.i
-.PHONY : State_Machine.c.i
-
-State_Machine.s: State_Machine.c.s
-.PHONY : State_Machine.s
-
-# target to generate assembly for a file
-State_Machine.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\nrfTesting.dir\build.make CMakeFiles/nrfTesting.dir/State_Machine.c.s
-.PHONY : State_Machine.c.s
 
 car.obj: car.c.obj
 .PHONY : car.obj
@@ -2033,12 +2153,27 @@ help:
 	@echo ... D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.obj
 	@echo ... D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.i
 	@echo ... D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.s
+	@echo ... D_/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/list.obj
+	@echo ... D_/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/list.i
+	@echo ... D_/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/list.s
+	@echo ... D_/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/portable/GCC/ARM_CM0/port.obj
+	@echo ... D_/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/portable/GCC/ARM_CM0/port.i
+	@echo ... D_/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/portable/GCC/ARM_CM0/port.s
+	@echo ... D_/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/portable/MemMang/heap_4.obj
+	@echo ... D_/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/portable/MemMang/heap_4.i
+	@echo ... D_/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/portable/MemMang/heap_4.s
+	@echo ... D_/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/queue.obj
+	@echo ... D_/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/queue.i
+	@echo ... D_/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/queue.s
+	@echo ... D_/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/tasks.obj
+	@echo ... D_/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/tasks.i
+	@echo ... D_/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/tasks.s
+	@echo ... D_/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/timers.obj
+	@echo ... D_/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/timers.i
+	@echo ... D_/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/timers.s
 	@echo ... Nrf.obj
 	@echo ... Nrf.i
 	@echo ... Nrf.s
-	@echo ... State_Machine.obj
-	@echo ... State_Machine.i
-	@echo ... State_Machine.s
 	@echo ... car.obj
 	@echo ... car.i
 	@echo ... car.s

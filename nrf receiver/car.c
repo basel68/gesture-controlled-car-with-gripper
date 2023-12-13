@@ -35,6 +35,7 @@ void car_init()
     // Set PWM frequency (adjust as needed)
     pwm_set_clkdiv(get_pwm_slice_number(ENABLE_A_PIN), 4.f);
     pwm_set_clkdiv(get_pwm_slice_number(ENABLE_B_PIN), 4.f);
+    carStop();
 }
 void Crane_UP(){
     servo_angle(80,'V');

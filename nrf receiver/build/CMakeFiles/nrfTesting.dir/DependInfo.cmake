@@ -70,6 +70,9 @@ set(CMAKE_TARGET_DEFINITIONS_ASM
 
 # The include file search paths:
 set(CMAKE_ASM_TARGET_INCLUDE_PATH
+  "D:/gesture-controlled-car-with-gripper/nrf receiver"
+  "D:/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/include"
+  "D:/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/portable/GCC/ARM_CM0"
   "D:/VSARM/sdk/pico/pico-sdk/src/common/pico_stdlib/include"
   "D:/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_gpio/include"
   "D:/VSARM/sdk/pico/pico-sdk/src/common/pico_base/include"
@@ -180,8 +183,13 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "D:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c" "CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj" "gcc" "CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj.d"
   "D:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c" "CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj" "gcc" "CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj.d"
   "D:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c" "CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj" "gcc" "CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj.d"
+  "D:/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/list.c" "CMakeFiles/nrfTesting.dir/D_/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/list.c.obj" "gcc" "CMakeFiles/nrfTesting.dir/D_/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/list.c.obj.d"
+  "D:/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/portable/GCC/ARM_CM0/port.c" "CMakeFiles/nrfTesting.dir/D_/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/portable/GCC/ARM_CM0/port.c.obj" "gcc" "CMakeFiles/nrfTesting.dir/D_/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/portable/GCC/ARM_CM0/port.c.obj.d"
+  "D:/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/portable/MemMang/heap_4.c" "CMakeFiles/nrfTesting.dir/D_/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/portable/MemMang/heap_4.c.obj" "gcc" "CMakeFiles/nrfTesting.dir/D_/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/portable/MemMang/heap_4.c.obj.d"
+  "D:/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/queue.c" "CMakeFiles/nrfTesting.dir/D_/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/queue.c.obj" "gcc" "CMakeFiles/nrfTesting.dir/D_/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/queue.c.obj.d"
+  "D:/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/tasks.c" "CMakeFiles/nrfTesting.dir/D_/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/tasks.c.obj" "gcc" "CMakeFiles/nrfTesting.dir/D_/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/tasks.c.obj.d"
+  "D:/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/timers.c" "CMakeFiles/nrfTesting.dir/D_/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/timers.c.obj" "gcc" "CMakeFiles/nrfTesting.dir/D_/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/timers.c.obj.d"
   "D:/gesture-controlled-car-with-gripper/nrf receiver/Nrf.c" "CMakeFiles/nrfTesting.dir/Nrf.c.obj" "gcc" "CMakeFiles/nrfTesting.dir/Nrf.c.obj.d"
-  "D:/gesture-controlled-car-with-gripper/nrf receiver/State_Machine.c" "CMakeFiles/nrfTesting.dir/State_Machine.c.obj" "gcc" "CMakeFiles/nrfTesting.dir/State_Machine.c.obj.d"
   "D:/gesture-controlled-car-with-gripper/nrf receiver/car.c" "CMakeFiles/nrfTesting.dir/car.c.obj" "gcc" "CMakeFiles/nrfTesting.dir/car.c.obj.d"
   "D:/gesture-controlled-car-with-gripper/nrf receiver/main.c" "CMakeFiles/nrfTesting.dir/main.c.obj" "gcc" "CMakeFiles/nrfTesting.dir/main.c.obj.d"
   "D:/gesture-controlled-car-with-gripper/nrf receiver/servo.c" "CMakeFiles/nrfTesting.dir/servo.c.obj" "gcc" "CMakeFiles/nrfTesting.dir/servo.c.obj.d"

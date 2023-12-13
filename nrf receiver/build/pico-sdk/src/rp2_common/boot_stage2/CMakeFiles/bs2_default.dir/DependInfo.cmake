@@ -22,6 +22,9 @@ set(CMAKE_TARGET_DEFINITIONS_ASM
 
 # The include file search paths:
 set(CMAKE_ASM_TARGET_INCLUDE_PATH
+  "D:/gesture-controlled-car-with-gripper/nrf receiver"
+  "D:/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/include"
+  "D:/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/portable/GCC/ARM_CM0"
   "D:/VSARM/sdk/pico/pico-sdk/src/rp2_common/boot_stage2/asminclude"
   "D:/VSARM/sdk/pico/pico-sdk/src/rp2040/hardware_regs/include"
   "D:/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_base/include"

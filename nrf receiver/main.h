@@ -4,6 +4,9 @@
 
 #include <stdio.h>
 #include "pico/stdlib.h"
+#include "FreeRTOSConfig.h"
+#include "FreeRTOS.h"
+#include "task.h"
 #include "hardware/spi.h"
 #include "hardware/pwm.h"
 #include "hardware/gpio.h"

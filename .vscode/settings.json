@@ -1,5 +1,6 @@
 {
     "files.associations": {
         "main.h": "c"
-    }
+    },
+    "cmake.sourceDirectory": "D:/gesture-controlled-car-with-gripper/car only"
 }

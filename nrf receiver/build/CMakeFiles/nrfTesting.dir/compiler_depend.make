@@ -2833,6 +2833,204 @@ CMakeFiles/nrfTesting.dir/D_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_unique_
   D:/VSARM/sdk/pico/pico-sdk/src/common/pico_base/include/pico/error.h \
   D:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_unique_id/include/pico/unique_id.h
 
+CMakeFiles/nrfTesting.dir/D_/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/list.c.obj: D:/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/list.c \
+  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/arm-none-eabi/include/stdlib.h \
+  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/arm-none-eabi/include/machine/ieeefp.h \
+  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/arm-none-eabi/include/_ansi.h \
+  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/arm-none-eabi/include/newlib.h \
+  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/arm-none-eabi/include/_newlib_version.h \
+  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/arm-none-eabi/include/sys/config.h \
+  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/arm-none-eabi/include/sys/features.h \
+  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/lib/gcc/arm-none-eabi/12.3.1/include/stddef.h \
+  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/arm-none-eabi/include/sys/reent.h \
+  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/arm-none-eabi/include/_ansi.h \
+  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/arm-none-eabi/include/sys/_types.h \
+  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/arm-none-eabi/include/machine/_types.h \
+  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/arm-none-eabi/include/machine/_default_types.h \
+  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/arm-none-eabi/include/sys/lock.h \
+  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/arm-none-eabi/include/sys/cdefs.h \
+  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/arm-none-eabi/include/machine/stdlib.h \
+  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/arm-none-eabi/include/alloca.h \
+  D:/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/include/FreeRTOS.h \
+  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/lib/gcc/arm-none-eabi/12.3.1/include/stdint.h \
+  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/arm-none-eabi/include/stdint.h \
+  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/arm-none-eabi/include/sys/_intsup.h \
+  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/arm-none-eabi/include/sys/_stdint.h \
+  D:/gesture-controlled-car-with-gripper/nrf\ receiver/FreeRTOSConfig.h \
+  D:/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/include/projdefs.h \
+  D:/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/include/portable.h \
+  D:/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/include/deprecated_definitions.h \
+  D:/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/portable/GCC/ARM_CM0/portmacro.h \
+  D:/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/include/mpu_wrappers.h \
+  D:/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/include/list.h
+
+CMakeFiles/nrfTesting.dir/D_/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/portable/GCC/ARM_CM0/port.c.obj: D:/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/portable/GCC/ARM_CM0/port.c \
+  D:/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/include/FreeRTOS.h \
+  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/lib/gcc/arm-none-eabi/12.3.1/include/stddef.h \
+  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/lib/gcc/arm-none-eabi/12.3.1/include/stdint.h \
+  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/arm-none-eabi/include/stdint.h \
+  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/arm-none-eabi/include/machine/_default_types.h \
+  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/arm-none-eabi/include/sys/features.h \
+  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/arm-none-eabi/include/_newlib_version.h \
+  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/arm-none-eabi/include/sys/_intsup.h \
+  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/arm-none-eabi/include/sys/_stdint.h \
+  D:/gesture-controlled-car-with-gripper/nrf\ receiver/FreeRTOSConfig.h \
+  D:/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/include/projdefs.h \
+  D:/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/include/portable.h \
+  D:/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/include/deprecated_definitions.h \
+  D:/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/portable/GCC/ARM_CM0/portmacro.h \
+  D:/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/include/mpu_wrappers.h \
+  D:/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/include/task.h \
+  D:/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/include/list.h
+
+CMakeFiles/nrfTesting.dir/D_/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/portable/MemMang/heap_4.c.obj: D:/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/portable/MemMang/heap_4.c \
+  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/arm-none-eabi/include/stdlib.h \
+  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/arm-none-eabi/include/machine/ieeefp.h \
+  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/arm-none-eabi/include/_ansi.h \
+  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/arm-none-eabi/include/newlib.h \
+  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/arm-none-eabi/include/_newlib_version.h \
+  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/arm-none-eabi/include/sys/config.h \
+  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/arm-none-eabi/include/sys/features.h \
+  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/lib/gcc/arm-none-eabi/12.3.1/include/stddef.h \
+  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/arm-none-eabi/include/sys/reent.h \
+  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/arm-none-eabi/include/_ansi.h \
+  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/arm-none-eabi/include/sys/_types.h \
+  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/arm-none-eabi/include/machine/_types.h \
+  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/arm-none-eabi/include/machine/_default_types.h \
+  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/arm-none-eabi/include/sys/lock.h \
+  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/arm-none-eabi/include/sys/cdefs.h \
+  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/arm-none-eabi/include/machine/stdlib.h \
+  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/arm-none-eabi/include/alloca.h \
+  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/arm-none-eabi/include/string.h \
+  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/arm-none-eabi/include/sys/_locale.h \
+  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/arm-none-eabi/include/strings.h \
+  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/arm-none-eabi/include/sys/string.h \
+  D:/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/include/FreeRTOS.h \
+  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/lib/gcc/arm-none-eabi/12.3.1/include/stdint.h \
+  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/arm-none-eabi/include/stdint.h \
+  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/arm-none-eabi/include/sys/_intsup.h \
+  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/arm-none-eabi/include/sys/_stdint.h \
+  D:/gesture-controlled-car-with-gripper/nrf\ receiver/FreeRTOSConfig.h \
+  D:/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/include/projdefs.h \
+  D:/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/include/portable.h \
+  D:/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/include/deprecated_definitions.h \
+  D:/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/portable/GCC/ARM_CM0/portmacro.h \
+  D:/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/include/mpu_wrappers.h \
+  D:/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/include/task.h \
+  D:/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/include/list.h
+
+CMakeFiles/nrfTesting.dir/D_/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/queue.c.obj: D:/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/queue.c \
+  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/arm-none-eabi/include/stdlib.h \
+  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/arm-none-eabi/include/machine/ieeefp.h \
+  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/arm-none-eabi/include/_ansi.h \
+  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/arm-none-eabi/include/newlib.h \
+  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/arm-none-eabi/include/_newlib_version.h \
+  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/arm-none-eabi/include/sys/config.h \
+  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/arm-none-eabi/include/sys/features.h \
+  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/lib/gcc/arm-none-eabi/12.3.1/include/stddef.h \
+  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/arm-none-eabi/include/sys/reent.h \
+  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/arm-none-eabi/include/_ansi.h \
+  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/arm-none-eabi/include/sys/_types.h \
+  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/arm-none-eabi/include/machine/_types.h \
+  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/arm-none-eabi/include/machine/_default_types.h \
+  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/arm-none-eabi/include/sys/lock.h \
+  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/arm-none-eabi/include/sys/cdefs.h \
+  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/arm-none-eabi/include/machine/stdlib.h \
+  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/arm-none-eabi/include/alloca.h \
+  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/arm-none-eabi/include/string.h \
+  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/arm-none-eabi/include/sys/_locale.h \
+  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/arm-none-eabi/include/strings.h \
+  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/arm-none-eabi/include/sys/string.h \
+  D:/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/include/FreeRTOS.h \
+  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/lib/gcc/arm-none-eabi/12.3.1/include/stdint.h \
+  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/arm-none-eabi/include/stdint.h \
+  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/arm-none-eabi/include/sys/_intsup.h \
+  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/arm-none-eabi/include/sys/_stdint.h \
+  D:/gesture-controlled-car-with-gripper/nrf\ receiver/FreeRTOSConfig.h \
+  D:/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/include/projdefs.h \
+  D:/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/include/portable.h \
+  D:/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/include/deprecated_definitions.h \
+  D:/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/portable/GCC/ARM_CM0/portmacro.h \
+  D:/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/include/mpu_wrappers.h \
+  D:/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/include/task.h \
+  D:/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/include/list.h \
+  D:/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/include/queue.h \
+  D:/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/include/task.h
+
+CMakeFiles/nrfTesting.dir/D_/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/tasks.c.obj: D:/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/tasks.c \
+  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/arm-none-eabi/include/stdlib.h \
+  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/arm-none-eabi/include/machine/ieeefp.h \
+  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/arm-none-eabi/include/_ansi.h \
+  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/arm-none-eabi/include/newlib.h \
+  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/arm-none-eabi/include/_newlib_version.h \
+  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/arm-none-eabi/include/sys/config.h \
+  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/arm-none-eabi/include/sys/features.h \
+  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/lib/gcc/arm-none-eabi/12.3.1/include/stddef.h \
+  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/arm-none-eabi/include/sys/reent.h \
+  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/arm-none-eabi/include/_ansi.h \
+  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/arm-none-eabi/include/sys/_types.h \
+  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/arm-none-eabi/include/machine/_types.h \
+  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/arm-none-eabi/include/machine/_default_types.h \
+  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/arm-none-eabi/include/sys/lock.h \
+  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/arm-none-eabi/include/sys/cdefs.h \
+  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/arm-none-eabi/include/machine/stdlib.h \
+  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/arm-none-eabi/include/alloca.h \
+  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/arm-none-eabi/include/string.h \
+  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/arm-none-eabi/include/sys/_locale.h \
+  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/arm-none-eabi/include/strings.h \
+  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/arm-none-eabi/include/sys/string.h \
+  D:/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/include/FreeRTOS.h \
+  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/lib/gcc/arm-none-eabi/12.3.1/include/stdint.h \
+  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/arm-none-eabi/include/stdint.h \
+  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/arm-none-eabi/include/sys/_intsup.h \
+  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/arm-none-eabi/include/sys/_stdint.h \
+  D:/gesture-controlled-car-with-gripper/nrf\ receiver/FreeRTOSConfig.h \
+  D:/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/include/projdefs.h \
+  D:/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/include/portable.h \
+  D:/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/include/deprecated_definitions.h \
+  D:/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/portable/GCC/ARM_CM0/portmacro.h \
+  D:/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/include/mpu_wrappers.h \
+  D:/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/include/task.h \
+  D:/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/include/list.h \
+  D:/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/include/timers.h \
+  D:/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/include/task.h \
+  D:/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/include/stack_macros.h
+
+CMakeFiles/nrfTesting.dir/D_/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/timers.c.obj: D:/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/timers.c \
+  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/arm-none-eabi/include/stdlib.h \
+  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/arm-none-eabi/include/machine/ieeefp.h \
+  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/arm-none-eabi/include/_ansi.h \
+  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/arm-none-eabi/include/newlib.h \
+  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/arm-none-eabi/include/_newlib_version.h \
+  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/arm-none-eabi/include/sys/config.h \
+  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/arm-none-eabi/include/sys/features.h \
+  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/lib/gcc/arm-none-eabi/12.3.1/include/stddef.h \
+  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/arm-none-eabi/include/sys/reent.h \
+  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/arm-none-eabi/include/_ansi.h \
+  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/arm-none-eabi/include/sys/_types.h \
+  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/arm-none-eabi/include/machine/_types.h \
+  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/arm-none-eabi/include/machine/_default_types.h \
+  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/arm-none-eabi/include/sys/lock.h \
+  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/arm-none-eabi/include/sys/cdefs.h \
+  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/arm-none-eabi/include/machine/stdlib.h \
+  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/arm-none-eabi/include/alloca.h \
+  D:/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/include/FreeRTOS.h \
+  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/lib/gcc/arm-none-eabi/12.3.1/include/stdint.h \
+  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/arm-none-eabi/include/stdint.h \
+  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/arm-none-eabi/include/sys/_intsup.h \
+  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/arm-none-eabi/include/sys/_stdint.h \
+  D:/gesture-controlled-car-with-gripper/nrf\ receiver/FreeRTOSConfig.h \
+  D:/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/include/projdefs.h \
+  D:/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/include/portable.h \
+  D:/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/include/deprecated_definitions.h \
+  D:/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/portable/GCC/ARM_CM0/portmacro.h \
+  D:/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/include/mpu_wrappers.h \
+  D:/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/include/task.h \
+  D:/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/include/list.h \
+  D:/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/include/queue.h \
+  D:/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/include/task.h \
+  D:/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/include/timers.h
+
 CMakeFiles/nrfTesting.dir/Nrf.c.obj: D:/gesture-controlled-car-with-gripper/nrf\ receiver/Nrf.c \
   D:/gesture-controlled-car-with-gripper/nrf\ receiver/Nrf.h \
   D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/lib/gcc/arm-none-eabi/12.3.1/include/stdint.h \
@@ -2889,77 +3087,6 @@ CMakeFiles/nrfTesting.dir/Nrf.c.obj: D:/gesture-controlled-car-with-gripper/nrf\
   D:/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h \
   D:/VSARM/sdk/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/spi.h \
   D:/VSARM/sdk/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/spi.h
-
-CMakeFiles/nrfTesting.dir/State_Machine.c.obj: D:/gesture-controlled-car-with-gripper/nrf\ receiver/State_Machine.c \
-  D:/gesture-controlled-car-with-gripper/nrf\ receiver/main.h \
-  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/arm-none-eabi/include/stdio.h \
-  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/arm-none-eabi/include/_ansi.h \
-  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/arm-none-eabi/include/newlib.h \
-  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/arm-none-eabi/include/_newlib_version.h \
-  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/arm-none-eabi/include/sys/config.h \
-  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/arm-none-eabi/include/machine/ieeefp.h \
-  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/arm-none-eabi/include/sys/features.h \
-  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/arm-none-eabi/include/sys/cdefs.h \
-  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/arm-none-eabi/include/machine/_default_types.h \
-  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/lib/gcc/arm-none-eabi/12.3.1/include/stddef.h \
-  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/lib/gcc/arm-none-eabi/12.3.1/include/stdarg.h \
-  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/arm-none-eabi/include/sys/reent.h \
-  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/arm-none-eabi/include/_ansi.h \
-  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/arm-none-eabi/include/sys/_types.h \
-  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/arm-none-eabi/include/machine/_types.h \
-  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/arm-none-eabi/include/sys/lock.h \
-  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/arm-none-eabi/include/sys/stdio.h \
-  D:/VSARM/sdk/pico/pico-sdk/src/common/pico_stdlib/include/pico/stdlib.h \
-  D:/VSARM/sdk/pico/pico-sdk/src/common/pico_base/include/pico.h \
-  D:/VSARM/sdk/pico/pico-sdk/src/common/pico_base/include/pico/types.h \
-  D:/VSARM/sdk/pico/pico-sdk/src/common/pico_base/include/pico/assert.h \
-  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/lib/gcc/arm-none-eabi/12.3.1/include/stdbool.h \
-  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/arm-none-eabi/include/assert.h \
-  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/lib/gcc/arm-none-eabi/12.3.1/include/stdint.h \
-  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/arm-none-eabi/include/stdint.h \
-  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/arm-none-eabi/include/sys/_intsup.h \
-  D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/arm-none-eabi/include/sys/_stdint.h \
-  generated/pico_base/pico/version.h \
-  D:/VSARM/sdk/pico/pico-sdk/src/common/pico_base/include/pico/config.h \
-  generated/pico_base/pico/config_autogen.h \
-  D:/VSARM/sdk/pico/pico-sdk/src/boards/include/boards/pico.h \
-  D:/VSARM/sdk/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  D:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h \
-  D:/VSARM/sdk/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
-  D:/VSARM/sdk/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
-  D:/VSARM/sdk/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
-  D:/VSARM/sdk/pico/pico-sdk/src/common/pico_base/include/pico/types.h \
-  D:/VSARM/sdk/pico/pico-sdk/src/common/pico_base/include/pico/error.h \
-  D:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
-  D:/VSARM/sdk/pico/pico-sdk/src/common/pico_time/include/pico/time.h \
-  D:/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
-  D:/VSARM/sdk/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
-  D:/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
-  D:/VSARM/sdk/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
-  D:/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h \
-  D:/VSARM/sdk/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/sio.h \
-  D:/VSARM/sdk/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/interp.h \
-  D:/VSARM/sdk/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/padsbank0.h \
-  D:/VSARM/sdk/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pads_bank0.h \
-  D:/VSARM/sdk/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/iobank0.h \
-  D:/VSARM/sdk/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/io_bank0.h \
-  D:/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
-  D:/VSARM/sdk/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
-  D:/VSARM/sdk/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h \
-  D:/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_uart/include/hardware/uart.h \
-  D:/VSARM/sdk/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/uart.h \
-  D:/VSARM/sdk/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/uart.h \
-  D:/VSARM/sdk/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h \
-  D:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
-  D:/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h \
-  D:/VSARM/sdk/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/spi.h \
-  D:/VSARM/sdk/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/spi.h \
-  D:/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_pwm/include/hardware/pwm.h \
-  D:/VSARM/sdk/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/pwm.h \
-  D:/VSARM/sdk/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pwm.h \
-  D:/gesture-controlled-car-with-gripper/nrf\ receiver/Nrf.h \
-  D:/gesture-controlled-car-with-gripper/nrf\ receiver/car.h \
-  D:/gesture-controlled-car-with-gripper/nrf\ receiver/servo.h
 
 CMakeFiles/nrfTesting.dir/car.c.obj: D:/gesture-controlled-car-with-gripper/nrf\ receiver/car.c \
   D:/gesture-controlled-car-with-gripper/nrf\ receiver/car.h \
@@ -3080,6 +3207,16 @@ CMakeFiles/nrfTesting.dir/main.c.obj: D:/gesture-controlled-car-with-gripper/nrf
   D:/VSARM/sdk/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/uart.h \
   D:/VSARM/sdk/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h \
   D:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
+  D:/gesture-controlled-car-with-gripper/nrf\ receiver/FreeRTOSConfig.h \
+  D:/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/include/FreeRTOS.h \
+  D:/gesture-controlled-car-with-gripper/nrf\ receiver/FreeRTOSConfig.h \
+  D:/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/include/projdefs.h \
+  D:/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/include/portable.h \
+  D:/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/include/deprecated_definitions.h \
+  D:/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/portable/GCC/ARM_CM0/portmacro.h \
+  D:/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/include/mpu_wrappers.h \
+  D:/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/include/task.h \
+  D:/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/include/list.h \
   D:/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h \
   D:/VSARM/sdk/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/spi.h \
   D:/VSARM/sdk/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/spi.h \
@@ -3193,6 +3330,8 @@ D:/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd_pvt.h:
 D:/VSARM/sdk/pico/pico-sdk/src/common/pico_base/include/pico/assert.h:
 
 D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/arm-none-eabi/include/machine/_types.h:
+
+D:/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/list.c:
 
 D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/arm-none-eabi/include/machine/ieeefp.h:
 
@@ -3376,6 +3515,8 @@ D:/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_resets/include/hardware/reset
 
 D:/VSARM/sdk/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/resets.h:
 
+D:/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/include/projdefs.h:
+
 D:/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c:
 
 D:/VSARM/sdk/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/resets.h:
@@ -3437,6 +3578,8 @@ D:/VSARM/sdk/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/
 D:/VSARM/sdk/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/io_qspi.h:
 
 D:/VSARM/sdk/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/interp.h:
+
+D:/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/include/list.h:
 
 D:/VSARM/sdk/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pads_bank0.h:
 
@@ -3527,6 +3670,8 @@ D:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c:
 D:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom/sf_table.h:
 
 D:/program\ files2/GNU\ TOOL\ CHAIN/12.3\ rel1/arm-none-eabi/include/math.h:
+
+D:/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/include/FreeRTOS.h:
 
 D:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/include/pico/double.h:
 
@@ -3632,18 +3777,44 @@ D:/VSARM/sdk/pico/pico-sdk/src/common/pico_stdlib/include/pico/stdlib.h:
 
 D:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c:
 
+D:/gesture-controlled-car-with-gripper/nrf\ receiver/FreeRTOSConfig.h:
+
+D:/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/include/portable.h:
+
+D:/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/include/deprecated_definitions.h:
+
+D:/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/portable/GCC/ARM_CM0/portmacro.h:
+
+D:/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/include/mpu_wrappers.h:
+
+D:/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/portable/GCC/ARM_CM0/port.c:
+
+D:/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/include/task.h:
+
+D:/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/portable/MemMang/heap_4.c:
+
+D:/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/queue.c:
+
+D:/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/include/queue.h:
+
+D:/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/tasks.c:
+
+D:/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/include/timers.h:
+
+D:/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/include/stack_macros.h:
+
+D:/freeRTOS/FreeRTOSv202212.01/FreeRTOS/Source/timers.c:
+
 D:/gesture-controlled-car-with-gripper/nrf\ receiver/Nrf.c:
 
 D:/gesture-controlled-car-with-gripper/nrf\ receiver/Nrf.h:
 
-D:/gesture-controlled-car-with-gripper/nrf\ receiver/State_Machine.c:
+D:/gesture-controlled-car-with-gripper/nrf\ receiver/car.c:
 
 D:/VSARM/sdk/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/pwm.h:
 
 D:/gesture-controlled-car-with-gripper/nrf\ receiver/main.c:
 
 D:/VSARM/sdk/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pwm.h:
-
-D:/gesture-controlled-car-with-gripper/nrf\ receiver/car.c:
 
 D:/gesture-controlled-car-with-gripper/nrf\ receiver/servo.c:

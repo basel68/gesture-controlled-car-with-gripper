@@ -60,6 +60,16 @@ CMakeFiles/nrfTesting.dir/main.c.obj: \
  D:\VSARM\sdk\pico\pico-sdk\src\rp2040\hardware_regs\include/hardware/regs/uart.h \
  D:\VSARM\sdk\pico\pico-sdk\src\rp2040\hardware_regs\include/hardware/regs/dreq.h \
  D:\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_stdio_usb\include/pico/stdio_usb.h \
+ D:\gesture-controlled-car-with-gripper\nrf\ receiver\FreeRTOSConfig.h \
+ D:\freeRTOS\FreeRTOSv202212.01\FreeRTOS\Source\include/FreeRTOS.h \
+ D:\gesture-controlled-car-with-gripper\nrf\ receiver/FreeRTOSConfig.h \
+ D:\freeRTOS\FreeRTOSv202212.01\FreeRTOS\Source\include/projdefs.h \
+ D:\freeRTOS\FreeRTOSv202212.01\FreeRTOS\Source\include/portable.h \
+ D:\freeRTOS\FreeRTOSv202212.01\FreeRTOS\Source\include/deprecated_definitions.h \
+ D:\freeRTOS\FreeRTOSv202212.01\FreeRTOS\Source\portable\GCC\ARM_CM0/portmacro.h \
+ D:\freeRTOS\FreeRTOSv202212.01\FreeRTOS\Source\include/mpu_wrappers.h \
+ D:\freeRTOS\FreeRTOSv202212.01\FreeRTOS\Source\include/task.h \
+ D:\freeRTOS\FreeRTOSv202212.01\FreeRTOS\Source\include/list.h \
  D:\VSARM\sdk\pico\pico-sdk\src\rp2_common\hardware_spi\include/hardware/spi.h \
  D:\VSARM\sdk\pico\pico-sdk\src\rp2040\hardware_structs\include/hardware/structs/spi.h \
  D:\VSARM\sdk\pico\pico-sdk\src\rp2040\hardware_regs\include/hardware/regs/spi.h \
