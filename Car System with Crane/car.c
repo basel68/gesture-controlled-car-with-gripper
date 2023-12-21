@@ -76,3 +76,22 @@ void carStop()
     set_motor_speed(ENABLE_A_PIN, 0.0f); // 0 speed
     set_motor_speed(ENABLE_B_PIN, 0.0f); // 0 speed
 }
+void carTurnRight() {
+    // Stop left motors while right motors move forward
+    gpio_put(MOTOR1_PIN, 0);
+    gpio_put(MOTOR2_PIN, 0);
+    gpio_put(MOTOR3_PIN, 1);
+    gpio_put(MOTOR4_PIN, 0);
+    set_motor_speed(ENABLE_A_PIN, 0.0f); // Left motors off
+    set_motor_speed(ENABLE_B_PIN, 1.0f); // Right motors full speed
+}
+
+void carTurnLeft() {
+    // Stop right motors while left motors move forward
+    gpio_put(MOTOR1_PIN, 1);
+    gpio_put(MOTOR2_PIN, 0);
+    gpio_put(MOTOR3_PIN, 0);
+    gpio_put(MOTOR4_PIN, 0);
+    set_motor_speed(ENABLE_A_PIN, 1.0f); // Left motors full speed
+    set_motor_speed(ENABLE_B_PIN, 0.0f); // Right motors off
+}
